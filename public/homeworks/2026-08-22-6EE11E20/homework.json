@@ -1,0 +1,112 @@
+{
+  "id": "2026-08-22-6EE11E20",
+  "date": "2026-08-22",
+  "dateLabel": "22 Ağustos 2026",
+  "student": "Sümeyye",
+  "meetingUuid": "6EE11E20-3B09-47C1-94DF-C93E211A6533",
+  "title": "Cümle Haritası: S–V–O–P–T ve Do/Does",
+  "subtitle": "Cümle parçalarını bul, BE ile hareket fiillerini ayır ve do/does ile soru kur.",
+  "sections": [{"id":"learn"},{"id":"read"},{"id":"sort"},{"id":"order"},{"id":"quiz"}],
+  "game": {
+    "learn": [
+      {
+        "id": "svopt", "shortTitle": "S–V–O–P–T", "title": "S–V–O–P–T Cümle Haritası", "intro": "İngilizce cümleyi küçük görevlere ayır. Her parça her cümlede olmak zorunda değildir, ama özne ve fiil temel parçadır.",
+        "pattern": ["S","V","O","P","T"],
+        "roles": [
+          {"key":"S","label":"Özne","question":"Eylemi kim yapıyor?","examples":"I, she, the dog"},
+          {"key":"V","label":"Fiil","question":"Eylem veya durum ne?","examples":"read, play, is"},
+          {"key":"O","label":"Nesne","question":"Neyi / kimi?","examples":"a book, homework"},
+          {"key":"P","label":"Yer","question":"Nerede / nereye?","examples":"at school"},
+          {"key":"T","label":"Zaman","question":"Ne zaman?","examples":"every day"}
+        ],
+        "cards": [
+          {"title":"Dersteki çözüm yolu","text":"Önce [[V:fiili]] bul. Sonra “Kim yapıyor?” diyerek [[S:özneyi]], “Neyi/kimi?” diyerek [[O:nesneyi]] bul.","examples":["[[S:I]] [[V:read]] [[O:a book]].","[[S:She]] [[V:reads]] [[O:an interesting book]] [[P:at school]] [[T:every day]]."]},
+          {"title":"Nesne her zaman tek kelime değildir","text":"Belirleyici + sıfat + isim birlikte tek bir isim grubu oluşturur. Bu grubu cümle parçalarına ayırırken bölme.","examples":["[[O:our favorite restaurant]] = tek bir grup","[[O:a very modern building]] = tek bir grup"]},
+          {"title":"Hatırla","tone":"remember","text":"Nesne, yer ve zaman her cümlede bulunmayabilir. Bulamadığında uydurma; önce gerçek fiili bul."},
+          {"title":"Dikkat","tone":"watch","text":"BE cümlelerinde is/am/are fiildir. Her cümlede ayrıca bir hareket fiili arama."}
+        ]
+      },
+      {
+        "id":"be-or-action","shortTitle":"Fiil mi, BE mi?","title":"Hareket Fiili ve BE Cümlesi","intro":"Cümlede bir eylem varsa normal fiil kullanılır. İsim, sıfat veya yer bildirirken BE kullanılır.",
+        "cards":[
+          {"title":"Hareket fiili","text":"Birinin yaptığı işi anlatır. Olumlu geniş zaman cümlesinde ayrıca yardımcı do kullanılmaz.","examples":["[[S:I]] [[V:read]] [[O:a book]].","[[S:I]] [[V:do]] [[O:my homework]]."]},
+          {"title":"BE cümlesi","text":"Am/is/are burada ana fiildir: özneyi bir isim, sıfat veya yer bilgisine bağlar.","examples":["[[S:This]] [[BE:is]] our favorite restaurant.","[[S:It]] [[BE:is]] a very modern building.","[[S:This language]] [[BE:is]] difficult."]},
+          {"title":"En büyük hata","tone":"watch","text":"Geniş zamanda am/is/are ile yalın hareket fiilini yan yana kullanma.","examples":["✗ I am go to school.","✓ I go to school.","✓ I am at school."]},
+          {"title":"Kontrol sorusu","tone":"remember","text":"Cümlede am/is/are varsa onun bir isim, sıfat veya yerle bağlantı kurup kurmadığına bak."}
+        ]
+      },
+      {
+        "id":"adjectives","shortTitle":"Sıfatların Yeri","title":"Sıfat + İsim Birlikte Hareket Eder","intro":"Sıfat ismin önünde olduğunda sıfat ve isim aynı cümle parçasının içinde kalır.",
+        "cards":[
+          {"title":"İsimden önce","text":"Sıfat ismin hemen önüne gelir. Very, sıfatı güçlendirir.","examples":["a difficult language","a very modern building","our favorite restaurant"]},
+          {"title":"BE’den sonra","text":"Sıfat, BE fiilinden sonra özneyi tarif edebilir.","examples":["This language is difficult.","The building is very modern."]},
+          {"title":"Grubu bölme","tone":"remember","text":"An interesting book ifadesinde interesting ve book aynı nesne grubundadır."},
+          {"title":"Çoğul eki","tone":"watch","text":"Sıfatlar İngilizcede çoğul eki almaz: important documents, modern buildings."}
+        ]
+      },
+      {
+        "id":"do-does","shortTitle":"Do / Does","title":"Do/Does: Yardımcı mı, Ana Fiil mi?","intro":"Do bazen sadece soru ve olumsuzluk kurar; bazen de yapmak anlamındaki ana fiildir.",
+        "pattern":["AUX","S","V","O"],
+        "cards":[
+          {"title":"Olumsuz","text":"Don’t/doesn’t yardımcı fiildir; cümlenin anlamını taşıyan yalın ana fiil ondan sonra gelmelidir.","examples":["[[S:I]] [[AUX:don’t]] [[V:go]] [[P:to school]].","[[S:I]] [[AUX:don’t]] [[V:do]] [[O:my homework]].","[[S:He]] [[AUX:doesn’t]] [[V:do]] [[O:his homework]]."]},
+          {"title":"Soru","text":"Hareket fiilli geniş zaman sorusunda yardımcı fiil öznenin önüne gelir; ana fiil yalın kalır.","examples":["[[AUX:Do]] [[S:you]] [[V:play]] [[O:an instrument]]?","[[QW:What kind of food]] [[AUX:do]] [[S:you]] [[V:like to eat]]?"]},
+          {"title":"İki farklı do","tone":"remember","text":"I don’t do my homework cümlesinde don’t yardımcıdır; ikinci do yapmak anlamındaki ana fiildir."},
+          {"title":"Does + yalın fiil","tone":"watch","text":"Does üçüncü tekil kişi bilgisini taşır. Bu nedenle ardından fiil -s almaz.","examples":["✓ Does she open the shop?","✗ Does she opens the shop?"]}
+        ]
+      }
+    ],
+    "read": {
+      "title":"Renkli Okuma: Bir Okul Günü", "instructions":"Metindeki bütün hareket fiillerine dokun. Sonra Kontrol Et’e bas.",
+      "tokens":[
+        {"id":"r1","text":"Sümeyye"},{"id":"r2","text":"does","target":true},{"id":"r3","text":"her"},{"id":"r4","text":"English"},{"id":"r5","text":"homework"},{"id":"r6","text":"in"},{"id":"r7","text":"the"},{"id":"r8","text":"morning."},
+        {"id":"r9","text":"She"},{"id":"r10","text":"reads","target":true},{"id":"r11","text":"an"},{"id":"r12","text":"interesting"},{"id":"r13","text":"book"},{"id":"r14","text":"after"},{"id":"r15","text":"breakfast."},
+        {"id":"r16","text":"Her"},{"id":"r17","text":"school"},{"id":"r18","text":"is"},{"id":"r19","text":"a"},{"id":"r20","text":"very"},{"id":"r21","text":"modern"},{"id":"r22","text":"building."},
+        {"id":"r23","text":"She"},{"id":"r24","text":"doesn’t"},{"id":"r25","text":"go","target":true},{"id":"r26","text":"to"},{"id":"r27","text":"school"},{"id":"r28","text":"on"},{"id":"r29","text":"Sundays."}
+      ],
+      "questions":[
+        {"id":"rq1","prompt":"Why is interesting part of the object group?","options":["It describes book.","It is the subject.","It is the time."],"answer":"It describes book.","explanation":"Interesting describes the noun book, so they stay together."},
+        {"id":"rq2","prompt":"Which word is the verb in Her school is a very modern building?","options":["school","is","modern"],"answer":"is","explanation":"Is is the BE verb linking the subject to its description."},
+        {"id":"rq3","prompt":"Why is go in the base form after doesn’t?","options":["Doesn’t already carries the third-person form.","Go is an adjective.","The sentence is past tense."],"answer":"Doesn’t already carries the third-person form.","explanation":"Doesn’t carries the grammar, so the main verb stays in its base form: go."},
+        {"id":"rq4","prompt":"Which complete group tells us when?","options":["does her homework","in the morning","an interesting book"],"answer":"in the morning","explanation":"In the morning is the time phrase (T)."}
+      ]
+    },
+    "sort":[
+      {"text":"She","type":"S","choices":["S","V","O","P","T"]},{"text":"reads","type":"V","choices":["S","V","O","P","T"]},{"text":"an interesting book","type":"O","choices":["S","V","O","P","T"]},{"text":"at school","type":"P","choices":["S","V","O","P","T"]},{"text":"every morning","type":"T","choices":["S","V","O","P","T"]},{"text":"is","type":"BE","choices":["BE","AUX","V"]},{"text":"does (Does she open...?)","type":"AUX","choices":["BE","AUX","V"]},{"text":"do (I do my homework.)","type":"V","choices":["BE","AUX","V"]},{"text":"our favorite restaurant","type":"O","choices":["S","V","O","P","T"]},{"text":"on Sundays","type":"T","choices":["S","V","O","P","T"]},{"text":"go (I don't go...)","type":"V","choices":["BE","AUX","V"]},{"text":"doesn't","type":"AUX","choices":["BE","AUX","V"]}
+    ],
+    "order":[
+      {"parts":["I","read","a book","every evening"],"answer":"I read a book every evening","hint":"S + V + O + T"},
+      {"parts":["This","is","our favorite restaurant"],"answer":"This is our favorite restaurant","hint":"S + BE + tamamlayıcı"},
+      {"parts":["I","don’t","go","to school"],"answer":"I don’t go to school","hint":"S + don’t + yalın fiil + yer"},
+      {"parts":["He","doesn’t","do","his homework"],"answer":"He doesn’t do his homework","hint":"Doesn’t + yalın ana fiil"},
+      {"parts":["Do","you","play","an instrument"],"answer":"Do you play an instrument","hint":"Do + S + V + O"},
+      {"parts":["It","is","a very modern building"],"answer":"It is a very modern building","hint":"S + BE + isim grubu"},
+      {"parts":["She","reads","an interesting book","at school"],"answer":"She reads an interesting book at school","hint":"S + V + O + P"},
+      {"parts":["What kind of food","do","you","like to eat"],"answer":"What kind of food do you like to eat","hint":"Soru ifadesi + do + S + V"},
+      {"parts":["Does","she","open","the shop"],"answer":"Does she open the shop","hint":"Does + S + yalın fiil + O"},
+      {"parts":["This language","is","difficult"],"answer":"This language is difficult","hint":"S + BE + sıfat"}
+    ],
+    "quizzes": {
+      "S–V–O–P–T":[
+        {"prompt":"What is the object in I read an interesting book?","options":["I","read","an interesting book"],"answer":"an interesting book","explanation":"Sıfat ve isim birlikte nesne grubudur."},
+        {"prompt":"Which order is correct?","options":["She at school reads a book.","She reads a book at school.","Reads she a book at school."],"answer":"She reads a book at school.","explanation":"Temel sıra S + V + O + P şeklindedir."},
+        {"prompt":"Which sentence uses BE correctly?","options":["The language difficult.","The language is difficult.","The language does difficult."],"answer":"The language is difficult.","explanation":"Sıfatla bağlantı kurmak için is kullanılır."},
+        {"prompt":"What is the place phrase in She reads at school every day?","options":["She","at school","every day"],"answer":"at school","explanation":"At school nerede sorusunu cevaplar; bu nedenle P parçasıdır."},
+        {"prompt":"Which words form one object group?","options":["an interesting book","reads an","she interesting"],"answer":"an interesting book","explanation":"Article + adjective + noun birlikte tek nesne grubudur."}
+      ],
+      "DO / DOES":[
+        {"prompt":"Choose the complete negative.","options":["I don’t my homework.","I don’t do my homework.","I not do my homework."],"answer":"I don’t do my homework.","explanation":"Don’t sonrasında ana fiil do gerekir."},
+        {"prompt":"Choose the correct question.","options":["Does she opens the shop?","Does she open the shop?","Do she open the shop?"],"answer":"Does she open the shop?","explanation":"Does sonrasında yalın fiil kullanılır."},
+        {"prompt":"Which question is correct?","options":["Do you play an instrument?","Are you play an instrument?","You do play an instrument?"],"answer":"Do you play an instrument?","explanation":"Play hareket fiilidir; soru do ile kurulur."},
+        {"prompt":"In I don’t do my homework, which do means yapmak?","options":["don’t","the second do","both"],"answer":"the second do","explanation":"Don’t yardımcıdır; ikinci do cümlenin ana fiilidir."},
+        {"prompt":"Choose the correct negative for she.","options":["She don't read.","She doesn't reads.","She doesn't read."],"answer":"She doesn't read.","explanation":"She ile doesn’t, ardından yalın read kullanılır."}
+      ],
+      "Final Test":[
+        {"prompt":"Which sentence is correct?","options":["I am go to school.","I go to school.","I am goes to school."],"answer":"I go to school.","explanation":"Geniş zamanda hareket fiiliyle am kullanılmaz."},
+        {"prompt":"Choose the correct noun phrase.","options":["a building very modern","a very modern building","a very moderns building"],"answer":"a very modern building","explanation":"Very + adjective + noun sırası kullanılır."},
+        {"prompt":"Which sentence has two different uses of do?","options":["I don’t do my homework.","I am a student.","She reads a book."],"answer":"I don’t do my homework.","explanation":"Don’t yardımcı; do ana fiildir."},
+        {"prompt":"What is the verb in This is our favorite restaurant?","options":["This","is","restaurant"],"answer":"is","explanation":"Is, BE fiilidir."},
+        {"prompt":"Choose the correct negative.","options":["He doesn’t does his homework.","He doesn’t do his homework.","He don’t do his homework."],"answer":"He doesn’t do his homework.","explanation":"Doesn’t + yalın do kullanılır."}
+      ]
+    }
+  }
+}
