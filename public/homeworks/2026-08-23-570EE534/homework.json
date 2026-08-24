@@ -6,116 +6,943 @@
   "meetingUuid": "570EE534-67B8-4A96-B241-411C8B858BEF",
   "title": "Soru Ustası: WH + Yardımcı Fiil",
   "subtitle": "Soru kelimesini seç, doğru yardımcı fiili bul ve parçaları İngilizce sırasına koy.",
-  "sections": [{"id":"learn"},{"id":"read"},{"id":"sort"},{"id":"order"},{"id":"quiz"}],
+  "sections": [
+    "learn",
+    "read",
+    "listen",
+    "sort",
+    "order",
+    "quiz"
+  ],
   "game": {
     "learn": [
       {
-        "id":"question-map","shortTitle":"Soru Haritası","title":"Soru Kelime Sırası","intro":"Bugünkü ana kural: [[QW:Soru kelimesi]] en başa gelir. Sonra [[AUX:yardımcı fiil]] veya [[BE:BE]], ardından [[S:özne]] ve [[V:ana fiil]] gelir.",
-        "pattern":["QW","AUX","S","V","O"],
-        "roles":[
-          {"key":"QW","label":"Soru Kelimesi","question":"Hangi bilgiyi arıyoruz?","examples":"what, when, where"},
-          {"key":"AUX","label":"Yardımcı","question":"Do/does/did gerekir mi?","examples":"do, does, did"},
-          {"key":"S","label":"Özne","question":"Kim yapıyor?","examples":"you, she, they"},
-          {"key":"V","label":"Ana Fiil","question":"Eylem ne?","examples":"read, want, finish"},
-          {"key":"O","label":"Devamı","question":"Neyi / nerede / ne zaman?","examples":"this job, at school"}
+        "id": "question-map",
+        "shortTitle": "Soru Haritası",
+        "title": "Soru Kelime Sırası",
+        "intro": "Bugünkü ana kural: [[QW:Soru kelimesi]] en başa gelir. Sonra [[AUX:yardımcı fiil]] veya [[BE:BE]], ardından [[S:özne]] ve [[V:ana fiil]] gelir.",
+        "pattern": [
+          "QW",
+          "AUX",
+          "S",
+          "V",
+          "O"
         ],
-        "cards":[
-          {"title":"Hareket fiilli soru","text":"[[QW:WH]] + [[AUX:do/does/did]] + [[S:subject]] + [[V:base verb]] düzenini kullan. Does ve did zamanı/kişiyi taşıdığı için ana fiil yalın kalır.","examples":["[[QW:How often]] [[AUX:do]] [[S:you]] [[V:read]]?","[[QW:What time]] [[AUX:does]] [[S:she]] [[V:get up]]?","[[QW:What time]] [[AUX:did]] [[S:you]] [[V:finish]] your homework?"]},
-          {"title":"BE ile soru","text":"Cümlede BE ana fiilse do/does ekleme. [[BE:BE]] doğrudan [[S:öznenin]] önüne geçer ve ayrıca hareket fiili gerekmez.","examples":["[[QW:Who]] [[BE:is]] [[S:the man]]?","[[QW:Where]] [[BE:is]] [[S:your sister]] from?","[[QW:When]] [[BE:are]] [[S:you]] free?"]},
-          {"title":"Fiilden başla","tone":"remember","text":"Bir soru yazarken önce anlamdaki ana fiili bul. Sonra o fiilin BE mi yoksa hareket fiili mi olduğuna karar ver."},
-          {"title":"Gereksiz yapı ekleme","tone":"watch","text":"Is your friend come from Canada? iki sistemi karıştırır. Come hareket fiiliyse does gerekir: Does your friend come from Canada?"}
+        "roles": [
+          {
+            "key": "QW",
+            "label": "Soru Kelimesi",
+            "question": "Hangi bilgiyi arıyoruz?",
+            "examples": "what, when, where"
+          },
+          {
+            "key": "AUX",
+            "label": "Yardımcı",
+            "question": "Do/does/did gerekir mi?",
+            "examples": "do, does, did"
+          },
+          {
+            "key": "S",
+            "label": "Özne",
+            "question": "Kim yapıyor?",
+            "examples": "you, she, they"
+          },
+          {
+            "key": "V",
+            "label": "Ana Fiil",
+            "question": "Eylem ne?",
+            "examples": "read, want, finish"
+          },
+          {
+            "key": "O",
+            "label": "Devamı",
+            "question": "Neyi / nerede / ne zaman?",
+            "examples": "this job, at school"
+          }
+        ],
+        "cards": [
+          {
+            "title": "Hareket fiilli soru",
+            "text": "[[QW:WH]] + [[AUX:do/does/did]] + [[S:subject]] + [[V:base verb]] düzenini kullan. Does ve did zamanı/kişiyi taşıdığı için ana fiil yalın kalır.",
+            "examples": [
+              "[[QW:How often]] [[AUX:do]] [[S:you]] [[V:read]]?",
+              "[[QW:What time]] [[AUX:does]] [[S:she]] [[V:get up]]?",
+              "[[QW:What time]] [[AUX:did]] [[S:you]] [[V:finish]] your homework?"
+            ]
+          },
+          {
+            "title": "BE ile soru",
+            "text": "Cümlede BE ana fiilse do/does ekleme. [[BE:BE]] doğrudan [[S:öznenin]] önüne geçer ve ayrıca hareket fiili gerekmez.",
+            "examples": [
+              "[[QW:Who]] [[BE:is]] [[S:the man]]?",
+              "[[QW:Where]] [[BE:is]] [[S:your sister]] from?",
+              "[[QW:When]] [[BE:are]] [[S:you]] free?"
+            ]
+          },
+          {
+            "title": "Fiilden başla",
+            "tone": "remember",
+            "text": "Bir soru yazarken önce anlamdaki ana fiili bul. Sonra o fiilin BE mi yoksa hareket fiili mi olduğuna karar ver."
+          },
+          {
+            "title": "Gereksiz yapı ekleme",
+            "tone": "watch",
+            "text": "Is your friend come from Canada? iki sistemi karıştırır. Come hareket fiiliyse does gerekir: Does your friend come from Canada?"
+          }
         ]
       },
       {
-        "id":"question-phrases","shortTitle":"How + Kelime","title":"Birlikte Gelen Soru İfadeleri","intro":"Bazı soru kelimeleri yanındaki kelimeyle tek bir soru parçası oluşturur. Onları ayırmadan cümlenin başına koy.",
-        "cards":[
-          {"title":"How often","text":"Bir şeyin ne sıklıkla yapıldığını sorar. How ve often tek soru ifadesi gibi cümlenin başında kalır.","examples":["[[QW:How often]] [[AUX:do]] [[S:you]] [[V:read]]?","[[QW:How often]] [[AUX:do]] [[S:you]] [[V:go]] to the gym?"]},
-          {"title":"What time","text":"Saat veya belirli zaman sorar. What time grubunu ayırma.","examples":["[[QW:What time]] [[AUX:does]] [[S:she]] [[V:get up]]?","[[QW:What time]] [[AUX:did]] [[S:you]] [[V:finish]] your homework?"]},
-          {"title":"How old","text":"Yaş sorar. Old burada sıfattır; bu yüzden soru BE ile devam eder.","examples":["[[QW:How old]] [[BE:is]] [[S:your sister]]?"]},
-          {"title":"How fast / how big / how long","text":"How, sıfat veya zarfla birlikte ölçü ya da derece sorabilir.","examples":["How fast is it?","How big is the room?","How long does it take?"]}
+        "id": "question-phrases",
+        "shortTitle": "How + Kelime",
+        "title": "Birlikte Gelen Soru İfadeleri",
+        "intro": "Bazı soru kelimeleri yanındaki kelimeyle tek bir soru parçası oluşturur. Onları ayırmadan cümlenin başına koy.",
+        "cards": [
+          {
+            "title": "How often",
+            "text": "Bir şeyin ne sıklıkla yapıldığını sorar. How ve often tek soru ifadesi gibi cümlenin başında kalır.",
+            "examples": [
+              "[[QW:How often]] [[AUX:do]] [[S:you]] [[V:read]]?",
+              "[[QW:How often]] [[AUX:do]] [[S:you]] [[V:go]] to the gym?"
+            ]
+          },
+          {
+            "title": "What time",
+            "text": "Saat veya belirli zaman sorar. What time grubunu ayırma.",
+            "examples": [
+              "[[QW:What time]] [[AUX:does]] [[S:she]] [[V:get up]]?",
+              "[[QW:What time]] [[AUX:did]] [[S:you]] [[V:finish]] your homework?"
+            ]
+          },
+          {
+            "title": "How old",
+            "text": "Yaş sorar. Old burada sıfattır; bu yüzden soru BE ile devam eder.",
+            "examples": [
+              "[[QW:How old]] [[BE:is]] [[S:your sister]]?"
+            ]
+          },
+          {
+            "title": "How fast / how big / how long",
+            "text": "How, sıfat veya zarfla birlikte ölçü ya da derece sorabilir.",
+            "examples": [
+              "How fast is it?",
+              "How big is the room?",
+              "How long does it take?"
+            ]
+          }
         ]
       },
       {
-        "id":"choose-helper","shortTitle":"DO mu BE mi?","title":"Yardımcı Fiili Seç","intro":"Cümledeki anlamı taşıyan fiili bulduktan sonra soru sistemini seç.",
-        "cards":[
-          {"title":"Do / does","text":"Geniş zamanda hareket fiilleriyle kullanılır. I/you/we/they → do; he/she/it → does.","examples":["[[QW:Why]] [[AUX:do]] [[S:you]] [[V:love]] volleyball?","[[QW:What]] [[AUX:does]] [[S:she]] [[V:love]]?","[[AUX:Does]] [[S:he]] [[V:do]] exercise?"]},
-          {"title":"Did","text":"Geçmiş zamandaki hareket fiili sorularında bütün öznelerle did kullanılır; ana fiil yalın kalır.","examples":["[[QW:What time]] [[AUX:did]] [[S:you]] [[V:finish]] your homework?"]},
-          {"title":"Am / is / are","text":"BE ana fiilse doğrudan öznenin önüne gelir. Ardından ikinci bir yardımcı fiil eklenmez.","examples":["[[QW:When]] [[BE:are]] [[S:you]] free?","[[QW:Where]] [[BE:is]] [[S:your sister]] from?"]},
-          {"title":"Ana fiil eksik olmasın","tone":"watch","text":"When does she home? cümlesinde ana fiil yok. Anlama göre go ekle: When does she go home?"}
+        "id": "choose-helper",
+        "shortTitle": "DO mu BE mi?",
+        "title": "Yardımcı Fiili Seç",
+        "intro": "Cümledeki anlamı taşıyan fiili bulduktan sonra soru sistemini seç.",
+        "cards": [
+          {
+            "title": "Do / does",
+            "text": "Geniş zamanda hareket fiilleriyle kullanılır. I/you/we/they → do; he/she/it → does.",
+            "examples": [
+              "[[QW:Why]] [[AUX:do]] [[S:you]] [[V:love]] volleyball?",
+              "[[QW:What]] [[AUX:does]] [[S:she]] [[V:love]]?",
+              "[[AUX:Does]] [[S:he]] [[V:do]] exercise?"
+            ]
+          },
+          {
+            "title": "Did",
+            "text": "Geçmiş zamandaki hareket fiili sorularında bütün öznelerle did kullanılır; ana fiil yalın kalır.",
+            "examples": [
+              "[[QW:What time]] [[AUX:did]] [[S:you]] [[V:finish]] your homework?"
+            ]
+          },
+          {
+            "title": "Am / is / are",
+            "text": "BE ana fiilse doğrudan öznenin önüne gelir. Ardından ikinci bir yardımcı fiil eklenmez.",
+            "examples": [
+              "[[QW:When]] [[BE:are]] [[S:you]] free?",
+              "[[QW:Where]] [[BE:is]] [[S:your sister]] from?"
+            ]
+          },
+          {
+            "title": "Ana fiil eksik olmasın",
+            "tone": "watch",
+            "text": "When does she home? cümlesinde ana fiil yok. Anlama göre go ekle: When does she go home?"
+          }
         ]
       },
       {
-        "id":"self-check","shortTitle":"Hata Kontrolü","title":"Sorunu Yaz, Sonra Tara","intro":"Bugünkü derste özellikle sorularda gereksiz veya eksik fiilleri kontrol ettin.",
-        "cards":[
-          {"title":"1. Soru kelimesi","text":"Aradığın bilgiye uygun mu: who, what, when, where, why, how?"},
-          {"title":"2. Yardımcı / BE","text":"Hareket fiili için do/does/did; BE cümlesi için am/is/are."},
-          {"title":"3. Özne","text":"Yardımcıdan sonra özne geliyor mu?"},
-          {"title":"4. Ana fiil","text":"Do/does/did kullandıysan ayrıca yalın bir ana fiil var mı?","examples":["does + she + go","did + you + finish"]}
+        "id": "self-check",
+        "shortTitle": "Hata Kontrolü",
+        "title": "Sorunu Yaz, Sonra Tara",
+        "intro": "Bugünkü derste özellikle sorularda gereksiz veya eksik fiilleri kontrol ettin.",
+        "cards": [
+          {
+            "title": "1. Soru kelimesi",
+            "text": "Aradığın bilgiye uygun mu: who, what, when, where, why, how?"
+          },
+          {
+            "title": "2. Yardımcı / BE",
+            "text": "Hareket fiili için do/does/did; BE cümlesi için am/is/are."
+          },
+          {
+            "title": "3. Özne",
+            "text": "Yardımcıdan sonra özne geliyor mu?"
+          },
+          {
+            "title": "4. Ana fiil",
+            "text": "Do/does/did kullandıysan ayrıca yalın bir ana fiil var mı?",
+            "examples": [
+              "does + she + go",
+              "did + you + finish"
+            ]
+          }
         ]
       }
     ],
     "read": {
-      "title":"Soru Röportajı", "instructions":"Metindeki bütün soru kelimelerine ve soru ifadelerine dokun.",
-      "tokens":[
-        {"id":"t1","text":"How often","target":true},{"id":"t2","text":"do"},{"id":"t3","text":"you"},{"id":"t4","text":"read?"},
-        {"id":"t5","text":"What time","target":true},{"id":"t6","text":"do"},{"id":"t7","text":"you"},{"id":"t8","text":"start"},{"id":"t9","text":"your"},{"id":"t10","text":"homework?"},
-        {"id":"t11","text":"Why","target":true},{"id":"t12","text":"do"},{"id":"t13","text":"you"},{"id":"t14","text":"love"},{"id":"t15","text":"volleyball?"},
-        {"id":"t16","text":"Where","target":true},{"id":"t17","text":"is"},{"id":"t18","text":"your"},{"id":"t19","text":"friend"},{"id":"t20","text":"from?"},
-        {"id":"t21","text":"How old","target":true},{"id":"t22","text":"is"},{"id":"t23","text":"your"},{"id":"t24","text":"sister?"}
+      "title": "Soru Röportajı",
+      "instructions": "Metindeki bütün soru kelimelerine ve soru ifadelerine dokun.",
+      "tokens": [
+        {
+          "id": "t1",
+          "text": "How often",
+          "target": true
+        },
+        {
+          "id": "t2",
+          "text": "do"
+        },
+        {
+          "id": "t3",
+          "text": "you"
+        },
+        {
+          "id": "t4",
+          "text": "read?"
+        },
+        {
+          "id": "t5",
+          "text": "What time",
+          "target": true
+        },
+        {
+          "id": "t6",
+          "text": "do"
+        },
+        {
+          "id": "t7",
+          "text": "you"
+        },
+        {
+          "id": "t8",
+          "text": "start"
+        },
+        {
+          "id": "t9",
+          "text": "your"
+        },
+        {
+          "id": "t10",
+          "text": "homework?"
+        },
+        {
+          "id": "t11",
+          "text": "Why",
+          "target": true
+        },
+        {
+          "id": "t12",
+          "text": "do"
+        },
+        {
+          "id": "t13",
+          "text": "you"
+        },
+        {
+          "id": "t14",
+          "text": "love"
+        },
+        {
+          "id": "t15",
+          "text": "volleyball?"
+        },
+        {
+          "id": "t16",
+          "text": "Where",
+          "target": true
+        },
+        {
+          "id": "t17",
+          "text": "is"
+        },
+        {
+          "id": "t18",
+          "text": "your"
+        },
+        {
+          "id": "t19",
+          "text": "friend"
+        },
+        {
+          "id": "t20",
+          "text": "from?"
+        },
+        {
+          "id": "t21",
+          "text": "How old",
+          "target": true
+        },
+        {
+          "id": "t22",
+          "text": "is"
+        },
+        {
+          "id": "t23",
+          "text": "your"
+        },
+        {
+          "id": "t24",
+          "text": "sister?"
+        }
       ],
-      "questions":[
-        {"id":"tr1","prompt":"Why does Where is your friend from? use is, not does?","options":["BE is the main verb.","Where always uses is.","Friend is plural."],"answer":"BE is the main verb.","explanation":"From is linked to the subject by the BE verb is."},
-        {"id":"tr2","prompt":"Which question asks about frequency?","options":["How often do you read?","How old is your sister?","What time do you start?"],"answer":"How often do you read?","explanation":"How often asks how frequently something happens."},
-        {"id":"tr3","prompt":"Why does What time do you start...? need do?","options":["Start is an action verb.","What time always needs do.","You is singular."],"answer":"Start is an action verb.","explanation":"Start is the main action verb, so a present-simple question with you uses do."},
-        {"id":"tr4","prompt":"Which complete question phrase asks about age?","options":["How often","How old","What time"],"answer":"How old","explanation":"How old stays together at the beginning of an age question."}
-      ]
+      "questions": [
+        {
+          "id": "tr1",
+          "prompt": "Why does Where is your friend from? use is, not does?",
+          "options": [
+            "BE is the main verb.",
+            "Where always uses is.",
+            "Friend is plural."
+          ],
+          "answer": "BE is the main verb.",
+          "explanation": "From is linked to the subject by the BE verb is."
+        },
+        {
+          "id": "tr2",
+          "prompt": "Which question asks about frequency?",
+          "options": [
+            "How often do you read?",
+            "How old is your sister?",
+            "What time do you start?"
+          ],
+          "answer": "How often do you read?",
+          "explanation": "How often asks how frequently something happens."
+        },
+        {
+          "id": "tr3",
+          "prompt": "Why does What time do you start...? need do?",
+          "options": [
+            "Start is an action verb.",
+            "What time always needs do.",
+            "You is singular."
+          ],
+          "answer": "Start is an action verb.",
+          "explanation": "Start is the main action verb, so a present-simple question with you uses do."
+        },
+        {
+          "id": "tr4",
+          "prompt": "Which complete question phrase asks about age?",
+          "options": [
+            "How often",
+            "How old",
+            "What time"
+          ],
+          "answer": "How old",
+          "explanation": "How old stays together at the beginning of an age question."
+        }
+      ],
+      "extra": {
+        "title": "The New Student Interview",
+        "instructions": "Metni bir kez genel anlam için, ikinci kez ayrıntılar için oku. Sonra soruları cevapla.",
+        "paragraphs": [
+          "Sümeyye writes short interviews for her school magazine. This week, she meets Emma, a new student from Canada. Before the interview, Sümeyye prepares her questions carefully. She wants to learn about Emma’s daily life, hobbies and first weeks at the school.",
+          "Sümeyye begins with a simple question: “Where are you from?” Emma says that she is from Toronto, but she now lives near the school with her family. Then Sümeyye asks, “What time do you usually get up?” Emma gets up at seven o’clock on weekdays. She has breakfast, checks her school bag and walks to school with her younger brother.",
+          "After school, Emma is often busy. She practises volleyball twice a week and reads adventure books in the evening. Sümeyye asks, “How often do you read?” Emma smiles and says, “Almost every day.” She also studies Turkish because she wants to speak to more people in her new city. She thinks the language is difficult, but she enjoys learning useful new words.",
+          "At the end, Sümeyye asks, “Why do you like your new school?” Emma says that the teachers are helpful and the students are friendly. Sümeyye checks her notes before writing the article. She remembers that question words come first, followed by the helping verb and the subject: “Where do you live?” and “What does your brother study?” Her clear questions help Emma give interesting answers."
+        ],
+        "questions": [
+          {
+            "id": "read-a2-1",
+            "prompt": "Why does Sümeyye interview Emma?",
+            "options": [
+              "For the school magazine.",
+              "For a television show.",
+              "For a sports club."
+            ],
+            "answer": "For the school magazine."
+          },
+          {
+            "id": "read-a2-2",
+            "prompt": "How does Emma go to school?",
+            "options": [
+              "She walks with her brother.",
+              "She takes the bus alone.",
+              "She rides a bike."
+            ],
+            "answer": "She walks with her brother."
+          },
+          {
+            "id": "read-a2-3",
+            "prompt": "How often does Emma practise volleyball?",
+            "options": [
+              "Twice a week.",
+              "Every morning.",
+              "Once a month."
+            ],
+            "answer": "Twice a week."
+          },
+          {
+            "id": "read-a2-4",
+            "prompt": "Why is Emma learning Turkish?",
+            "options": [
+              "To speak to more people.",
+              "To become a teacher.",
+              "To read adventure books."
+            ],
+            "answer": "To speak to more people."
+          },
+          {
+            "id": "read-a2-5",
+            "prompt": "What does Emma like about her new school?",
+            "options": [
+              "Helpful teachers and friendly students.",
+              "Long holidays and easy tests.",
+              "A large shopping centre."
+            ],
+            "answer": "Helpful teachers and friendly students."
+          },
+          {
+            "id": "read-a2-6",
+            "prompt": "Which question has the correct word order?",
+            "options": [
+              "Where do you live?",
+              "Where you do live?",
+              "Do where you live?"
+            ],
+            "answer": "Where do you live?"
+          }
+        ]
+      }
     },
-    "sort":[
-      {"text":"Why","type":"QW","choices":["QW","AUX","S","V"]},{"text":"does","type":"AUX","choices":["QW","AUX","BE","V"]},{"text":"she","type":"S","choices":["QW","AUX","S","V"]},{"text":"get up","type":"V","choices":["QW","AUX","S","V"]},{"text":"What time","type":"QW","choices":["QW","AUX","S","V"]},{"text":"is (Who is the man?)","type":"BE","choices":["BE","AUX","V"]},{"text":"did","type":"AUX","choices":["BE","AUX","V"]},{"text":"finish","type":"V","choices":["BE","AUX","V"]},{"text":"How often","type":"QW","choices":["QW","AUX","S","V"]},{"text":"you (Why do you...?)","type":"S","choices":["QW","AUX","S","V"]},{"text":"are (When are you free?)","type":"BE","choices":["BE","AUX","V"]},{"text":"do (Does he do exercise?)","type":"V","choices":["BE","AUX","V"]}
+    "sort": [
+      {
+        "text": "Why",
+        "type": "QW",
+        "choices": [
+          "QW",
+          "AUX",
+          "S",
+          "V"
+        ]
+      },
+      {
+        "text": "does",
+        "type": "AUX",
+        "choices": [
+          "QW",
+          "AUX",
+          "BE",
+          "V"
+        ]
+      },
+      {
+        "text": "she",
+        "type": "S",
+        "choices": [
+          "QW",
+          "AUX",
+          "S",
+          "V"
+        ]
+      },
+      {
+        "text": "get up",
+        "type": "V",
+        "choices": [
+          "QW",
+          "AUX",
+          "S",
+          "V"
+        ]
+      },
+      {
+        "text": "What time",
+        "type": "QW",
+        "choices": [
+          "QW",
+          "AUX",
+          "S",
+          "V"
+        ]
+      },
+      {
+        "text": "is (Who is the man?)",
+        "type": "BE",
+        "choices": [
+          "BE",
+          "AUX",
+          "V"
+        ]
+      },
+      {
+        "text": "did",
+        "type": "AUX",
+        "choices": [
+          "BE",
+          "AUX",
+          "V"
+        ]
+      },
+      {
+        "text": "finish",
+        "type": "V",
+        "choices": [
+          "BE",
+          "AUX",
+          "V"
+        ]
+      },
+      {
+        "text": "How often",
+        "type": "QW",
+        "choices": [
+          "QW",
+          "AUX",
+          "S",
+          "V"
+        ]
+      },
+      {
+        "text": "you (Why do you...?)",
+        "type": "S",
+        "choices": [
+          "QW",
+          "AUX",
+          "S",
+          "V"
+        ]
+      },
+      {
+        "text": "are (When are you free?)",
+        "type": "BE",
+        "choices": [
+          "BE",
+          "AUX",
+          "V"
+        ]
+      },
+      {
+        "text": "do (Does he do exercise?)",
+        "type": "V",
+        "choices": [
+          "BE",
+          "AUX",
+          "V"
+        ]
+      }
     ],
-    "order":[
-      {"parts":["How often","do","you","read"],"answer":"How often do you read","hint":"Soru ifadesi + do + özne + yalın fiil"},
-      {"parts":["What time","does","she","get up"],"answer":"What time does she get up","hint":"What time + does + she + base verb"},
-      {"parts":["Where","is","your sister","from"],"answer":"Where is your sister from","hint":"Where + BE + özne + from"},
-      {"parts":["Why","do","you","want","this job"],"answer":"Why do you want this job","hint":"Why + do + subject + verb + object"},
-      {"parts":["What","do","they","have","for breakfast"],"answer":"What do they have for breakfast","hint":"What + do + they + have + devamı"},
-      {"parts":["When","are","you","free"],"answer":"When are you free","hint":"BE sorusunda do kullanma"},
-      {"parts":["How old","is","your sister"],"answer":"How old is your sister","hint":"How old tek soru ifadesidir"},
-      {"parts":["What time","did","you","finish","your homework"],"answer":"What time did you finish your homework","hint":"Did + subject + base verb"},
-      {"parts":["Who","is","the man"],"answer":"Who is the man","hint":"Who + BE + devamı"},
-      {"parts":["Does","he","do","exercise"],"answer":"Does he do exercise","hint":"Does yardımcıdır; ikinci do ana fiildir"},
-      {"parts":["When","does","she","go","home"],"answer":"When does she go home","hint":"Does kullandıysan yalın ana fiil go gerekir"},
-      {"parts":["Do","your friends","come","from Canada"],"answer":"Do your friends come from Canada","hint":"Friends çoğul: do + subject + base verb"}
+    "order": [
+      {
+        "parts": [
+          "How often",
+          "do",
+          "you",
+          "read"
+        ],
+        "answer": "How often do you read",
+        "hint": "Soru ifadesi + do + özne + yalın fiil"
+      },
+      {
+        "parts": [
+          "What time",
+          "does",
+          "she",
+          "get up"
+        ],
+        "answer": "What time does she get up",
+        "hint": "What time + does + she + base verb"
+      },
+      {
+        "parts": [
+          "Where",
+          "is",
+          "your sister",
+          "from"
+        ],
+        "answer": "Where is your sister from",
+        "hint": "Where + BE + özne + from"
+      },
+      {
+        "parts": [
+          "Why",
+          "do",
+          "you",
+          "want",
+          "this job"
+        ],
+        "answer": "Why do you want this job",
+        "hint": "Why + do + subject + verb + object"
+      },
+      {
+        "parts": [
+          "What",
+          "do",
+          "they",
+          "have",
+          "for breakfast"
+        ],
+        "answer": "What do they have for breakfast",
+        "hint": "What + do + they + have + devamı"
+      },
+      {
+        "parts": [
+          "When",
+          "are",
+          "you",
+          "free"
+        ],
+        "answer": "When are you free",
+        "hint": "BE sorusunda do kullanma"
+      },
+      {
+        "parts": [
+          "How old",
+          "is",
+          "your sister"
+        ],
+        "answer": "How old is your sister",
+        "hint": "How old tek soru ifadesidir"
+      },
+      {
+        "parts": [
+          "What time",
+          "did",
+          "you",
+          "finish",
+          "your homework"
+        ],
+        "answer": "What time did you finish your homework",
+        "hint": "Did + subject + base verb"
+      },
+      {
+        "parts": [
+          "Who",
+          "is",
+          "the man"
+        ],
+        "answer": "Who is the man",
+        "hint": "Who + BE + devamı"
+      },
+      {
+        "parts": [
+          "Does",
+          "he",
+          "do",
+          "exercise"
+        ],
+        "answer": "Does he do exercise",
+        "hint": "Does yardımcıdır; ikinci do ana fiildir"
+      },
+      {
+        "parts": [
+          "When",
+          "does",
+          "she",
+          "go",
+          "home"
+        ],
+        "answer": "When does she go home",
+        "hint": "Does kullandıysan yalın ana fiil go gerekir"
+      },
+      {
+        "parts": [
+          "Do",
+          "your friends",
+          "come",
+          "from Canada"
+        ],
+        "answer": "Do your friends come from Canada",
+        "hint": "Friends çoğul: do + subject + base verb"
+      }
     ],
     "quizzes": {
-      "Soru Kelimeleri":[
-        {"prompt":"Which phrase asks about frequency?","options":["How old","How often","What time"],"answer":"How often","explanation":"How often, ne sıklıkla anlamına gelir."},
-        {"prompt":"Choose the question about age.","options":["How old is your sister?","How often is your sister?","What time is your sister?"],"answer":"How old is your sister?","explanation":"Yaş sorusu how old ile kurulur."},
-        {"prompt":"Which word asks for a reason?","options":["Where","Why","When"],"answer":"Why","explanation":"Why, neden sorusudur."},
-        {"prompt":"Which phrase asks for an exact clock time?","options":["What time","How often","How old"],"answer":"What time","explanation":"What time saat bilgisini sorar ve iki kelime birlikte kalır."},
-        {"prompt":"Choose the question about a place of origin.","options":["Where is your sister from?","When is your sister free?","Why is your sister here?"],"answer":"Where is your sister from?","explanation":"Where yer bilgisini, from ise kökeni sorar."}
+      "Soru Kelimeleri": [
+        {
+          "prompt": "Which phrase asks about frequency?",
+          "options": [
+            "How old",
+            "How often",
+            "What time"
+          ],
+          "answer": "How often",
+          "explanation": "How often, ne sıklıkla anlamına gelir."
+        },
+        {
+          "prompt": "Choose the question about age.",
+          "options": [
+            "How old is your sister?",
+            "How often is your sister?",
+            "What time is your sister?"
+          ],
+          "answer": "How old is your sister?",
+          "explanation": "Yaş sorusu how old ile kurulur."
+        },
+        {
+          "prompt": "Which word asks for a reason?",
+          "options": [
+            "Where",
+            "Why",
+            "When"
+          ],
+          "answer": "Why",
+          "explanation": "Why, neden sorusudur."
+        },
+        {
+          "prompt": "Which phrase asks for an exact clock time?",
+          "options": [
+            "What time",
+            "How often",
+            "How old"
+          ],
+          "answer": "What time",
+          "explanation": "What time saat bilgisini sorar ve iki kelime birlikte kalır."
+        },
+        {
+          "prompt": "Choose the question about a place of origin.",
+          "options": [
+            "Where is your sister from?",
+            "When is your sister free?",
+            "Why is your sister here?"
+          ],
+          "answer": "Where is your sister from?",
+          "explanation": "Where yer bilgisini, from ise kökeni sorar."
+        }
       ],
-      "DO / BE / DID":[
-        {"prompt":"Complete: What time ___ she get up?","options":["is","does","do"],"answer":"does","explanation":"She + geniş zaman hareket fiili için does gerekir."},
-        {"prompt":"Complete: When ___ you free?","options":["do","are","does"],"answer":"are","explanation":"Free sıfattır; BE kullanılır."},
-        {"prompt":"Complete: What time ___ you finish your homework? (yesterday)","options":["did","were","does"],"answer":"did","explanation":"Geçmiş hareket fiili sorusu did ile kurulur."},
-        {"prompt":"Choose the correct question.","options":["Is your friend come from Canada?","Does your friend come from Canada?","Does your friend comes from Canada?"],"answer":"Does your friend come from Canada?","explanation":"Come hareket fiilidir; does + yalın come kullanılır."},
-        {"prompt":"Complete: Why ___ you want this job?","options":["are","do","does"],"answer":"do","explanation":"Want hareket fiilidir ve you ile do kullanılır."}
+      "DO / BE / DID": [
+        {
+          "prompt": "Complete: What time ___ she get up?",
+          "options": [
+            "is",
+            "does",
+            "do"
+          ],
+          "answer": "does",
+          "explanation": "She + geniş zaman hareket fiili için does gerekir."
+        },
+        {
+          "prompt": "Complete: When ___ you free?",
+          "options": [
+            "do",
+            "are",
+            "does"
+          ],
+          "answer": "are",
+          "explanation": "Free sıfattır; BE kullanılır."
+        },
+        {
+          "prompt": "Complete: What time ___ you finish your homework? (yesterday)",
+          "options": [
+            "did",
+            "were",
+            "does"
+          ],
+          "answer": "did",
+          "explanation": "Geçmiş hareket fiili sorusu did ile kurulur."
+        },
+        {
+          "prompt": "Choose the correct question.",
+          "options": [
+            "Is your friend come from Canada?",
+            "Does your friend come from Canada?",
+            "Does your friend comes from Canada?"
+          ],
+          "answer": "Does your friend come from Canada?",
+          "explanation": "Come hareket fiilidir; does + yalın come kullanılır."
+        },
+        {
+          "prompt": "Complete: Why ___ you want this job?",
+          "options": [
+            "are",
+            "do",
+            "does"
+          ],
+          "answer": "do",
+          "explanation": "Want hareket fiilidir ve you ile do kullanılır."
+        }
       ],
-      "Hata Avı":[
-        {"prompt":"Repair: When does she home?","options":["When is she home?","When does she go home?","Both can be correct with different meanings."],"answer":"Both can be correct with different meanings.","explanation":"Evde ne zaman? için is; eve ne zaman gider? için does + go gerekir."},
-        {"prompt":"Repair: Does your friends come from Canada?","options":["Do your friends come from Canada?","Does your friends comes from Canada?","Are your friends come from Canada?"],"answer":"Do your friends come from Canada?","explanation":"Friends çoğul olduğu için do kullanılır."},
-        {"prompt":"Choose the complete question.","options":["What time did you homework?","What time did you finish your homework?","What time you did finish homework?"],"answer":"What time did you finish your homework?","explanation":"Did sonrasında özne ve yalın ana fiil finish gerekir."},
-        {"prompt":"Repair: What does she loves?","options":["What does she love?","What do she loves?","What is she love?"],"answer":"What does she love?","explanation":"Does üçüncü tekil kişi bilgisini taşır; love yalın kalır."},
-        {"prompt":"Which question is complete?","options":["Why do you this job?","Why are you want this job?","Why do you want this job?"],"answer":"Why do you want this job?","explanation":"Do yardımcı fiilinden sonra özne ve ana fiil want gerekir."}
+      "Hata Avı": [
+        {
+          "prompt": "Repair: When does she home?",
+          "options": [
+            "When is she home?",
+            "When does she go home?",
+            "Both can be correct with different meanings."
+          ],
+          "answer": "Both can be correct with different meanings.",
+          "explanation": "Evde ne zaman? için is; eve ne zaman gider? için does + go gerekir."
+        },
+        {
+          "prompt": "Repair: Does your friends come from Canada?",
+          "options": [
+            "Do your friends come from Canada?",
+            "Does your friends comes from Canada?",
+            "Are your friends come from Canada?"
+          ],
+          "answer": "Do your friends come from Canada?",
+          "explanation": "Friends çoğul olduğu için do kullanılır."
+        },
+        {
+          "prompt": "Choose the complete question.",
+          "options": [
+            "What time did you homework?",
+            "What time did you finish your homework?",
+            "What time you did finish homework?"
+          ],
+          "answer": "What time did you finish your homework?",
+          "explanation": "Did sonrasında özne ve yalın ana fiil finish gerekir."
+        },
+        {
+          "prompt": "Repair: What does she loves?",
+          "options": [
+            "What does she love?",
+            "What do she loves?",
+            "What is she love?"
+          ],
+          "answer": "What does she love?",
+          "explanation": "Does üçüncü tekil kişi bilgisini taşır; love yalın kalır."
+        },
+        {
+          "prompt": "Which question is complete?",
+          "options": [
+            "Why do you this job?",
+            "Why are you want this job?",
+            "Why do you want this job?"
+          ],
+          "answer": "Why do you want this job?",
+          "explanation": "Do yardımcı fiilinden sonra özne ve ana fiil want gerekir."
+        }
       ],
-      "Final Test":[
-        {"prompt":"Choose the correct word order.","options":["How often you do read?","How often do you read?","Do how often you read?"],"answer":"How often do you read?","explanation":"WH ifadesi + do + subject + verb."},
-        {"prompt":"Which question uses BE correctly?","options":["Where does your sister from?","Where is your sister from?","Where your sister is from?"],"answer":"Where is your sister from?","explanation":"BE öznenin önüne gelir."},
-        {"prompt":"Choose the correct question.","options":["Why do you love volleyball?","Why are you love volleyball?","Why you do love volleyball?"],"answer":"Why do you love volleyball?","explanation":"Love hareket fiilidir; do gerekir."},
-        {"prompt":"What comes after does in What does she love?","options":["subject + base verb","base verb + subject","subject + verb-s"],"answer":"subject + base verb","explanation":"Does zaten üçüncü tekil kişiyi taşır."},
-        {"prompt":"Choose the correct past question.","options":["What time did you finished your homework?","What time did you finish your homework?","What time were you finish your homework?"],"answer":"What time did you finish your homework?","explanation":"Did sonrasında finish yalın kalır."},
-        {"prompt":"Which self-check is most useful after adding do/does/did?","options":["Check that a base-form main verb is present.","Add am/is/are too.","Remove the subject."],"answer":"Check that a base-form main verb is present.","explanation":"Yardımcı fiil tek başına ana anlamı tamamlamaz."}
+      "Final Test": [
+        {
+          "prompt": "Choose the correct word order.",
+          "options": [
+            "How often you do read?",
+            "How often do you read?",
+            "Do how often you read?"
+          ],
+          "answer": "How often do you read?",
+          "explanation": "WH ifadesi + do + subject + verb."
+        },
+        {
+          "prompt": "Which question uses BE correctly?",
+          "options": [
+            "Where does your sister from?",
+            "Where is your sister from?",
+            "Where your sister is from?"
+          ],
+          "answer": "Where is your sister from?",
+          "explanation": "BE öznenin önüne gelir."
+        },
+        {
+          "prompt": "Choose the correct question.",
+          "options": [
+            "Why do you love volleyball?",
+            "Why are you love volleyball?",
+            "Why you do love volleyball?"
+          ],
+          "answer": "Why do you love volleyball?",
+          "explanation": "Love hareket fiilidir; do gerekir."
+        },
+        {
+          "prompt": "What comes after does in What does she love?",
+          "options": [
+            "subject + base verb",
+            "base verb + subject",
+            "subject + verb-s"
+          ],
+          "answer": "subject + base verb",
+          "explanation": "Does zaten üçüncü tekil kişiyi taşır."
+        },
+        {
+          "prompt": "Choose the correct past question.",
+          "options": [
+            "What time did you finished your homework?",
+            "What time did you finish your homework?",
+            "What time were you finish your homework?"
+          ],
+          "answer": "What time did you finish your homework?",
+          "explanation": "Did sonrasında finish yalın kalır."
+        },
+        {
+          "prompt": "Which self-check is most useful after adding do/does/did?",
+          "options": [
+            "Check that a base-form main verb is present.",
+            "Add am/is/are too.",
+            "Remove the subject."
+          ],
+          "answer": "Check that a base-form main verb is present.",
+          "explanation": "Yardımcı fiil tek başına ana anlamı tamamlamaz."
+        }
+      ]
+    },
+    "listening": {
+      "level": "A1 · Kolay",
+      "title": "Günlük Rutin Sorularını Dinle",
+      "instructions": "İlk turda metne bakmadan genel fikri dinle. İkinci turda metni aç ve soru kalıplarına dikkat et.",
+      "source": "ELLLO · A1",
+      "resource": "Verbs – Present Simple",
+      "url": "https://elllo.org/class/A1/A1-04-Verbs.html",
+      "task": "Kısa konuşmalarda sabah rutini, iş, ders ve öğle yemeği hakkında sorulan soruları bul.",
+      "followUp": "İkinci dinlemede her sorudan sonra durdur. Duyduğun soruyu yüksek sesle tekrar et ve kendin için kısa bir cevap ver.",
+      "questions": [
+        {
+          "id": "listen-1",
+          "prompt": "What does the woman do in the morning?",
+          "options": [
+            "She gets ready and eats breakfast.",
+            "She watches a film.",
+            "She goes shopping."
+          ],
+          "answer": "She gets ready and eats breakfast."
+        },
+        {
+          "id": "listen-2",
+          "prompt": "What time does she get up?",
+          "options": [
+            "At six.",
+            "At eight.",
+            "At ten."
+          ],
+          "answer": "At six."
+        },
+        {
+          "id": "listen-3",
+          "prompt": "Where does the man work?",
+          "options": [
+            "At a bike shop.",
+            "At a hospital.",
+            "At a hotel."
+          ],
+          "answer": "At a bike shop."
+        },
+        {
+          "id": "listen-4",
+          "prompt": "What does the woman teach?",
+          "options": [
+            "Maths.",
+            "Music.",
+            "History."
+          ],
+          "answer": "Maths."
+        },
+        {
+          "id": "listen-5",
+          "prompt": "Where does the man eat lunch?",
+          "options": [
+            "In the park.",
+            "At home.",
+            "At school."
+          ],
+          "answer": "In the park."
+        }
       ]
     }
   }

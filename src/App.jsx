@@ -1,16 +1,17 @@
 import { useEffect, useMemo, useState } from 'react';
 import {
   AlertTriangle, Archive, BookOpen, Check, CheckCircle2, ChevronDown, ChevronRight, CircleHelp,
-  Glasses, GraduationCap, Layers3, ListChecks, LoaderCircle, Puzzle,
+  ExternalLink, Glasses, GraduationCap, Headphones, Layers3, ListChecks, LoaderCircle, Puzzle,
   RefreshCw, RotateCcw, Sparkles, Star, Trophy, Volume2,
 } from 'lucide-react';
 
 const nav = [
   ['learn', '1. Öğren', BookOpen],
   ['read', '2. Oku', Glasses],
-  ['sort', '3. Eşleştir', Layers3],
-  ['order', '4. Sırala', Puzzle],
-  ['quiz', '5. Testler', ListChecks],
+  ['listen', '3. Dinle', Headphones],
+  ['sort', '4. Eşleştir', Layers3],
+  ['order', '5. Sırala', Puzzle],
+  ['quiz', '6. Testler', ListChecks],
 ];
 
 const roleNames = { S: 'Özne', V: 'Fiil', O: 'Nesne', P: 'Yer', T: 'Zaman', BE: 'BE', AUX: 'Yardımcı Fiil', QW: 'Soru Kelimesi' };
@@ -70,7 +71,12 @@ function Reading({ data, onPoints }) {
     <div className="action-row"><button className="primary" onClick={check}>Kontrol Et</button><button className="secondary" onClick={()=>{setSelected([]);setChecked(false)}}><RotateCcw size={16}/>Temizle</button></div>
     {checked&&<div className={`big-feedback ${perfect?'good':'try'}`}>{perfect?'Harika! Bütün hedef kelimeleri buldun.':'Tekrar incele: yeşiller doğru, kırmızılar hedef değil.'}</div>}
     <div className="reading-questions">{data.questions.map((q)=><MiniQuestion key={q.id} item={q} onPoints={onPoints}/>)}</div>
+    {data.extra&&<section className="extra-reading"><div className="topic-intro"><span className="level-pill">A2 · Uzun Okuma</span><h2>{data.extra.title}</h2><p>{data.extra.instructions}</p></div><article className="long-reading">{data.extra.paragraphs.map((paragraph,index)=><p key={index}>{paragraph}</p>)}</article><div className="reading-questions">{data.extra.questions.map((q)=><MiniQuestion key={q.id} item={q} onPoints={onPoints}/>)}</div></section>}
   </section>;
+}
+
+function Listening({ data, onPoints }) {
+  return <section><div className="topic-intro"><span className="level-pill">{data.level}</span><h2>{data.title}</h2><p>{data.instructions}</p></div><article className="listening-card"><Headphones size={38}/><div><span>{data.source}</span><h3>{data.resource}</h3><p>{data.task}</p></div><a href={data.url} target="_blank" rel="noreferrer">Dinlemeyi aç <ExternalLink size={17}/></a></article><div className="remember-listening"><strong>İki turda çalış</strong><p>{data.followUp}</p></div><div className="reading-questions">{data.questions.map((q)=><MiniQuestion key={q.id} item={q} onPoints={onPoints}/>)}</div></section>;
 }
 
 function MiniQuestion({item,onPoints}) { const [choice,setChoice]=useState(null); const correct=choice===item.answer; function pick(x){if(choice!==null)return;setChoice(x);if(x===item.answer){onPoints(10);playTone(650)}else playTone(280,.2)} return <article><h3>{item.prompt}</h3>{item.options.map((x)=><button onClick={()=>pick(x)} className={choice===x?(correct?'right':'wrong'):choice!==null&&x===item.answer?'right':''} key={x}>{x}</button>)}{choice!==null&&<p>{correct?'Doğru!':item.explanation}</p>}</article> }
@@ -130,6 +136,6 @@ export default function App(){
   return <div className="page"><Confetti burst={burst}/><header className="game-header"><div className="identity"><span><GraduationCap size={27}/></span><div><h1>İngilizce Dilbilgisi Ustası</h1><p>Sümeyye · A1–A2</p></div></div><div className="score"><span><Star size={14}/> Puan</span><strong>{score}</strong></div></header>
     <HomeworkPicker lessons={index.lessons} activeId={hw.id} onSelect={load}/>
     <nav className="game-nav">{nav.map(([id,label,Icon])=><button className={tab===id?'active':''} key={id} onClick={()=>setTab(id)}><Icon size={18}/><span>{label}</span></button>)}</nav>
-    <main className="game-main"><div className="lesson-ribbon"><Sparkles size={18}/><span>{hw.dateLabel}</span><strong>{hw.title}</strong></div>{tab==='learn'&&<Learn data={hw.game.learn}/>} {tab==='read'&&<Reading data={hw.game.read} onPoints={points}/>} {tab==='sort'&&<SortGame items={hw.game.sort} onPoints={points}/>} {tab==='order'&&<OrderGame sentences={hw.game.order} onPoints={points}/>} {tab==='quiz'&&<Quiz groups={hw.game.quizzes} onPoints={points}/>}</main>
+    <main className="game-main"><div className="lesson-ribbon"><Sparkles size={18}/><span>{hw.dateLabel}</span><strong>{hw.title}</strong></div>{tab==='learn'&&<Learn data={hw.game.learn}/>} {tab==='read'&&<Reading data={hw.game.read} onPoints={points}/>} {tab==='listen'&&<Listening data={hw.game.listening} onPoints={points}/>} {tab==='sort'&&<SortGame items={hw.game.sort} onPoints={points}/>} {tab==='order'&&<OrderGame sentences={hw.game.order} onPoints={points}/>} {tab==='quiz'&&<Quiz groups={hw.game.quizzes} onPoints={points}/>}</main>
     <footer><Volume2 size={15}/> Doğru cevaplarda ses ve puan kazanırsın. İlerlemen bu tarayıcıda saklanır.</footer></div>;
 }
