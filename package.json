@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "homeworks:index": "node scripts/build-homework-index.mjs",
+    "validate": "node scripts/validate-homeworks.mjs",
     "dev": "npm run homeworks:index && vite",
-    "build": "npm run homeworks:index && vite build",
+    "build": "npm run homeworks:index && npm run validate && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

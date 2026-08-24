@@ -6,13 +6,14 @@ import {
 } from 'lucide-react';
 
 const nav = [
-  ['learn', '1. Öğren', BookOpen],
-  ['read', '2. Oku', Glasses],
-  ['listen', '3. Dinle', Headphones],
-  ['sort', '4. Eşleştir', Layers3],
-  ['order', '5. Sırala', Puzzle],
-  ['quiz', '6. Testler', ListChecks],
+  ['learn', 'Öğren', BookOpen],
+  ['read', 'Oku', Glasses],
+  ['listen', 'Dinle', Headphones],
+  ['sort', 'Eşleştir', Layers3],
+  ['order', 'Sırala', Puzzle],
+  ['quiz', 'Testler', ListChecks],
 ];
+const gameKey = { learn: 'learn', read: 'read', listen: 'listening', sort: 'sort', order: 'order', quiz: 'quizzes' };
 
 const roleNames = { S: 'Özne', V: 'Fiil', O: 'Nesne', P: 'Yer', T: 'Zaman', BE: 'BE', AUX: 'Yardımcı Fiil', QW: 'Soru Kelimesi' };
 
@@ -76,6 +77,7 @@ function Reading({ data, onPoints }) {
 }
 
 function Listening({ data, onPoints }) {
+  if (!data) return <section className="state"><AlertTriangle/><h2>Bu ders için dinleme etkinliği bulunmuyor.</h2></section>;
   return <section><div className="topic-intro"><span className="level-pill">{data.level}</span><h2>{data.title}</h2><p>{data.instructions}</p></div><article className="listening-card"><Headphones size={38}/><div><span>{data.source}</span><h3>{data.resource}</h3><p>{data.task}</p></div><a href={data.url} target="_blank" rel="noreferrer">Dinlemeyi aç <ExternalLink size={17}/></a></article><div className="remember-listening"><strong>İki turda çalış</strong><p>{data.followUp}</p></div><div className="reading-questions">{data.questions.map((q)=><MiniQuestion key={q.id} item={q} onPoints={onPoints}/>)}</div></section>;
 }
 
@@ -128,6 +130,7 @@ function HomeworkPicker({ lessons, activeId, onSelect }) {
 
 export default function App(){
   const [index,setIndex]=useState(null),[hw,setHw]=useState(null),[tab,setTab]=useState('learn'),[score,setScore]=useState(0),[burst,setBurst]=useState(0),[error,setError]=useState('');
+  const availableNav=useMemo(()=>{if(!hw)return[];const declared=new Set((hw.sections||nav.map(([id])=>({id}))).map((section)=>typeof section==='string'?section:section.id));return nav.filter(([id])=>declared.has(id)&&hw.game?.[gameKey[id]])},[hw]);
   useEffect(()=>{fetch(`${import.meta.env.BASE_URL}homeworks/index.json`).then((r)=>r.json()).then(setIndex).catch(()=>setError('Ödev listesi yüklenemedi.'))},[]);
   async function load(entry){try{const r=await fetch(`${import.meta.env.BASE_URL}homeworks/${entry.path}`);const data=await r.json();setHw(data);setTab('learn');setScore(JSON.parse(localStorage.getItem(storageKey(data))||'{}').score||0)}catch{setError('Bu ödev yüklenemedi.')}}
   useEffect(()=>{if(index?.lessons?.length)load(index.lessons[0])},[index]);
@@ -135,7 +138,7 @@ export default function App(){
   if(error)return <main className="state"><AlertTriangle/><h1>{error}</h1></main>;if(!hw)return <main className="state"><LoaderCircle className="spin"/><p>Ödev hazırlanıyor…</p></main>;
   return <div className="page"><Confetti burst={burst}/><header className="game-header"><div className="identity"><span><GraduationCap size={27}/></span><div><h1>İngilizce Dilbilgisi Ustası</h1><p>Sümeyye · A1–A2</p></div></div><div className="score"><span><Star size={14}/> Puan</span><strong>{score}</strong></div></header>
     <HomeworkPicker lessons={index.lessons} activeId={hw.id} onSelect={load}/>
-    <nav className="game-nav">{nav.map(([id,label,Icon])=><button className={tab===id?'active':''} key={id} onClick={()=>setTab(id)}><Icon size={18}/><span>{label}</span></button>)}</nav>
+    <nav className="game-nav">{availableNav.map(([id,label,Icon],index)=><button className={tab===id?'active':''} key={id} onClick={()=>setTab(id)}><Icon size={18}/><span>{index+1}. {label}</span></button>)}</nav>
     <main className="game-main"><div className="lesson-ribbon"><Sparkles size={18}/><span>{hw.dateLabel}</span><strong>{hw.title}</strong></div>{tab==='learn'&&<Learn data={hw.game.learn}/>} {tab==='read'&&<Reading data={hw.game.read} onPoints={points}/>} {tab==='listen'&&<Listening data={hw.game.listening} onPoints={points}/>} {tab==='sort'&&<SortGame items={hw.game.sort} onPoints={points}/>} {tab==='order'&&<OrderGame sentences={hw.game.order} onPoints={points}/>} {tab==='quiz'&&<Quiz groups={hw.game.quizzes} onPoints={points}/>}</main>
     <footer><Volume2 size={15}/> Doğru cevaplarda ses ve puan kazanırsın. İlerlemen bu tarayıcıda saklanır.</footer></div>;
 }
