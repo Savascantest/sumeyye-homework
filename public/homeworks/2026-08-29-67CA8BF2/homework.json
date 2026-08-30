@@ -1,0 +1,426 @@
+{
+  "id": "2026-08-29-67CA8BF2",
+  "date": "2026-08-29",
+  "dateLabel": "29 Ağustos 2026",
+  "student": "Sümeyye",
+  "meetingUuid": "67CA8BF2-8693-4431-A0AB-60D9D7B16F92",
+  "title": "Sıklık Zarfları ve Zamir Dedektifi",
+  "subtitle": "Kelime sırası, subject/object pronouns ve kısa oyunlarla eğlenceli tekrar.",
+  "sections": [
+    "learn",
+    "read",
+    "listen",
+    "sort",
+    "order",
+    "quiz"
+  ],
+  "teacherNote": {
+    "detected": true,
+    "applied": true,
+    "summary": "Türkçe dilbilgisi açıklamaları; subject/object pronoun substitutions; frequency-adverb gap and word-order work; earlier homework preserved."
+  },
+  "game": {
+    "learn": [
+      {
+        "id": "frequency",
+        "shortTitle": "Sıklık Zarfları",
+        "title": "always, usually, sometimes, hardly ever, never",
+        "intro": "Sıklık zarfları bir şeyin ne kadar sık olduğunu söyler. Ana fiilden önce, be fiilinden sonra gelir.",
+        "cards": [
+          {
+            "title": "Ana fiilden önce",
+            "text": "Özne + sıklık zarfı + fiil.",
+            "examples": [
+              "I always check my bag.",
+              "She hardly ever loses her keys."
+            ]
+          },
+          {
+            "title": "be fiilinden sonra",
+            "text": "am / is / are önce, sıklık zarfı sonra gelir.",
+            "examples": [
+              "He is usually careful.",
+              "They are never late."
+            ]
+          },
+          {
+            "title": "Dikkat",
+            "tone": "warn",
+            "text": "never zaten olumsuzdur; don’t never kullanma."
+          }
+        ]
+      },
+      {
+        "id": "pronouns",
+        "shortTitle": "Zamirler",
+        "title": "Subject ve object pronouns",
+        "intro": "Özne zamiri işi yapan kişidir; nesne zamiri fiilden sonra işi alan kişiyi veya şeyi değiştirir.",
+        "cards": [
+          {
+            "title": "Subject pronouns",
+            "text": "I, you, he, she, it, we, they cümlenin öznesi olur.",
+            "examples": [
+              "Rachel helps the students. → She helps the students."
+            ]
+          },
+          {
+            "title": "Object pronouns",
+            "text": "me, you, him, her, it, us, them fiilden veya edattan sonra gelir.",
+            "examples": [
+              "I can’t find my keys. → I can’t find them.",
+              "Rachel helps the students. → She helps them."
+            ]
+          },
+          {
+            "title": "Hatırla",
+            "text": "Bir ismin yerine zamir koyarken önce o ismin cümlede işi yapan mı, işi alan mı olduğuna bak."
+          }
+        ]
+      }
+    ],
+    "read": {
+      "title": "A Busy Saturday",
+      "instructions": "Metni oku. Sıklık zarflarını ve nesne zamirlerini bul.",
+      "tokens": [
+        {
+          "id": "1",
+          "text": "Mina usually meets her cousins on Saturday. ",
+          "target": true
+        },
+        {
+          "id": "2",
+          "text": "She often calls them before breakfast. ",
+          "target": true
+        },
+        {
+          "id": "3",
+          "text": "Her brother is sometimes busy, but Mina always invites him. ",
+          "target": true
+        },
+        {
+          "id": "4",
+          "text": "They hardly ever stay at home because they enjoy the park.",
+          "target": true
+        }
+      ],
+      "questions": [
+        {
+          "id": "r1",
+          "prompt": "Who does Mina call?",
+          "options": [
+            "Her cousins",
+            "Her teacher",
+            "Her neighbour"
+          ],
+          "answer": "Her cousins",
+          "explanation": "them = her cousins"
+        },
+        {
+          "id": "r2",
+          "prompt": "Where does always go in “Mina ___ invites him”?",
+          "options": [
+            "before invites",
+            "after him",
+            "before Mina"
+          ],
+          "answer": "before invites",
+          "explanation": "Ana fiilden önce gelir."
+        }
+      ],
+      "extra": {
+        "title": "The Missing Sports Bag",
+        "instructions": "A2 seviyesindeki uzun metni oku ve ayrıntıları kontrol et.",
+        "paragraphs": [
+          "Elif usually prepares her sports bag on Friday evening because she has basketball practice early on Saturday. She puts her shoes, water bottle and blue towel beside the door. Her younger brother Can sometimes borrows the towel, but he normally returns it before bedtime. This week Elif cannot find the bag. She asks Can about it, but he does not have it.",
+          "Their mother helps them look around the flat. She checks the hall and the kitchen, while Elif looks under her bed. Can suddenly remembers that he carried the bag to the car after last week’s practice. Their father hardly ever uses the car on weekdays, so the bag is still in the boot. Elif finds it and thanks him for remembering.",
+          "After that, Elif makes a small checklist. She always checks the car first, then the hall, and finally her bedroom. She also writes her name on the towel because Can often thinks it is his. The new routine is simple, but it helps her feel calm before practice."
+        ],
+        "questions": [
+          {
+            "id": "er1",
+            "prompt": "When does Elif usually prepare her bag?",
+            "options": [
+              "Friday evening",
+              "Saturday evening",
+              "Monday morning"
+            ],
+            "answer": "Friday evening",
+            "explanation": "İlk paragrafı kontrol et."
+          },
+          {
+            "id": "er2",
+            "prompt": "Who sometimes borrows the towel?",
+            "options": [
+              "Can",
+              "Her father",
+              "Her coach"
+            ],
+            "answer": "Can",
+            "explanation": "he = Can"
+          },
+          {
+            "id": "er3",
+            "prompt": "Where is the bag?",
+            "options": [
+              "In the car boot",
+              "Under the bed",
+              "In the kitchen"
+            ],
+            "answer": "In the car boot",
+            "explanation": "İkinci paragrafı kontrol et."
+          },
+          {
+            "id": "er4",
+            "prompt": "Why does Elif make a checklist?",
+            "options": [
+              "To create a calm routine",
+              "To cancel practice",
+              "To buy a new bag"
+            ],
+            "answer": "To create a calm routine",
+            "explanation": "Son paragrafı kontrol et."
+          },
+          {
+            "id": "er5",
+            "prompt": "What does “them” refer to?",
+            "options": [
+              "Elif and Can",
+              "the shoes",
+              "the parents"
+            ],
+            "answer": "Elif and Can",
+            "explanation": "Nesne zamirinin yerine geçen isimleri bul."
+          }
+        ]
+      }
+    },
+    "listening": {
+      "level": "A2",
+      "title": "One or It? Object Pronouns",
+      "source": "ELLLO",
+      "resource": "A2 Grammar Conversation — One / It",
+      "instructions": "Önce ana fikri, sonra one ve it kullanılan yerleri dinle.",
+      "task": "İki kez dinle; ikinci turda zamirleri not et.",
+      "followUp": "Cevapları kontrol etmeden önce üç örnek cümle yaz.",
+      "url": "https://www.elllo.org/class/A2/A2-25-One-It.html",
+      "questions": [
+        {
+          "id": "l1",
+          "prompt": "Which word replaces a specific thing already mentioned?",
+          "options": [
+            "it",
+            "they",
+            "we"
+          ],
+          "answer": "it",
+          "explanation": "Dinlemede it kullanımına bak."
+        },
+        {
+          "id": "l2",
+          "prompt": "Which word can replace one item from a group?",
+          "options": [
+            "one",
+            "him",
+            "us"
+          ],
+          "answer": "one",
+          "explanation": "one bir örneği seçer."
+        },
+        {
+          "id": "l3",
+          "prompt": "What should you do on the first listen?",
+          "options": [
+            "Find the main idea",
+            "Translate every word",
+            "Read only"
+          ],
+          "answer": "Find the main idea",
+          "explanation": "İlk tur görevi ana fikirdir."
+        }
+      ]
+    },
+    "sort": [
+      {
+        "text": "She",
+        "type": "S",
+        "choices": [
+          "S",
+          "O"
+        ]
+      },
+      {
+        "text": "them",
+        "type": "O",
+        "choices": [
+          "S",
+          "O"
+        ]
+      },
+      {
+        "text": "him",
+        "type": "O",
+        "choices": [
+          "S",
+          "O"
+        ]
+      },
+      {
+        "text": "They",
+        "type": "S",
+        "choices": [
+          "S",
+          "O"
+        ]
+      }
+    ],
+    "order": [
+      {
+        "parts": [
+          "I",
+          "always",
+          "check",
+          "my keys"
+        ],
+        "answer": "I always check my keys",
+        "hint": "Sıklık zarfı ana fiilden önce."
+      },
+      {
+        "parts": [
+          "She",
+          "is",
+          "usually",
+          "careful"
+        ],
+        "answer": "She is usually careful",
+        "hint": "be fiili sıklık zarfından önce."
+      },
+      {
+        "parts": [
+          "Rachel",
+          "helps",
+          "them"
+        ],
+        "answer": "Rachel helps them",
+        "hint": "Nesne zamiri fiilden sonra."
+      }
+    ],
+    "quizzes": {
+      "Sıklık Zarfları": [
+        {
+          "id": "q1",
+          "prompt": "I ___ lose my keys; maybe once a year.",
+          "options": [
+            "hardly ever",
+            "always",
+            "usually"
+          ],
+          "answer": "hardly ever",
+          "explanation": "Çok nadir."
+        },
+        {
+          "id": "q2",
+          "prompt": "Choose the correct order.",
+          "options": [
+            "She is always friendly.",
+            "She always is friendly.",
+            "Always she friendly is."
+          ],
+          "answer": "She is always friendly.",
+          "explanation": "be fiilinden sonra."
+        },
+        {
+          "id": "q3",
+          "prompt": "Choose the correct sentence.",
+          "options": [
+            "We never arrive late.",
+            "We don’t never arrive late.",
+            "We arrive never late."
+          ],
+          "answer": "We never arrive late.",
+          "explanation": "never tek başına olumsuzdur."
+        }
+      ],
+      "Zamirler": [
+        {
+          "id": "q4",
+          "prompt": "I can’t find my keys. I can’t find ___.",
+          "options": [
+            "them",
+            "they",
+            "it"
+          ],
+          "answer": "them",
+          "explanation": "keys çoğul nesnedir."
+        },
+        {
+          "id": "q5",
+          "prompt": "Rachel helps the students. ___ helps ___.",
+          "options": [
+            "She / them",
+            "Her / they",
+            "She / they"
+          ],
+          "answer": "She / them",
+          "explanation": "İşi yapan She, işi alan them."
+        },
+        {
+          "id": "q6",
+          "prompt": "My brother calls __ every evening.",
+          "options": [
+            "me",
+            "I",
+            "we"
+          ],
+          "answer": "me",
+          "explanation": "Fiilden sonra object pronoun."
+        }
+      ],
+      "Final": [
+        {
+          "id": "q7",
+          "prompt": "They are ___ tired after practice.",
+          "options": [
+            "sometimes",
+            "sometimes are",
+            "are sometimes"
+          ],
+          "answer": "sometimes",
+          "explanation": "be + adverb"
+        },
+        {
+          "id": "q8",
+          "prompt": "Tom and Mia visit us. ___ visit ___.",
+          "options": [
+            "They / us",
+            "Them / we",
+            "They / we"
+          ],
+          "answer": "They / us",
+          "explanation": "Subject + verb + object."
+        },
+        {
+          "id": "q9",
+          "prompt": "I ___ drink coffee at night. 0%",
+          "options": [
+            "never",
+            "always",
+            "often"
+          ],
+          "answer": "never",
+          "explanation": "0% = never"
+        },
+        {
+          "id": "q10",
+          "prompt": "Sarah sees Jack. ___ sees ___.",
+          "options": [
+            "She / him",
+            "Her / he",
+            "She / he"
+          ],
+          "answer": "She / him",
+          "explanation": "Subject/object ayrımı."
+        }
+      ]
+    }
+  }
+}
