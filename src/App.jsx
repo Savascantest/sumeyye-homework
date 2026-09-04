@@ -15,7 +15,10 @@ const nav = [
 ];
 const gameKey = { learn: 'learn', read: 'read', listen: 'listening', sort: 'sort', order: 'order', quiz: 'quizzes' };
 
-const roleNames = { S: 'Özne', V: 'Fiil', O: 'Nesne', P: 'Yer', T: 'Zaman', BE: 'BE', AUX: 'Yardımcı Fiil', QW: 'Soru Kelimesi' };
+const roleNames = {
+  S: 'Özne', V: 'Fiil', O: 'Nesne', P: 'Yer', T: 'Zaman', BE: 'BE', AUX: 'Yardımcı Fiil', QW: 'Soru Kelimesi',
+  POS: "Sahiplik ('s)", IS: "Kısalmış is ('s)", OF: 'of yapısı', WHOIS: "who is (who's)", WHOSE: 'kimin (whose)',
+};
 
 function MarkedText({ text }) {
   if (typeof text !== 'string' || !text.includes('[[')) return text;

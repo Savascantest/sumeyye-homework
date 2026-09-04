@@ -1,0 +1,945 @@
+{
+  "id": "2026-09-03-C88754BD-A503-4978-ADFE-990210CFBA34",
+  "date": "2026-09-03",
+  "dateLabel": "3 Eylül 2026",
+  "student": "Sümeyye",
+  "meetingUuid": "C88754BD-A503-4978-ADFE-990210CFBA34",
+  "title": "Apostrof Dedektifi: 's, of, who's ve whose",
+  "subtitle": "Sahipliği, kısalmış is yapısını ve kimin sorusunu oyunlarla ayır.",
+  "sections": [
+    "learn",
+    "read",
+    "listen",
+    "sort",
+    "order",
+    "quiz"
+  ],
+  "teacherNote": {
+    "detected": true,
+    "applied": true,
+    "sourceWindow": "00:53:36-00:54:35",
+    "summary": "Apostrophe-s as possession and shortened is; of with things versus possessive 's; who's versus whose; prior topics in revision areas; earlier structure preserved with fully renewed content."
+  },
+  "game": {
+    "learn": [
+      {
+        "id": "apostrophe-s",
+        "shortTitle": "'s Dedektifi",
+        "title": "Apostrophe-s: sahiplik mi, is mi?",
+        "intro": "'s iki farklı görevde karşına çıkar. Önce 's'den sonra gelen kelimeye bak; sonra cümlenin anlamını kontrol et.",
+        "cards": [
+          {
+            "title": "1. Sahiplik: birinin bir şeyi",
+            "text": "Bir kişi ya da hayvan bir şeye sahipse isimden sonra 's gelir. Türkçedeki -ın/-in anlamını verir.",
+            "examples": [
+              "Nora's phone = Nora'nın telefonu.",
+              "The cat's toy = Kedinin oyuncağı."
+            ]
+          },
+          {
+            "title": "2. Kısalmış is",
+            "text": "Bir özne ya da isimden sonra gelen 's, is kelimesinin kısa biçimi olabilir. Açıp okuyabiliyorsan anlamı is'tir.",
+            "examples": [
+              "Leo's tired. = Leo is tired.",
+              "The bag's under the chair. = The bag is under the chair."
+            ]
+          },
+          {
+            "title": "Hızlı kontrol",
+            "tone": "remember",
+            "text": "'s + isim görürsen çoğu zaman sahiplik düşün: Maya's jacket. 's + sıfat, yer veya -ing görürsen is düşün: Maya's happy / Maya's at home / Maya's reading.",
+            "examples": [
+              "Arda's bicycle → sahiplik",
+              "Arda's careful → Arda is careful"
+            ]
+          },
+          {
+            "title": "Dikkat: çoğul sahiplik",
+            "tone": "watch",
+            "text": "Düzenli çoğul zaten s ile biterse yalnız apostrof ekle. Düzensiz çoğul s ile bitmiyorsa 's ekle.",
+            "examples": [
+              "the students' lockers",
+              "the children's books"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ownership-details",
+        "shortTitle": "Sahiplik Kuralları",
+        "title": "Tek kişi, çoğul ve ortak sahiplik",
+        "intro": "Apostrofun yeri, kimin sahip olduğunu gösterir. İsimleri ve sahip oldukları şeyi birlikte oku.",
+        "cards": [
+          {
+            "title": "Tek kişi",
+            "text": "Tek bir kişi için isme 's ekle.",
+            "examples": [
+              "Deniz's notebook",
+              "Helen's house"
+            ]
+          },
+          {
+            "title": "s ile biten ad",
+            "text": "S ile biten özel adlarda James' bag ve James's bag biçimlerinin ikisi de görülebilir. Aynı metinde tutarlı ol.",
+            "examples": [
+              "James' desk",
+              "James's desk"
+            ]
+          },
+          {
+            "title": "Ortak şey",
+            "text": "İki kişi aynı şeye birlikte sahipse 's yalnız son isimden sonra gelir.",
+            "examples": [
+              "Tom and Jenny's car = ortak araba"
+            ]
+          },
+          {
+            "title": "Ayrı şeyler",
+            "text": "İki kişinin ayrı ayrı şeyleri varsa her isme 's gelir.",
+            "examples": [
+              "Tom's and Jenny's cars = ayrı arabalar"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "of-or-s",
+        "shortTitle": "of mu, 's mi?",
+        "title": "Kişilerde 's, şeylerde of",
+        "intro": "Kolay başlangıç kuralı: insanlar ve sahiplik için 's; cansız şeyin parçası ya da özelliği için the ... of the ... kullan.",
+        "cards": [
+          {
+            "title": "Kişi + 's + şey",
+            "text": "Bir kişinin sahip olduğu şeyi söylerken 's doğal ve kısadır.",
+            "examples": [
+              "Helen's house",
+              "Eren's sister",
+              "Mila's keys"
+            ]
+          },
+          {
+            "title": "Şey + of + şey",
+            "text": "Bir nesnenin parçasını, kenarını, başlangıcını ya da sonunu söylerken of yapısını kullan.",
+            "examples": [
+              "the page of the book",
+              "the floor of the house",
+              "the end of the street"
+            ]
+          },
+          {
+            "title": "Türkçeye çeviri ipucu",
+            "tone": "remember",
+            "text": "of görünce önce of'tan sonraki bölümü çevir: the key of the car → arabanın anahtarı.",
+            "examples": [
+              "the picture of the sea → denizin resmi",
+              "the secret of life → hayatın sırrı"
+            ]
+          },
+          {
+            "title": "Gerçek İngilizcede esneklik",
+            "tone": "watch",
+            "text": "Bu A2 için güvenli bir kuraldır; fakat yerler, zaman ve kuruluşlarla da 's görebilirsin. Bu derste önce kişi/şey ayrımını sağlamlaştır.",
+            "examples": [
+              "today's lesson",
+              "the school's garden"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "whos-whose",
+        "shortTitle": "who's / whose",
+        "title": "who's ile whose aynı ses, farklı görev",
+        "intro": "İkisi de /huːz/ gibi duyulur. Yazıda anlamına bak: kimdir/kim ... yapıyor mu, yoksa kimin mi?",
+        "cards": [
+          {
+            "title": "who's = who is",
+            "text": "Bir kişinin kim olduğunu, nerede olduğunu veya ne yaptığını sorar. who is diye açılabilir.",
+            "examples": [
+              "Who's at the door? = Who is at the door?",
+              "Who's that girl? = Who is that girl?"
+            ]
+          },
+          {
+            "title": "whose = kimin",
+            "text": "Bir şeyin sahibini sorar. Sonrasında bir isim gelebilir veya whose tek başına kullanılabilir.",
+            "examples": [
+              "Whose jacket is this?",
+              "Whose is this?"
+            ]
+          },
+          {
+            "title": "Soru-cevap köprüsü",
+            "tone": "remember",
+            "text": "Whose ile sorulan sahiplik sorusuna 's, possessive adjective ya da possessive pronoun ile cevap verebilirsin.",
+            "examples": [
+              "Whose picture is this? It's Alex's.",
+              "Whose gloves are these? They're hers."
+            ]
+          },
+          {
+            "title": "Mini test",
+            "tone": "watch",
+            "text": "Boşluğu who is ile doldurabiliyorsan who's; kimin diyorsan whose yaz.",
+            "examples": [
+              "Who's ready? → Who is ready?",
+              "Whose turn is it? → Kimin sırası?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "revision-station",
+        "shortTitle": "Tekrar İstasyonu",
+        "title": "Önceki konuları yeni görevde kullan",
+        "intro": "Yeni yapıları çözerken cümle haritası, soru sırası, sıklık zarfları ve zamirler sana rehber olur.",
+        "cards": [
+          {
+            "title": "S–V–O–P–T haritası",
+            "text": "Önce işi yapan özneyi, sonra fiili ve işi alan nesneyi bul.",
+            "examples": [
+              "[[S:Lina]] [[V:checks]] [[O:her brother's bag]] [[T:every morning]]."
+            ]
+          },
+          {
+            "title": "Soru kelime sırası",
+            "text": "WH + yardımcı fiil + özne + ana fiil sırasını hatırla. BE varsa do/does kullanma.",
+            "examples": [
+              "Whose bag does Leo carry?",
+              "Who's in the garden?"
+            ]
+          },
+          {
+            "title": "Sıklık zarfları",
+            "text": "always, usually, sometimes ana fiilden önce; be fiilinden sonra gelir.",
+            "examples": [
+              "Nina usually checks the labels.",
+              "The keys are always in the drawer."
+            ]
+          },
+          {
+            "title": "Subject / object pronouns",
+            "text": "İşi yapan için he/she/they; fiilden sonra işi alan için him/her/them kullan.",
+            "examples": [
+              "Mert finds the keys. He gives them to Ada."
+            ]
+          }
+        ]
+      }
+    ],
+    "read": {
+      "title": "The Label Mystery",
+      "instructions": "Metni oku ve sahiplik anlamı veren cümlelere dokun. Kısalmış is olan cümlelere dokunma.",
+      "tokens": [
+        {
+          "id": "1",
+          "text": "Nora's class has a small lost-property box. ",
+          "target": true
+        },
+        {
+          "id": "2",
+          "text": "It's beside the classroom door. ",
+          "target": false
+        },
+        {
+          "id": "3",
+          "text": "Today, Leo's scarf is inside it. ",
+          "target": true
+        },
+        {
+          "id": "4",
+          "text": "Leo's surprised because he usually checks his bag. ",
+          "target": false
+        },
+        {
+          "id": "5",
+          "text": "The teacher reads the name on the scarf's label. ",
+          "target": true
+        },
+        {
+          "id": "6",
+          "text": "Who's ready to return it? ",
+          "target": false
+        },
+        {
+          "id": "7",
+          "text": "Nora gives Leo's scarf to him. ",
+          "target": true
+        },
+        {
+          "id": "8",
+          "text": "He's very happy to see it again.",
+          "target": false
+        }
+      ],
+      "questions": [
+        {
+          "id": "r1",
+          "prompt": "Where is the lost-property box?",
+          "options": [
+            "Beside the classroom door",
+            "Under Leo's desk",
+            "At Nora's home"
+          ],
+          "answer": "Beside the classroom door",
+          "explanation": "İkinci cümledeki yer ifadesini kontrol et."
+        },
+        {
+          "id": "r2",
+          "prompt": "In “Leo's surprised”, what does 's mean?",
+          "options": [
+            "is",
+            "possession",
+            "plural"
+          ],
+          "answer": "is",
+          "explanation": "Leo is surprised diye açılır."
+        },
+        {
+          "id": "r3",
+          "prompt": "What does “him” refer to?",
+          "options": [
+            "Leo",
+            "Nora",
+            "the teacher"
+          ],
+          "answer": "Leo",
+          "explanation": "Object pronoun him, Leo'nun yerine geçer."
+        }
+      ],
+      "extra": {
+        "title": "The Open Day Map",
+        "instructions": "A2 seviyesindeki uzun metni oku. 's, of, who's, whose ve önceki konuların ipuçlarını izle.",
+        "paragraphs": [
+          "On Saturday morning, Mira and her cousin Ben help at their town's community centre. The centre's open day starts at ten, but they usually arrive at nine. Mira checks the list of activities while Ben carries a box of signs. The first sign says “Art Room”, and the second points to the end of the hall. Mira asks, “Who's in the art room now?” Ben answers that Ms Carter is there with two volunteers. She's preparing the children's paintbrushes and putting them on a long table.",
+          "Near the entrance, they find a blue backpack. There is no name on the outside of the bag, but the front pocket has a small card. Ben asks, “Whose backpack is this?” The card says “Ravi”, so Mira takes it to Ravi's mother. She is standing beside the door of the café. The backpack is Ravi's, but he is in the music room. His mother thanks Mira and puts the bag behind her chair. Mira's pleased because the owner is easy to find.",
+          "At eleven, the open day becomes busy. Ben sometimes forgets the map, so Mira gives it to him and shows him the location of each room. The library's quiz is upstairs, the children's games are outside, and the teachers' information desk is near the lift. A visitor points to two cameras and asks, “Whose are these?” One camera is Ada's and the other is Kerem's; they do not share them. Before lunch, Mira and Ben check the centre again. They're tired, but every sign is in the correct place and the visitors can find their activities."
+        ],
+        "questions": [
+          {
+            "id": "er1",
+            "prompt": "Why do Mira and Ben arrive at nine?",
+            "options": [
+              "They help before the open day starts",
+              "They have a music lesson",
+              "They want to buy a backpack"
+            ],
+            "answer": "They help before the open day starts",
+            "explanation": "İlk paragrafta başlangıç saati ile geliş saatini karşılaştır."
+          },
+          {
+            "id": "er2",
+            "prompt": "In “She's preparing”, what does 's mean?",
+            "options": [
+              "is",
+              "possession",
+              "plural"
+            ],
+            "answer": "is",
+            "explanation": "She is preparing diye açılır."
+          },
+          {
+            "id": "er3",
+            "prompt": "How do they learn whose backpack it is?",
+            "options": [
+              "They read a card in the pocket",
+              "They ask every visitor",
+              "They call the school"
+            ],
+            "answer": "They read a card in the pocket",
+            "explanation": "İkinci paragraftaki küçük kartı bul."
+          },
+          {
+            "id": "er4",
+            "prompt": "Which phrase describes a thing's part with of?",
+            "options": [
+              "the door of the café",
+              "Ravi's mother",
+              "the children's games"
+            ],
+            "answer": "the door of the café",
+            "explanation": "Cansız bir şeyin parçası için of kullanılmış."
+          },
+          {
+            "id": "er5",
+            "prompt": "What does “him” mean in “Mira gives it to him”?",
+            "options": [
+              "Ben",
+              "Ravi",
+              "Kerem"
+            ],
+            "answer": "Ben",
+            "explanation": "Önceki cümlede haritayı unutan kişiye bak."
+          },
+          {
+            "id": "er6",
+            "prompt": "Why are there two possessive forms in “One camera is Ada's and the other is Kerem's”?",
+            "options": [
+              "They own separate cameras",
+              "They share one camera",
+              "The cameras belong to the centre"
+            ],
+            "answer": "They own separate cameras",
+            "explanation": "Son paragraf onların kameraları paylaşmadığını söyler."
+          },
+          {
+            "id": "er7",
+            "prompt": "Where is the teachers' information desk?",
+            "options": [
+              "Near the lift",
+              "At the end of the hall",
+              "Inside the café"
+            ],
+            "answer": "Near the lift",
+            "explanation": "Son paragraftaki yer bilgisini tara."
+          }
+        ]
+      }
+    },
+    "listening": {
+      "level": "A2",
+      "title": "Who's Who in the Office",
+      "source": "British Council LearnEnglish",
+      "resource": "A2 Listening – Who's who in the office",
+      "instructions": "Önce konuşmanın ana fikrini dinle. İkinci turda who's (= who is) ve 's (= is) örneklerini yakala.",
+      "task": "İki kez dinle: ilkinde kişileri, ikincisinde görevlerini eşleştir.",
+      "followUp": "Dinledikten sonra iki cümleyi uzun biçimde yaz: Who's ...? → Who is ...? ve She's ... → She is ....",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a2/whos-who-office",
+      "questions": [
+        {
+          "id": "l1",
+          "prompt": "Who is new in the department?",
+          "options": [
+            "Yuki",
+            "Ian",
+            "Sebastian"
+          ],
+          "answer": "Yuki",
+          "explanation": "Karşılama cümlesindeki kişiyi dinle."
+        },
+        {
+          "id": "l2",
+          "prompt": "Who deals with the new orders?",
+          "options": [
+            "Luciana",
+            "Maria",
+            "Jani"
+          ],
+          "answer": "Luciana",
+          "explanation": "Order management bölümünü dinle."
+        },
+        {
+          "id": "l3",
+          "prompt": "What is Ian's job?",
+          "options": [
+            "Marketing director",
+            "IT assistant",
+            "Teacher"
+          ],
+          "answer": "Marketing director",
+          "explanation": "Pencerenin yanındaki telefon konuşmasını dinle."
+        },
+        {
+          "id": "l4",
+          "prompt": "Who can help with phone email access?",
+          "options": [
+            "Sebastian",
+            "Luciana",
+            "Ian"
+          ],
+          "answer": "Sebastian",
+          "explanation": "Communications bölümünde çalışan kişiyi bul."
+        },
+        {
+          "id": "l5",
+          "prompt": "In “Who's that over there?”, what does who's mean?",
+          "options": [
+            "who is",
+            "whose",
+            "who has a phone"
+          ],
+          "answer": "who is",
+          "explanation": "Who's burada who is kısaltmasıdır."
+        }
+      ]
+    },
+    "sort": [
+      {
+        "text": "Mila's keys",
+        "type": "POS",
+        "choices": [
+          "POS",
+          "IS"
+        ]
+      },
+      {
+        "text": "Mila's ready",
+        "type": "IS",
+        "choices": [
+          "POS",
+          "IS"
+        ]
+      },
+      {
+        "text": "the roof of the library",
+        "type": "OF",
+        "choices": [
+          "POS",
+          "OF"
+        ]
+      },
+      {
+        "text": "Aras's notebook",
+        "type": "POS",
+        "choices": [
+          "POS",
+          "OF"
+        ]
+      },
+      {
+        "text": "Who's at the window?",
+        "type": "WHOIS",
+        "choices": [
+          "WHOIS",
+          "WHOSE"
+        ]
+      },
+      {
+        "text": "Whose coat is this?",
+        "type": "WHOSE",
+        "choices": [
+          "WHOIS",
+          "WHOSE"
+        ]
+      },
+      {
+        "text": "the children's books",
+        "type": "POS",
+        "choices": [
+          "POS",
+          "IS"
+        ]
+      },
+      {
+        "text": "The dog's in the garden",
+        "type": "IS",
+        "choices": [
+          "POS",
+          "IS"
+        ]
+      }
+    ],
+    "order": [
+      {
+        "parts": [
+          "This",
+          "is",
+          "Nora's",
+          "phone"
+        ],
+        "answer": "This is Nora's phone",
+        "hint": "BE + sahip + nesne sırasını kur."
+      },
+      {
+        "parts": [
+          "Leo's",
+          "very",
+          "careful"
+        ],
+        "answer": "Leo's very careful",
+        "hint": "Buradaki 's = is; ardından sıfat gelir."
+      },
+      {
+        "parts": [
+          "The end",
+          "of",
+          "the street",
+          "is quiet"
+        ],
+        "answer": "The end of the street is quiet",
+        "hint": "Şeyin parçası: the ... of the ...."
+      },
+      {
+        "parts": [
+          "Whose",
+          "jacket",
+          "is",
+          "this"
+        ],
+        "answer": "Whose jacket is this",
+        "hint": "Whose + isim + BE + işaret sözcüğü."
+      },
+      {
+        "parts": [
+          "Who's",
+          "in",
+          "the music room"
+        ],
+        "answer": "Who's in the music room",
+        "hint": "Who's = who is; BE zaten içinde."
+      },
+      {
+        "parts": [
+          "Mert",
+          "usually",
+          "checks",
+          "his bag"
+        ],
+        "answer": "Mert usually checks his bag",
+        "hint": "Sıklık zarfı ana fiilden önce gelir."
+      },
+      {
+        "parts": [
+          "Where",
+          "does",
+          "Ada",
+          "keep",
+          "her keys"
+        ],
+        "answer": "Where does Ada keep her keys",
+        "hint": "WH + yardımcı fiil + özne + ana fiil + nesne."
+      },
+      {
+        "parts": [
+          "She",
+          "gives",
+          "them",
+          "to him"
+        ],
+        "answer": "She gives them to him",
+        "hint": "Subject pronoun + fiil + object pronouns."
+      }
+    ],
+    "quizzes": {
+      "'s: Sahiplik mi, is mi?": [
+        {
+          "id": "q1",
+          "prompt": "What does 's mean in “Lina's bag”?",
+          "options": [
+            "possession",
+            "is",
+            "plural"
+          ],
+          "answer": "possession",
+          "explanation": "'s + isim (bag), Lina'nın çantasını gösterir."
+        },
+        {
+          "id": "q2",
+          "prompt": "What does 's mean in “Lina's happy”?",
+          "options": [
+            "is",
+            "possession",
+            "plural"
+          ],
+          "answer": "is",
+          "explanation": "Lina is happy diye açılır."
+        },
+        {
+          "id": "q3",
+          "prompt": "Choose the correct singular possession.",
+          "options": [
+            "the girl's bicycle",
+            "the girls bicycle",
+            "the girl bicycle's"
+          ],
+          "answer": "the girl's bicycle",
+          "explanation": "Tek bir kıza ait bisiklet için girl's kullanılır."
+        },
+        {
+          "id": "q4",
+          "prompt": "Choose the correct regular plural possession.",
+          "options": [
+            "the students' lockers",
+            "the student's lockers",
+            "the students's lockers"
+          ],
+          "answer": "the students' lockers",
+          "explanation": "students zaten s ile biten çoğuldur; yalnız apostrof eklenir."
+        },
+        {
+          "id": "q5",
+          "prompt": "Choose the correct irregular plural possession.",
+          "options": [
+            "the children's games",
+            "the childrens' games",
+            "the childrens games"
+          ],
+          "answer": "the children's games",
+          "explanation": "children s ile bitmez; 's eklenir."
+        },
+        {
+          "id": "q6",
+          "prompt": "Which sentence means Tom and Jenny share one car?",
+          "options": [
+            "Tom and Jenny's car is red.",
+            "Tom's and Jenny's cars are red.",
+            "Tom and Jennys car is red."
+          ],
+          "answer": "Tom and Jenny's car is red.",
+          "explanation": "Ortak sahiplikte 's yalnız son isimden sonra gelir."
+        }
+      ],
+      "of mu, 's mi?": [
+        {
+          "id": "q7",
+          "prompt": "Choose the natural A2 phrase for a person and their house.",
+          "options": [
+            "Helen's house",
+            "the house of Helen",
+            "Helen house"
+          ],
+          "answer": "Helen's house",
+          "explanation": "Kişinin sahip olduğu şey için 's kullan."
+        },
+        {
+          "id": "q8",
+          "prompt": "Choose the natural phrase for a thing's part.",
+          "options": [
+            "the page of the book",
+            "the book's of page",
+            "the page's book"
+          ],
+          "answer": "the page of the book",
+          "explanation": "Bir nesnenin parçası için of yapısı güvenlidir."
+        },
+        {
+          "id": "q9",
+          "prompt": "How do you translate “the picture of the sea”?",
+          "options": [
+            "denizin resmi",
+            "resmin denizi",
+            "deniz bir resimdir"
+          ],
+          "answer": "denizin resmi",
+          "explanation": "Önce of'tan sonraki the sea bölümünü düşün."
+        },
+        {
+          "id": "q10",
+          "prompt": "Complete: the floor ___ the house",
+          "options": [
+            "of",
+            "'s",
+            "whose"
+          ],
+          "answer": "of",
+          "explanation": "Evin bir parçasını anlatıyoruz."
+        },
+        {
+          "id": "q11",
+          "prompt": "Complete: Ravi___ mother",
+          "options": [
+            "'s",
+            "of",
+            "s'"
+          ],
+          "answer": "'s",
+          "explanation": "Bir kişiyle aile ilişkisini 's ile göster."
+        }
+      ],
+      "who's / whose": [
+        {
+          "id": "q12",
+          "prompt": "___ at the door?",
+          "options": [
+            "Who's",
+            "Whose",
+            "Who"
+          ],
+          "answer": "Who's",
+          "explanation": "Who is at the door? diye açılır."
+        },
+        {
+          "id": "q13",
+          "prompt": "___ umbrella is this?",
+          "options": [
+            "Whose",
+            "Who's",
+            "Who is"
+          ],
+          "answer": "Whose",
+          "explanation": "Şemsiyenin sahibini soruyoruz."
+        },
+        {
+          "id": "q14",
+          "prompt": "Choose the correct expansion of “Who's ready?”",
+          "options": [
+            "Who is ready?",
+            "Whose ready?",
+            "Who has ready?"
+          ],
+          "answer": "Who is ready?",
+          "explanation": "who's burada who is kısaltmasıdır."
+        },
+        {
+          "id": "q15",
+          "prompt": "Choose the correct ownership question.",
+          "options": [
+            "Whose keys are these?",
+            "Who's keys are these?",
+            "Who keys are these?"
+          ],
+          "answer": "Whose keys are these?",
+          "explanation": "Kimin anahtarları? = Whose keys?"
+        },
+        {
+          "id": "q16",
+          "prompt": "Whose notebook is this?",
+          "options": [
+            "It's Derya's.",
+            "Derya's ready.",
+            "Who's Derya?"
+          ],
+          "answer": "It's Derya's.",
+          "explanation": "Sahiplik sorusuna 's ile cevap verilebilir."
+        }
+      ],
+      "Tekrar İstasyonu": [
+        {
+          "id": "q17",
+          "prompt": "Choose the correct frequency-adverb order.",
+          "options": [
+            "Mira usually checks the map.",
+            "Mira checks usually the map.",
+            "Usually Mira the map checks."
+          ],
+          "answer": "Mira usually checks the map.",
+          "explanation": "usually ana fiilden önce gelir."
+        },
+        {
+          "id": "q18",
+          "prompt": "The keys are on the table. I can see ___.",
+          "options": [
+            "them",
+            "they",
+            "it"
+          ],
+          "answer": "them",
+          "explanation": "keys çoğul nesnedir; object pronoun them."
+        },
+        {
+          "id": "q19",
+          "prompt": "Choose the correct WH-question order.",
+          "options": [
+            "Where does Ben keep his bag?",
+            "Where Ben does keep his bag?",
+            "Where does Ben keeps his bag?"
+          ],
+          "answer": "Where does Ben keep his bag?",
+          "explanation": "WH + does + özne + fiilin yalın hâli."
+        },
+        {
+          "id": "q20",
+          "prompt": "Nora helps Leo. ___ helps ___.",
+          "options": [
+            "She / him",
+            "Her / he",
+            "She / he"
+          ],
+          "answer": "She / him",
+          "explanation": "İşi yapan She, işi alan him."
+        },
+        {
+          "id": "q21",
+          "prompt": "Which question uses BE without do/does?",
+          "options": [
+            "Who's in the library?",
+            "Who does be in the library?",
+            "Who do is in the library?"
+          ],
+          "answer": "Who's in the library?",
+          "explanation": "Who's zaten Who is içerir; do/does gerekmez."
+        }
+      ],
+      "Final Görev": [
+        {
+          "id": "q22",
+          "prompt": "What does 's mean in “The dog's hungry”?",
+          "options": [
+            "is",
+            "possession",
+            "plural"
+          ],
+          "answer": "is",
+          "explanation": "The dog is hungry diye açılır."
+        },
+        {
+          "id": "q23",
+          "prompt": "What does 's mean in “The dog's bowl”?",
+          "options": [
+            "possession",
+            "is",
+            "plural"
+          ],
+          "answer": "possession",
+          "explanation": "Köpeğe ait mama kabını gösterir."
+        },
+        {
+          "id": "q24",
+          "prompt": "Choose the correct phrase: sokağın sonu.",
+          "options": [
+            "the end of the street",
+            "the street's of end",
+            "the end's street"
+          ],
+          "answer": "the end of the street",
+          "explanation": "Cansız bir şeyin bölümü için of yapısını kullan."
+        },
+        {
+          "id": "q25",
+          "prompt": "___ the new art teacher?",
+          "options": [
+            "Who's",
+            "Whose",
+            "Who"
+          ],
+          "answer": "Who's",
+          "explanation": "Who is the new art teacher?"
+        },
+        {
+          "id": "q26",
+          "prompt": "___ pencils are on the floor?",
+          "options": [
+            "Whose",
+            "Who's",
+            "Who is"
+          ],
+          "answer": "Whose",
+          "explanation": "Kalemlerin sahibini soruyoruz."
+        },
+        {
+          "id": "q27",
+          "prompt": "Choose the correct shared possession.",
+          "options": [
+            "Ada and Efe's project",
+            "Ada's and Efe's project",
+            "Ada and Efe project"
+          ],
+          "answer": "Ada and Efe's project",
+          "explanation": "Birlikte yaptıkları tek projede 's son isimdedir."
+        },
+        {
+          "id": "q28",
+          "prompt": "Choose the correct sentence.",
+          "options": [
+            "The teachers' room is upstairs.",
+            "The teacher's' room is upstairs.",
+            "The teachers room's is upstairs."
+          ],
+          "answer": "The teachers' room is upstairs.",
+          "explanation": "Birden fazla öğretmene ait odada teachers' kullanılır."
+        },
+        {
+          "id": "q29",
+          "prompt": "Complete: Eren gives the notebooks to Mina and Bora. He gives ___ to ___.",
+          "options": [
+            "them / them",
+            "they / them",
+            "them / they"
+          ],
+          "answer": "them / them",
+          "explanation": "İki isim grubu da fiilden sonra nesne görevindedir."
+        }
+      ]
+    }
+  }
+}
