@@ -1,0 +1,61 @@
+{
+  "id": "2026-09-05-E0B1C624-640D-45AC-BFE9-C58EA0A19843",
+  "date": "2026-09-05",
+  "dateLabel": "5 Eylül 2026",
+  "student": "Sümeyye",
+  "meetingUuid": "E0B1C624-640D-45AC-BFE9-C58EA0A19843",
+  "title": "Yer ve Zaman Edatları: in, on, at",
+  "subtitle": "Dersteki açıklamalarla zamanı, yeri ve yüzeyleri ayırarak pratik yap.",
+  "sections": ["learn", "read", "listen", "sort", "order", "quiz"],
+  "teacherNote": {"detected": true, "applied": true, "sourceWindow": "full lesson; closing note after goodbye", "summary": "Teacher requested time and place prepositions with the lesson explanations."},
+  "game": {
+    "learn": [
+      {"id":"time", "shortTitle":"Zaman", "title":"Zamanda in, on, at", "intro":"Önce zamanın ne kadar geniş ya da ne kadar kesin olduğuna bak.", "cards":[
+        {"title":"in: geniş zaman", "text":"Aylar, yıllar, mevsimler ve günün bölümleri için in kullan.", "examples":["in September", "in 2026", "in the morning"]},
+        {"title":"on: günler ve tarihler", "text":"Günler ile belirli tarihler için on kullan.", "examples":["on Friday", "on 5 September", "on my birthday"]},
+        {"title":"at: saat ve kesin an", "text":"Saatler ve kısa, kesin zaman noktaları için at kullan.", "examples":["at 7 o'clock", "at noon", "at night"]}
+      ]},
+      {"id":"place", "shortTitle":"Yer", "title":"Yerde in, on, at", "intro":"Bir yerin içinde mi, yüzeyinde mi, yoksa bir noktada mı olduğuna bak.", "cards":[
+        {"title":"in: içinde / şehirde", "text":"Bir oda, bina, şehir veya ülkenin içinde olmak için in kullan.", "examples":["in the kitchen", "in Istanbul", "in a cinema"]},
+        {"title":"on: yüzeyde", "text":"Bir şey bir yüzeye temas ediyorsa on kullan.", "examples":["on the table", "on the wall", "on the shelf"]},
+        {"title":"at: nokta veya kurum", "text":"Bir etkinlik noktası, iş, okul veya belirli adres için at kullan.", "examples":["at school", "at work", "at the door"]}
+      ]},
+      {"id":"memory", "shortTitle":"Hatırla", "title":"Hızlı karar", "intro":"Cümledeki isimden önce soruyu sor: zaman mı, yer mi?", "cards":[
+        {"title":"Genişten dara", "text":"in → geniş alan/zaman; on → gün/yüzey; at → kesin nokta/saat.", "examples":["in the park", "on Monday", "at 3 pm"]},
+        {"title":"Dikkat", "tone":"watch", "text":"at the university kurum/genel etkinlik; in the university binanın içi anlamında kullanılabilir.", "examples":["She studies at university.", "She is in the university library."]}
+      ]}
+    ],
+    "read": {"title":"A Saturday Plan", "instructions":"Metni oku; doğru edatı seç ve yer/zaman ipuçlarını bul.", "tokens":[
+      {"id":"1","text":"On Saturday, Elif meets her cousin at the library. ","target":true},
+      {"id":"2","text":"They arrive at ten o'clock and sit at a table. ","target":true},
+      {"id":"3","text":"Elif's bag is on the chair, but her notebook is in the bag. ","target":true},
+      {"id":"4","text":"In the afternoon, they study in a quiet room at the library.","target":true}
+    ],"questions":[
+      {"id":"r1","prompt":"When do Elif and her cousin meet?","options":["On Saturday","In ten o'clock","At the afternoon"],"answer":"On Saturday","explanation":"Günler için on kullanılır."},
+      {"id":"r2","prompt":"Where is Elif's notebook?","options":["In the bag","On Saturday","At ten"],"answer":"In the bag","explanation":"Bir nesnenin içinde olduğu için in."},
+      {"id":"r3","prompt":"Why is “at ten o'clock” correct?","options":["It is a precise time","It is a month","It is a surface"],"answer":"It is a precise time","explanation":"Saatler için at kullanılır."}
+    ],"extra":{"title":"A Useful Study Day","instructions":"Uzun metindeki edatları oku ve anlamlarını karşılaştır.","paragraphs":["Mina has an English class on Tuesday. She is at school at nine, but her friends are in the classroom before her. Their books are on the desks.","In the afternoon, Mina studies at home. She writes new examples in her notebook and puts the notebook on a shelf. At night, she reads the examples again."],"questions":[
+      {"id":"er1","prompt":"Where are the books?","options":["On the desks","In Tuesday","At night"],"answer":"On the desks","explanation":"Yüzey için on."},
+      {"id":"er2","prompt":"When is Mina at school?","options":["At nine","On home","In the shelf"],"answer":"At nine","explanation":"Kesin saat için at."},
+      {"id":"er3","prompt":"Where does Mina study in the afternoon?","options":["At home","On Tuesday","In night"],"answer":"At home","explanation":"Ev genel yer olarak at home."}
+    ]}},
+    "listening": {"level":"A2","title":"A Day at School","source":"British Council LearnEnglish","resource":"A2 Listening","instructions":"Önce genel fikri, sonra in/on/at örneklerini dinle.","task":"İki kez dinle ve her doğru cevabın nedenini söyle.","followUp":"Üç kısa cümle yaz: biri in, biri on, biri at ile.","url":"https://learnenglish.britishcouncil.org/free-resources/listening/a2","questions":[
+      {"id":"l1","prompt":"Which preposition is used with a specific time?","options":["at","in","on"],"answer":"at","explanation":"at 8 o'clock gibi."},
+      {"id":"l2","prompt":"Which preposition is used with a day?","options":["on","at","in"],"answer":"on","explanation":"on Monday gibi."},
+      {"id":"l3","prompt":"Which preposition is used with a room?","options":["in","on","at"],"answer":"in","explanation":"in the room."}
+    ]},
+    "sort": [
+      {"text":"in the morning","type":"IN","choices":["IN","ON","AT"]},{"text":"on Friday","type":"ON","choices":["IN","ON","AT"]},{"text":"at 6 pm","type":"AT","choices":["IN","ON","AT"]},{"text":"in a cinema","type":"IN","choices":["IN","ON","AT"]},{"text":"on the shelf","type":"ON","choices":["IN","ON","AT"]},{"text":"at work","type":"AT","choices":["IN","ON","AT"]}
+    ],
+    "order": [
+      {"parts":["We","meet","at","seven"],"answer":"We meet at seven","hint":"Kesin saat: at."},{"parts":["The","keys","are","on","the table"],"answer":"The keys are on the table","hint":"Yüzey: on."},{"parts":["She","studies","in","the library"],"answer":"She studies in the library","hint":"Binanın içinde: in."},{"parts":["I","have","class","on","Monday"],"answer":"I have class on Monday","hint":"Gün: on."},{"parts":["They","are","at","school"],"answer":"They are at school","hint":"Kurum/genel yer: at."}
+    ],
+    "quizzes": {"Zaman": [
+      {"id":"q1","prompt":"___ September","options":["in","on","at"],"answer":"in","explanation":"Aylar için in."},{"id":"q2","prompt":"___ Saturday morning","options":["on","in","at"],"answer":"on","explanation":"Günle başlayan ifade için on."},{"id":"q3","prompt":"___ midnight","options":["at","in","on"],"answer":"at","explanation":"Kesin zaman noktası."}
+    ],"Yer": [
+      {"id":"q4","prompt":"The picture is ___ the wall.","options":["on","in","at"],"answer":"on","explanation":"Duvar yüzeydir."},{"id":"q5","prompt":"We are ___ the park.","options":["in","on","at"],"answer":"in","explanation":"Alan/yerin içinde."},{"id":"q6","prompt":"My sister is ___ work.","options":["at","on","in"],"answer":"at","explanation":"İş için at work."}
+    ],"Final Görev": [
+      {"id":"q7","prompt":"Choose the correct sentence.","options":["I study in the evening.","I study on the evening.","I study at the evening."],"answer":"I study in the evening.","explanation":"Günün bölümü için in."},{"id":"q8","prompt":"Choose the correct sentence.","options":["The cup is on the table.","The cup is at the table.","The cup is in the table."],"answer":"The cup is on the table.","explanation":"Yüzey için on."},{"id":"q9","prompt":"Choose the correct sentence.","options":["We meet at 4 pm.","We meet on 4 pm.","We meet in 4 pm."],"answer":"We meet at 4 pm.","explanation":"Saat için at."}
+    ]}
+  }
+}
