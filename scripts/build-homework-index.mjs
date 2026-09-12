@@ -9,7 +9,7 @@ for (const entry of entries) {
   if (!entry.isDirectory()) continue;
   const file = path.join(root, entry.name, 'homework.json');
   const homework = JSON.parse(await readFile(file, 'utf8'));
-  for (const key of ['id', 'date', 'student', 'meetingUuid', 'title', 'sections']) {
+  for (const key of ['id', 'date', 'student', 'title', 'sections']) {
     if (!homework[key]) throw new Error(`${file}: missing ${key}`);
   }
   if (!Array.isArray(homework.sections) || homework.sections.length === 0) {
@@ -20,7 +20,6 @@ for (const entry of entries) {
     date: homework.date,
     title: homework.title,
     path: `${entry.name}/homework.json`,
-    meetingUuid: homework.meetingUuid,
   });
 }
 

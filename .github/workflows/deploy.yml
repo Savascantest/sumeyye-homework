@@ -22,6 +22,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -30,6 +32,7 @@ jobs:
       - run: npm run build
         env:
           VITE_BASE: /${{ github.event.repository.name }}/
+          PUBLIC_PACKAGE_PRIVACY_BASE: ${{ github.event.before || 'HEAD^' }}
       - uses: actions/configure-pages@v5
         with:
           enablement: true
