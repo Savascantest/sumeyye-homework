@@ -9,7 +9,7 @@
     "validate:content": "node scripts/validate-homeworks.mjs",
     "validate": "npm run validate:privacy && npm run validate:content",
     "test:privacy": "node --test tests/public-package-privacy.test.mjs",
-    "test": "npm run test:privacy",
+    "test": "node --test tests/*.test.mjs",
     "dev": "npm run homeworks:index && vite",
     "build": "npm run homeworks:index && npm run validate && vite build",
     "preview": "vite preview"

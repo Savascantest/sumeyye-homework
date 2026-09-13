@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { collectArchitectureV1PackageErrors } from './lib/architecture-v1-package.mjs';
 
 const root = path.resolve('public/homeworks');
 const index = JSON.parse(fs.readFileSync(path.join(root, 'index.json'), 'utf8'));
@@ -17,6 +18,7 @@ for (const lesson of index.lessons || []) {
     continue;
   }
   const homework = JSON.parse(fs.readFileSync(file, 'utf8'));
+  errors.push(...collectArchitectureV1PackageErrors(homework).map((error) => `${lesson.id}: ${error}`));
   const sections = (homework.sections || []).map((section) => typeof section === 'string' ? section : section.id);
   requireValue(homework.id, `${lesson.id}: id is missing`);
   requireValue(homework.game, `${lesson.id}: game data is missing`);
