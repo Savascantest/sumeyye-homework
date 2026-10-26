@@ -1,0 +1,496 @@
+{
+  "id": "homework-2026-10-26-context-used-to",
+  "date": "2026-10-26",
+  "dateLabel": "26 Ekim 2026",
+  "student": "Sümeyye",
+  "title": "Context Vocabulary, Used to ve Get Used to",
+  "subtitle": "Kelimeyi bağlama göre seç; eski alışkanlıkla alışma sürecini karıştırma.",
+  "policyVersion": "sumeyye-weekend-monday@1",
+  "templateContractVersion": "sumeyye-six-tab-interactive@1",
+  "assessmentPolicyVersion": "sumeyye-section-and-final-checks@1",
+  "sections": [
+    "learn",
+    "read",
+    "listen",
+    "sort",
+    "order",
+    "quiz"
+  ],
+  "game": {
+    "learn": [
+      {
+        "id": "rules",
+        "shortTitle": "Konu kartları",
+        "title": "Bağlam ve alışkanlıklar",
+        "intro": "Tek kelimelik çeviri her bağlamda çalışmaz. Cümlenin tamamına bak. Used to geçmişte olup şimdi olmayan alışkanlık; get used to ise alışma sürecidir.",
+        "cards": [
+          {
+            "title": "Bağlamı genişlet",
+            "text": "Kelimeyi yalnız değil, kısa bir cümle içinde ara. Türünü ve örneklerini kontrol et.",
+            "examples": [
+              "The bus leaves at 3.",
+              "We are leaving Cappadocia.",
+              "the return journey"
+            ]
+          },
+          {
+            "title": "Travel words",
+            "text": "leave bir yerden ayrılmak, departure kalkış, journey yolculuk, return geri dönüş.",
+            "examples": [
+              "bus departure time",
+              "leave the hotel",
+              "return journey"
+            ]
+          },
+          {
+            "title": "used to + V1",
+            "text": "Geçmişte düzenliydi; şimdi artık doğru değil.",
+            "examples": [
+              "I used to ride a bike.",
+              "Maya used to live here."
+            ]
+          },
+          {
+            "title": "get used to + isim / -ing",
+            "text": "Yeni bir duruma alışma süreci.",
+            "examples": [
+              "I am getting used to the noise.",
+              "Leo got used to waking up early."
+            ]
+          },
+          {
+            "title": "Vocabulary loop",
+            "text": "Gör → söyle → örnekte bul → kendi cümlende kullan → ertesi gün tekrar et.",
+            "examples": [
+              "departure",
+              "journey",
+              "historic site",
+              "workshop",
+              "hike"
+            ]
+          }
+        ]
+      }
+    ],
+    "read": {
+      "title": "A Clear Travel Plan",
+      "instructions": "Metni iki kez oku. İlkinde ana fikri, ikincide dil ipuçlarını bul.",
+      "tokens": [
+        {
+          "id": "1",
+          "text": "Maya is writing a travel plan for a school project. ",
+          "target": true
+        },
+        {
+          "id": "2",
+          "text": "At first, she writes “start of bus” for the time when the bus goes. ",
+          "target": true
+        },
+        {
+          "id": "3",
+          "text": "Then she checks a dictionary example and changes it to “bus departure time.” ",
+          "target": true
+        },
+        {
+          "id": "4",
+          "text": "She writes “leaving the town” for the final morning and “return journey” for the trip home. ",
+          "target": true
+        },
+        {
+          "id": "5",
+          "text": "Her plan includes watching hot-air balloons, hiking in a valley and visiting historic sites. ",
+          "target": true
+        },
+        {
+          "id": "6",
+          "text": "Maya reads every sentence aloud. ",
+          "target": true
+        },
+        {
+          "id": "7",
+          "text": "She checks whether each word is a noun or a verb. ",
+          "target": true
+        },
+        {
+          "id": "8",
+          "text": "Her final plan is short, clear and natural.",
+          "target": true
+        }
+      ],
+      "questions": [
+        {
+          "id": "r1",
+          "prompt": "What phrase does Maya use for the bus time?",
+          "options": [
+            "bus departure time",
+            "start of bus",
+            "bus getting up"
+          ],
+          "answer": "bus departure time",
+          "explanation": "Bağlama uygun isim."
+        },
+        {
+          "id": "r2",
+          "prompt": "What does she check about each word?",
+          "options": [
+            "Its word type",
+            "Its colour",
+            "Its price"
+          ],
+          "answer": "Its word type",
+          "explanation": "İsim mi fiil mi diye bakıyor."
+        }
+      ],
+      "extra": {
+        "title": "A New Morning Routine",
+        "instructions": "Uzun metni oku ve ayrıntıları seç.",
+        "paragraphs": [
+          "Leo moved to a new town in September. He used to walk to school because his old school was close to his home. Now he takes an early bus. During the first week, the departure time felt very early. He was tired every morning, and he sometimes forgot his travel card. He also used to eat breakfast slowly, but the new timetable changed his routine.",
+          "After a month, Leo is getting used to waking up at six. He prepares his bag the night before and checks the bus timetable in context: the bus leaves at 6:45, and the journey takes twenty minutes. He is also getting used to reading on the bus. At first, the movement made reading difficult, but now it feels normal. Leo still misses his old walk, but he likes arriving early and talking to friends before class."
+        ],
+        "questions": [
+          {
+            "id": "er1",
+            "prompt": "How did Leo travel before?",
+            "options": [
+              "He used to walk.",
+              "He used to fly.",
+              "He got used to driving."
+            ],
+            "answer": "He used to walk.",
+            "explanation": "Eski alışkanlık."
+          },
+          {
+            "id": "er2",
+            "prompt": "What is he getting used to?",
+            "options": [
+              "Waking up at six",
+              "Living in his old town",
+              "Missing the bus"
+            ],
+            "answer": "Waking up at six",
+            "explanation": "Alışma süreci."
+          },
+          {
+            "id": "er3",
+            "prompt": "What does “the bus leaves at 6:45” mean?",
+            "options": [
+              "The bus departs at 6:45.",
+              "A passenger leaves the bus at 6:45.",
+              "The bus sleeps at 6:45."
+            ],
+            "answer": "The bus departs at 6:45.",
+            "explanation": "Leave bağlama göre hareket aracının kalkması."
+          }
+        ]
+      }
+    },
+    "listening": {
+      "level": "A2",
+      "title": "A2 Listening Lab",
+      "source": "British Council LearnEnglish",
+      "resource": "Transport announcements",
+      "instructions": "Bağlantıdan bir A2 kaydı seç. Önce altyazısız, sonra metinle dinle.",
+      "task": "Beş yeni kelime seç. Her biri için kelime türünü, kısa anlamı ve kayıttan bir cümleyi yaz.",
+      "followUp": "Bir used to ve bir am/is/are getting used to cümlesi yaz.",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a2/transport-announcements",
+      "questions": [
+        {
+          "id": "l1",
+          "prompt": "Choose the past habit.",
+          "options": [
+            "I used to ride a bike.",
+            "I am used ride a bike.",
+            "I get used to rode a bike."
+          ],
+          "answer": "I used to ride a bike.",
+          "explanation": "used to + V1."
+        },
+        {
+          "id": "l2",
+          "prompt": "Choose the adaptation process.",
+          "options": [
+            "I am getting used to the noise.",
+            "I used to the noise now.",
+            "I get use the noise yesterday."
+          ],
+          "answer": "I am getting used to the noise.",
+          "explanation": "get used to + isim."
+        }
+      ]
+    },
+    "sort": [
+      {
+        "text": "bus departure time",
+        "type": "WORD",
+        "choices": [
+          "WORD",
+          "USED",
+          "GETUSED"
+        ]
+      },
+      {
+        "text": "return journey",
+        "type": "WORD",
+        "choices": [
+          "WORD",
+          "USED",
+          "GETUSED"
+        ]
+      },
+      {
+        "text": "I used to live here.",
+        "type": "USED",
+        "choices": [
+          "WORD",
+          "USED",
+          "GETUSED"
+        ]
+      },
+      {
+        "text": "She is getting used to the weather.",
+        "type": "GETUSED",
+        "choices": [
+          "WORD",
+          "USED",
+          "GETUSED"
+        ]
+      },
+      {
+        "text": "historic site",
+        "type": "WORD",
+        "choices": [
+          "WORD",
+          "USED",
+          "GETUSED"
+        ]
+      },
+      {
+        "text": "We used to play outside.",
+        "type": "USED",
+        "choices": [
+          "WORD",
+          "USED",
+          "GETUSED"
+        ]
+      },
+      {
+        "text": "He got used to waking up early.",
+        "type": "GETUSED",
+        "choices": [
+          "WORD",
+          "USED",
+          "GETUSED"
+        ]
+      },
+      {
+        "text": "leave the hotel",
+        "type": "WORD",
+        "choices": [
+          "WORD",
+          "USED",
+          "GETUSED"
+        ]
+      },
+      {
+        "text": "Maya used to have long hair.",
+        "type": "USED",
+        "choices": [
+          "WORD",
+          "USED",
+          "GETUSED"
+        ]
+      },
+      {
+        "text": "I am getting used to my new class.",
+        "type": "GETUSED",
+        "choices": [
+          "WORD",
+          "USED",
+          "GETUSED"
+        ]
+      }
+    ],
+    "order": [
+      {
+        "parts": [
+          "The bus",
+          "leaves",
+          "at",
+          "three o’clock"
+        ],
+        "answer": "The bus leaves at three o’clock",
+        "hint": "Leave = kalkmak."
+      },
+      {
+        "parts": [
+          "We",
+          "are leaving",
+          "the hotel",
+          "tomorrow"
+        ],
+        "answer": "We are leaving the hotel tomorrow",
+        "hint": "Yer + ayrılmak."
+      },
+      {
+        "parts": [
+          "I",
+          "used to",
+          "ride",
+          "a bike"
+        ],
+        "answer": "I used to ride a bike",
+        "hint": "used to + V1."
+      },
+      {
+        "parts": [
+          "Leo",
+          "is getting used to",
+          "waking up",
+          "early"
+        ],
+        "answer": "Leo is getting used to waking up early",
+        "hint": "get used to + -ing."
+      },
+      {
+        "parts": [
+          "This",
+          "is",
+          "our",
+          "return journey"
+        ],
+        "answer": "This is our return journey",
+        "hint": "Bağlama uygun isim grubu."
+      }
+    ],
+    "quizzes": {
+      "Context vocabulary": [
+        {
+          "id": "q1",
+          "prompt": "Choose the natural phrase.",
+          "options": [
+            "bus departure time",
+            "bus waking time",
+            "start of the bus person"
+          ],
+          "answer": "bus departure time",
+          "explanation": "Departure ulaşım bağlamında kalkış."
+        },
+        {
+          "id": "q2",
+          "prompt": "Complete: We will ___ the hotel at nine.",
+          "options": [
+            "leave",
+            "departure",
+            "journey"
+          ],
+          "answer": "leave",
+          "explanation": "Boşluk fiil istiyor."
+        },
+        {
+          "id": "q3",
+          "prompt": "Choose the trip back.",
+          "options": [
+            "return journey",
+            "leaving start",
+            "historic balloon"
+          ],
+          "answer": "return journey",
+          "explanation": "Geri dönüş yolculuğu."
+        },
+        {
+          "id": "q4",
+          "prompt": "What should you check after finding a word?",
+          "options": [
+            "Example sentences and word type",
+            "Only the first translation",
+            "Only the word length"
+          ],
+          "answer": "Example sentences and word type",
+          "explanation": "Bağlam ve tür kontrolü."
+        }
+      ],
+      "Used to / get used to": [
+        {
+          "id": "q5",
+          "prompt": "Complete: I ___ play here as a child.",
+          "options": [
+            "used to",
+            "am getting used to",
+            "use to now"
+          ],
+          "answer": "used to",
+          "explanation": "Eski alışkanlık."
+        },
+        {
+          "id": "q6",
+          "prompt": "Complete: She is ___ the cold weather.",
+          "options": [
+            "getting used to",
+            "used to wear",
+            "get use"
+          ],
+          "answer": "getting used to",
+          "explanation": "Şu anki alışma süreci."
+        },
+        {
+          "id": "q7",
+          "prompt": "After “used to”, use…",
+          "options": [
+            "the base verb",
+            "verb-ing only",
+            "the past verb"
+          ],
+          "answer": "the base verb",
+          "explanation": "used to + V1."
+        },
+        {
+          "id": "q8",
+          "prompt": "After “get used to”, use…",
+          "options": [
+            "a noun or verb-ing",
+            "a base verb only",
+            "did + verb"
+          ],
+          "answer": "a noun or verb-ing",
+          "explanation": "Buradaki to edattır."
+        }
+      ],
+      "Final Görev": [
+        {
+          "id": "q9",
+          "prompt": "Choose the correct pair.",
+          "options": [
+            "I used to wake up late; now I am getting used to waking up early.",
+            "I got used to wake late; now used to waking early.",
+            "I used waking late; now get used wake early."
+          ],
+          "answer": "I used to wake up late; now I am getting used to waking up early.",
+          "explanation": "Eski alışkanlık + yeni sürece alışma."
+        },
+        {
+          "id": "q10",
+          "prompt": "Choose the natural travel sentence.",
+          "options": [
+            "The bus leaves at 7, and our return journey starts at 5 tomorrow.",
+            "The bus departures at 7, and return we journey.",
+            "The bus leaves from sleeping at 7."
+          ],
+          "answer": "The bus leaves at 7, and our return journey starts at 5 tomorrow.",
+          "explanation": "Fiil ve isim doğru bağlamda."
+        },
+        {
+          "id": "q11",
+          "prompt": "Best dictionary strategy:",
+          "options": [
+            "Search a short phrase and check examples.",
+            "Copy the first meaning only.",
+            "Ignore whether the word is a noun or verb."
+          ],
+          "answer": "Search a short phrase and check examples.",
+          "explanation": "Bağlamı genişletir."
+        }
+      ]
+    }
+  }
+}

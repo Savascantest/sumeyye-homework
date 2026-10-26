@@ -1,6 +1,42 @@
 {
   "lessons": [
     {
+      "id": "homework-2026-10-26-context-used-to",
+      "date": "2026-10-26",
+      "title": "Context Vocabulary, Used to ve Get Used to",
+      "path": "homework-2026-10-26-context-used-to/homework.json"
+    },
+    {
+      "id": "homework-2026-10-19-past-it-gap-strategies",
+      "date": "2026-10-19",
+      "title": "Past Simple, Past Continuous ve Boşluk İpuçları",
+      "path": "homework-2026-10-19-past-it-gap-strategies/homework.json"
+    },
+    {
+      "id": "homework-2026-10-12-connectors-svopt",
+      "date": "2026-10-12",
+      "title": "Because, So, But ve S–V–O–P–T",
+      "path": "homework-2026-10-12-connectors-svopt/homework.json"
+    },
+    {
+      "id": "homework-2026-09-28-comparison-future-adverbs",
+      "date": "2026-09-28",
+      "title": "Quantifiers, Comparisons, Future ve Adverbs",
+      "path": "homework-2026-09-28-comparison-future-adverbs/homework.json"
+    },
+    {
+      "id": "homework-2026-09-21-place-there-be",
+      "date": "2026-09-21",
+      "title": "Yer İlişkileri ve There is / are",
+      "path": "homework-2026-09-21-place-there-be/homework.json"
+    },
+    {
+      "id": "homework-2026-09-14-countable-quantifiers",
+      "date": "2026-09-14",
+      "title": "Countable / Uncountable ve Some / Any",
+      "path": "homework-2026-09-14-countable-quantifiers/homework.json"
+    },
+    {
       "id": "homework-2026-09-12-like-would-like",
       "date": "2026-09-12",
       "title": "Like ve Would Like",

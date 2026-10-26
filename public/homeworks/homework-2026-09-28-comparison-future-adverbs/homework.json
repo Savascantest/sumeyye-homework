@@ -1,0 +1,540 @@
+{
+  "id": "homework-2026-09-28-comparison-future-adverbs",
+  "date": "2026-09-28",
+  "dateLabel": "28 Eylül 2026",
+  "student": "Sümeyye",
+  "title": "Quantifiers, Comparisons, Future ve Adverbs",
+  "subtitle": "Miktarı, karşılaştırmayı, planı ve hareket biçimini birlikte yönet.",
+  "policyVersion": "sumeyye-weekend-monday@1",
+  "templateContractVersion": "sumeyye-six-tab-interactive@1",
+  "assessmentPolicyVersion": "sumeyye-section-and-final-checks@1",
+  "sections": [
+    "learn",
+    "read",
+    "listen",
+    "sort",
+    "order",
+    "quiz"
+  ],
+  "game": {
+    "learn": [
+      {
+        "id": "rules",
+        "shortTitle": "Konu kartları",
+        "title": "Dört konulu güç turu",
+        "intro": "Bu hafta benzer görünen yapıların görevlerini ayır: miktar, karşılaştırma, gelecek kararı ve hareketin nasıl yapıldığı.",
+        "cards": [
+          {
+            "title": "much / many / a lot of",
+            "text": "Many sayılabilen, much sayılamayan; a lot of ikisiyle de kullanılabilir.",
+            "examples": [
+              "many books",
+              "much time",
+              "a lot of water"
+            ]
+          },
+          {
+            "title": "Comparative / superlative",
+            "text": "İki şeyi -er/more ile; grubun enini the -est/most ile anlat.",
+            "examples": [
+              "taller than",
+              "more comfortable than",
+              "the oldest"
+            ]
+          },
+          {
+            "title": "will / be going to",
+            "text": "Will anlık karar/tahmin; going to önceden plan veya güçlü kanıt.",
+            "examples": [
+              "I'll answer the door.",
+              "We are going to visit the museum."
+            ]
+          },
+          {
+            "title": "Adjective / adverb",
+            "text": "Sıfat ismi, zarf fiili anlatır. Birçok zarf -ly alır.",
+            "examples": [
+              "a careful driver",
+              "She drives carefully.",
+              "He runs fast."
+            ]
+          }
+        ]
+      }
+    ],
+    "read": {
+      "title": "The Hill Challenge",
+      "instructions": "Metni iki kez oku. İlkinde ana fikri, ikincide dil ipuçlarını bul.",
+      "tokens": [
+        {
+          "id": "1",
+          "text": "Leo and Mina are preparing for a hill walk. ",
+          "target": true
+        },
+        {
+          "id": "2",
+          "text": "Mina has more water than Leo, but Leo has many energy bars. ",
+          "target": true
+        },
+        {
+          "id": "3",
+          "text": "The blue route is shorter than the red route. ",
+          "target": true
+        },
+        {
+          "id": "4",
+          "text": "The red route is the most difficult path in the park. ",
+          "target": true
+        },
+        {
+          "id": "5",
+          "text": "They are going to take the blue route because they are beginners. ",
+          "target": true
+        },
+        {
+          "id": "6",
+          "text": "The sky is getting dark, so Leo says, “I will bring a torch.” ",
+          "target": true
+        },
+        {
+          "id": "7",
+          "text": "They pack carefully and leave early. ",
+          "target": true
+        },
+        {
+          "id": "8",
+          "text": "Mina walks slowly on wet stones, but Leo moves quickly on dry ground.",
+          "target": true
+        }
+      ],
+      "questions": [
+        {
+          "id": "r1",
+          "prompt": "Which route is the most difficult?",
+          "options": [
+            "The red route",
+            "The blue route",
+            "The park entrance"
+          ],
+          "answer": "The red route",
+          "explanation": "Superlative işareti the most."
+        },
+        {
+          "id": "r2",
+          "prompt": "What is their plan?",
+          "options": [
+            "Take the blue route",
+            "Run the red route",
+            "Stay at home"
+          ],
+          "answer": "Take the blue route",
+          "explanation": "Going to planı gösteriyor."
+        }
+      ],
+      "extra": {
+        "title": "Planning a School Fair",
+        "instructions": "Uzun metni oku ve ayrıntıları seç.",
+        "paragraphs": [
+          "Maya’s class is going to organise a school fair. They have many ideas but not much time. The music team is larger than the art team, and the food team is the busiest group. Maya is going to design the posters because she draws beautifully. Arda is a careful planner, so he checks the timetable carefully.",
+          "On Friday, the class sees dark clouds. The fair is outdoors, and the garden is wetter than the playground. “We will move the tables inside,” says the teacher. This is a quick decision. The hall is smaller than the garden, but it is the safest place. The students work quickly. They do not have many chairs, but they have a lot of cushions. In the end, the indoor fair is quieter but more comfortable."
+        ],
+        "questions": [
+          {
+            "id": "er1",
+            "prompt": "Why is Maya designing posters?",
+            "options": [
+              "She draws beautifully.",
+              "She has much water.",
+              "She is the oldest."
+            ],
+            "answer": "She draws beautifully.",
+            "explanation": "Zarf çizme biçimini anlatır."
+          },
+          {
+            "id": "er2",
+            "prompt": "Why do they move inside?",
+            "options": [
+              "They see dark clouds.",
+              "They planned it last month.",
+              "The hall is larger."
+            ],
+            "answer": "They see dark clouds.",
+            "explanation": "Kanıta dayalı hızlı karar."
+          },
+          {
+            "id": "er3",
+            "prompt": "Which place is the safest?",
+            "options": [
+              "The hall",
+              "The garden",
+              "The playground"
+            ],
+            "answer": "The hall",
+            "explanation": "Superlative."
+          }
+        ]
+      }
+    },
+    "listening": {
+      "level": "A2",
+      "title": "A2 Listening Lab",
+      "source": "British Council LearnEnglish",
+      "resource": "Changing plans",
+      "instructions": "Bağlantıdan bir A2 kaydı seç. Önce altyazısız, sonra metinle dinle.",
+      "task": "Bir plan, bir anlık karar, bir karşılaştırma ve bir zarf örneği yakala.",
+      "followUp": "Dört örneği kendi cümlelerinle yeniden yaz.",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a2/changing-plans",
+      "questions": [
+        {
+          "id": "l1",
+          "prompt": "Choose the planned future.",
+          "options": [
+            "We are going to meet at six.",
+            "I will open it!",
+            "She met at six."
+          ],
+          "answer": "We are going to meet at six.",
+          "explanation": "Önceden plan."
+        },
+        {
+          "id": "l2",
+          "prompt": "Choose the adverb.",
+          "options": [
+            "carefully",
+            "careful",
+            "more careful bag"
+          ],
+          "answer": "carefully",
+          "explanation": "Fiili niteler."
+        }
+      ]
+    },
+    "sort": [
+      {
+        "text": "taller than",
+        "type": "COMP",
+        "choices": [
+          "COMP",
+          "SUPER",
+          "WILL",
+          "GOING",
+          "ADJ",
+          "ADV"
+        ]
+      },
+      {
+        "text": "the most exciting",
+        "type": "SUPER",
+        "choices": [
+          "COMP",
+          "SUPER",
+          "WILL",
+          "GOING",
+          "ADJ",
+          "ADV"
+        ]
+      },
+      {
+        "text": "I'll carry it.",
+        "type": "WILL",
+        "choices": [
+          "COMP",
+          "SUPER",
+          "WILL",
+          "GOING",
+          "ADJ",
+          "ADV"
+        ]
+      },
+      {
+        "text": "We are going to travel.",
+        "type": "GOING",
+        "choices": [
+          "COMP",
+          "SUPER",
+          "WILL",
+          "GOING",
+          "ADJ",
+          "ADV"
+        ]
+      },
+      {
+        "text": "a quiet room",
+        "type": "ADJ",
+        "choices": [
+          "COMP",
+          "SUPER",
+          "WILL",
+          "GOING",
+          "ADJ",
+          "ADV"
+        ]
+      },
+      {
+        "text": "speak quietly",
+        "type": "ADV",
+        "choices": [
+          "COMP",
+          "SUPER",
+          "WILL",
+          "GOING",
+          "ADJ",
+          "ADV"
+        ]
+      },
+      {
+        "text": "more useful than",
+        "type": "COMP",
+        "choices": [
+          "COMP",
+          "SUPER",
+          "WILL",
+          "GOING",
+          "ADJ",
+          "ADV"
+        ]
+      },
+      {
+        "text": "the fastest",
+        "type": "SUPER",
+        "choices": [
+          "COMP",
+          "SUPER",
+          "WILL",
+          "GOING",
+          "ADJ",
+          "ADV"
+        ]
+      },
+      {
+        "text": "She will answer.",
+        "type": "WILL",
+        "choices": [
+          "COMP",
+          "SUPER",
+          "WILL",
+          "GOING",
+          "ADJ",
+          "ADV"
+        ]
+      },
+      {
+        "text": "They are going to study.",
+        "type": "GOING",
+        "choices": [
+          "COMP",
+          "SUPER",
+          "WILL",
+          "GOING",
+          "ADJ",
+          "ADV"
+        ]
+      },
+      {
+        "text": "a careful student",
+        "type": "ADJ",
+        "choices": [
+          "COMP",
+          "SUPER",
+          "WILL",
+          "GOING",
+          "ADJ",
+          "ADV"
+        ]
+      },
+      {
+        "text": "work carefully",
+        "type": "ADV",
+        "choices": [
+          "COMP",
+          "SUPER",
+          "WILL",
+          "GOING",
+          "ADJ",
+          "ADV"
+        ]
+      }
+    ],
+    "order": [
+      {
+        "parts": [
+          "Mina",
+          "is",
+          "taller than",
+          "Arda"
+        ],
+        "answer": "Mina is taller than Arda",
+        "hint": "Comparative + than."
+      },
+      {
+        "parts": [
+          "This",
+          "is",
+          "the most comfortable",
+          "chair"
+        ],
+        "answer": "This is the most comfortable chair",
+        "hint": "Superlative + the."
+      },
+      {
+        "parts": [
+          "We",
+          "are going to",
+          "visit",
+          "the museum"
+        ],
+        "answer": "We are going to visit the museum",
+        "hint": "Plan."
+      },
+      {
+        "parts": [
+          "I",
+          "will",
+          "answer",
+          "the phone"
+        ],
+        "answer": "I will answer the phone",
+        "hint": "Anlık karar."
+      },
+      {
+        "parts": [
+          "Leo",
+          "speaks",
+          "quietly",
+          "in class"
+        ],
+        "answer": "Leo speaks quietly in class",
+        "hint": "Zarf fiilden sonra."
+      }
+    ],
+    "quizzes": {
+      "Miktar ve karşılaştırma": [
+        {
+          "id": "q1",
+          "prompt": "Complete: How ___ books?",
+          "options": [
+            "many",
+            "much",
+            "little"
+          ],
+          "answer": "many",
+          "explanation": "Books sayılabilir."
+        },
+        {
+          "id": "q2",
+          "prompt": "Complete: How ___ time?",
+          "options": [
+            "much",
+            "many",
+            "few"
+          ],
+          "answer": "much",
+          "explanation": "Time sayılamaz."
+        },
+        {
+          "id": "q3",
+          "prompt": "Choose the comparative.",
+          "options": [
+            "more comfortable than",
+            "the most comfortable",
+            "comfortably"
+          ],
+          "answer": "more comfortable than",
+          "explanation": "İki şeyi karşılaştırır."
+        },
+        {
+          "id": "q4",
+          "prompt": "Choose the superlative.",
+          "options": [
+            "the oldest",
+            "older than",
+            "oldly"
+          ],
+          "answer": "the oldest",
+          "explanation": "Grubun eni."
+        }
+      ],
+      "Future ve adverbs": [
+        {
+          "id": "q5",
+          "prompt": "The phone is ringing. “I ___ answer it.”",
+          "options": [
+            "will",
+            "am going",
+            "did"
+          ],
+          "answer": "will",
+          "explanation": "Anlık karar."
+        },
+        {
+          "id": "q6",
+          "prompt": "We bought tickets. We ___ travel on Friday.",
+          "options": [
+            "are going to",
+            "will maybe now",
+            "were"
+          ],
+          "answer": "are going to",
+          "explanation": "Kanıtlı plan."
+        },
+        {
+          "id": "q7",
+          "prompt": "She is a ___ singer.",
+          "options": [
+            "beautiful",
+            "beautifully",
+            "beauty sing"
+          ],
+          "answer": "beautiful",
+          "explanation": "İsmi niteler."
+        },
+        {
+          "id": "q8",
+          "prompt": "She sings ___.",
+          "options": [
+            "beautifully",
+            "beautiful",
+            "more beautiful song"
+          ],
+          "answer": "beautifully",
+          "explanation": "Fiili niteler."
+        }
+      ],
+      "Final Görev": [
+        {
+          "id": "q9",
+          "prompt": "Choose the correct sentence.",
+          "options": [
+            "The blue car is faster than the red car.",
+            "The blue car is fastest than red.",
+            "The blue car faster the red."
+          ],
+          "answer": "The blue car is faster than the red car.",
+          "explanation": "Comparative."
+        },
+        {
+          "id": "q10",
+          "prompt": "Choose the planned future.",
+          "options": [
+            "They are going to cook tonight.",
+            "They will cooked tonight.",
+            "They going cook tonight."
+          ],
+          "answer": "They are going to cook tonight.",
+          "explanation": "be going to + fiil."
+        },
+        {
+          "id": "q11",
+          "prompt": "Choose the correct pair.",
+          "options": [
+            "a careful driver / drives carefully",
+            "a carefully driver / drives careful",
+            "a careful driver / drives careful"
+          ],
+          "answer": "a careful driver / drives carefully",
+          "explanation": "Sıfat + isim; zarf + fiil."
+        }
+      ]
+    }
+  }
+}

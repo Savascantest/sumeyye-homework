@@ -1,0 +1,435 @@
+{
+  "id": "homework-2026-09-21-place-there-be",
+  "date": "2026-09-21",
+  "dateLabel": "21 Eylül 2026",
+  "student": "Sümeyye",
+  "title": "Yer İlişkileri ve There is / are",
+  "subtitle": "Nesnelerin yerini tarif et, cümleyi doğru sırada kur.",
+  "policyVersion": "sumeyye-weekend-monday@1",
+  "templateContractVersion": "sumeyye-six-tab-interactive@1",
+  "assessmentPolicyVersion": "sumeyye-section-and-final-checks@1",
+  "sections": [
+    "learn",
+    "read",
+    "listen",
+    "sort",
+    "order",
+    "quiz"
+  ],
+  "game": {
+    "learn": [
+      {
+        "id": "rules",
+        "shortTitle": "Konu kartları",
+        "title": "Oda haritası",
+        "intro": "There is/are bir şeyin varlığını söyler. Yer ifadesi genellikle isimden sonra gelir.",
+        "cards": [
+          {
+            "title": "there is / there are",
+            "text": "Tekilde is, çoğulda are kullan.",
+            "examples": [
+              "There is a lamp on the desk.",
+              "There are two books under the chair."
+            ]
+          },
+          {
+            "title": "Past form",
+            "text": "Geçmişte was/were kullan.",
+            "examples": [
+              "There was a shop here.",
+              "There were three trees."
+            ]
+          },
+          {
+            "title": "Place words",
+            "text": "next to, under, between, in front of, behind, opposite, over",
+            "examples": [
+              "The café is opposite the bank.",
+              "The clock is over the door."
+            ]
+          },
+          {
+            "title": "Bakış yönü",
+            "text": "Önce hangi şey nerede diye sor; sonra referans nesneyi bul.",
+            "examples": [
+              "The bag is under the table.",
+              "The table is next to the window."
+            ]
+          }
+        ]
+      }
+    ],
+    "read": {
+      "title": "A New Classroom",
+      "instructions": "Metni iki kez oku. İlkinde ana fikri, ikincide dil ipuçlarını bul.",
+      "tokens": [
+        {
+          "id": "1",
+          "text": "Maya walks into a new classroom. ",
+          "target": true
+        },
+        {
+          "id": "2",
+          "text": "There is a large map over the board. ",
+          "target": true
+        },
+        {
+          "id": "3",
+          "text": "Two plants are next to the window. ",
+          "target": true
+        },
+        {
+          "id": "4",
+          "text": "There are four tables in front of the board. ",
+          "target": true
+        },
+        {
+          "id": "5",
+          "text": "A blue bag is under a chair. ",
+          "target": true
+        },
+        {
+          "id": "6",
+          "text": "The teacher’s desk is between the door and a bookcase. ",
+          "target": true
+        },
+        {
+          "id": "7",
+          "text": "There was an old clock over the door last week, but it is not there now. ",
+          "target": true
+        },
+        {
+          "id": "8",
+          "text": "Maya sits opposite her friend Leo.",
+          "target": true
+        }
+      ],
+      "questions": [
+        {
+          "id": "r1",
+          "prompt": "Where is the blue bag?",
+          "options": [
+            "Under a chair",
+            "Over the board",
+            "Behind the door"
+          ],
+          "answer": "Under a chair",
+          "explanation": "Under yer ilişkisini verir."
+        },
+        {
+          "id": "r2",
+          "prompt": "What was over the door last week?",
+          "options": [
+            "An old clock",
+            "A map",
+            "A plant"
+          ],
+          "answer": "An old clock",
+          "explanation": "Geçmiş için there was."
+        }
+      ],
+      "extra": {
+        "title": "Finding the Music Room",
+        "instructions": "Uzun metni oku ve ayrıntıları seç.",
+        "paragraphs": [
+          "Arda visits a community centre for the first time. There is a reception desk opposite the entrance. Behind the desk, there is a large plan of the building. The library is on the left, next to a quiet study room. The café is between the library and the garden door. There are small tables in front of the café.",
+          "Arda needs the music room. The receptionist explains that it is upstairs. There are two rooms opposite the stairs. The music room is behind the glass door, and the art room is next to it. A sign is over each door. Last year, the music room was downstairs, but there was not enough space. Arda follows the directions and arrives before the class starts."
+        ],
+        "questions": [
+          {
+            "id": "er1",
+            "prompt": "What is opposite the entrance?",
+            "options": [
+              "The reception desk",
+              "The library",
+              "The garden"
+            ],
+            "answer": "The reception desk",
+            "explanation": "İlk paragraf."
+          },
+          {
+            "id": "er2",
+            "prompt": "Where is the café?",
+            "options": [
+              "Between the library and garden door",
+              "Behind the entrance",
+              "Over the stairs"
+            ],
+            "answer": "Between the library and garden door",
+            "explanation": "Between iki şey arasında."
+          },
+          {
+            "id": "er3",
+            "prompt": "Why did the music room move?",
+            "options": [
+              "There was not enough space.",
+              "The sign was missing.",
+              "The café was closed."
+            ],
+            "answer": "There was not enough space.",
+            "explanation": "Geçmişte alan yetersizdi."
+          }
+        ]
+      }
+    },
+    "listening": {
+      "level": "A2",
+      "title": "A2 Listening Lab",
+      "source": "British Council LearnEnglish",
+      "resource": "Who's who in the office",
+      "instructions": "Bağlantıdan bir A2 kaydı seç. Önce altyazısız, sonra metinle dinle.",
+      "task": "Dinlerken duyduğun yer ifadelerini not et ve küçük bir oda krokisi çiz.",
+      "followUp": "Krokini there is/are ile üç cümlede anlat.",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a2/whos-who-office",
+      "questions": [
+        {
+          "id": "l1",
+          "prompt": "Choose the correct sentence.",
+          "options": [
+            "There are two chairs by the window.",
+            "There is two chairs by the window.",
+            "There two chairs are by window."
+          ],
+          "answer": "There are two chairs by the window.",
+          "explanation": "Çoğulda are."
+        },
+        {
+          "id": "l2",
+          "prompt": "Which word means “karşısında”?",
+          "options": [
+            "opposite",
+            "behind",
+            "under"
+          ],
+          "answer": "opposite",
+          "explanation": "Opposite = karşısında."
+        }
+      ]
+    },
+    "sort": [
+      {
+        "text": "under the table",
+        "type": "PLACE",
+        "choices": [
+          "PLACE",
+          "THERE"
+        ]
+      },
+      {
+        "text": "There are two windows.",
+        "type": "THERE",
+        "choices": [
+          "PLACE",
+          "THERE"
+        ]
+      },
+      {
+        "text": "opposite the bank",
+        "type": "PLACE",
+        "choices": [
+          "PLACE",
+          "THERE"
+        ]
+      },
+      {
+        "text": "There was a shop here.",
+        "type": "THERE",
+        "choices": [
+          "PLACE",
+          "THERE"
+        ]
+      },
+      {
+        "text": "behind the door",
+        "type": "PLACE",
+        "choices": [
+          "PLACE",
+          "THERE"
+        ]
+      },
+      {
+        "text": "There is a lamp.",
+        "type": "THERE",
+        "choices": [
+          "PLACE",
+          "THERE"
+        ]
+      },
+      {
+        "text": "between two chairs",
+        "type": "PLACE",
+        "choices": [
+          "PLACE",
+          "THERE"
+        ]
+      },
+      {
+        "text": "There were many trees.",
+        "type": "THERE",
+        "choices": [
+          "PLACE",
+          "THERE"
+        ]
+      }
+    ],
+    "order": [
+      {
+        "parts": [
+          "There",
+          "is",
+          "a bag",
+          "under the table"
+        ],
+        "answer": "There is a bag under the table",
+        "hint": "Tekil + yer."
+      },
+      {
+        "parts": [
+          "There",
+          "are",
+          "two chairs",
+          "next to the desk"
+        ],
+        "answer": "There are two chairs next to the desk",
+        "hint": "Çoğul + yer."
+      },
+      {
+        "parts": [
+          "The café",
+          "is",
+          "opposite",
+          "the bank"
+        ],
+        "answer": "The café is opposite the bank",
+        "hint": "Nesne + be + yer."
+      },
+      {
+        "parts": [
+          "There",
+          "was",
+          "a clock",
+          "over the door"
+        ],
+        "answer": "There was a clock over the door",
+        "hint": "Geçmiş tekil."
+      },
+      {
+        "parts": [
+          "The park",
+          "is",
+          "between",
+          "the school and the shop"
+        ],
+        "answer": "The park is between the school and the shop",
+        "hint": "Between + iki referans."
+      }
+    ],
+    "quizzes": {
+      "There is / are": [
+        {
+          "id": "q1",
+          "prompt": "Complete: There ___ a lamp.",
+          "options": [
+            "is",
+            "are",
+            "were"
+          ],
+          "answer": "is",
+          "explanation": "Tekil."
+        },
+        {
+          "id": "q2",
+          "prompt": "Complete: There ___ three desks.",
+          "options": [
+            "are",
+            "is",
+            "was"
+          ],
+          "answer": "are",
+          "explanation": "Çoğul."
+        },
+        {
+          "id": "q3",
+          "prompt": "Past plural: There ___ two shops.",
+          "options": [
+            "were",
+            "was",
+            "are yesterday"
+          ],
+          "answer": "were",
+          "explanation": "Geçmiş çoğul."
+        }
+      ],
+      "Place words": [
+        {
+          "id": "q4",
+          "prompt": "The cat is ___ the chair, not in front of it.",
+          "options": [
+            "behind",
+            "over",
+            "between"
+          ],
+          "answer": "behind",
+          "explanation": "Behind = arkasında."
+        },
+        {
+          "id": "q5",
+          "prompt": "The clock is ___ the door.",
+          "options": [
+            "over",
+            "opposite of",
+            "between to"
+          ],
+          "answer": "over",
+          "explanation": "Over = üzerinde/yukarısında."
+        },
+        {
+          "id": "q6",
+          "prompt": "The bank is across the street from the café. It is ___ the café.",
+          "options": [
+            "opposite",
+            "under",
+            "behind"
+          ],
+          "answer": "opposite",
+          "explanation": "Karşısında."
+        }
+      ],
+      "Final Görev": [
+        {
+          "id": "q7",
+          "prompt": "Choose the correct sentence.",
+          "options": [
+            "There is a box under the bed.",
+            "There are a box under the bed.",
+            "A box there under bed."
+          ],
+          "answer": "There is a box under the bed.",
+          "explanation": "Tekil there is."
+        },
+        {
+          "id": "q8",
+          "prompt": "Choose the correct order.",
+          "options": [
+            "The lamp is next to the sofa.",
+            "Next the sofa lamp is to.",
+            "The lamp next to is sofa."
+          ],
+          "answer": "The lamp is next to the sofa.",
+          "explanation": "Özne + be + yer."
+        },
+        {
+          "id": "q9",
+          "prompt": "Choose the past sentence.",
+          "options": [
+            "There were four trees here.",
+            "There are four trees yesterday.",
+            "There was four trees here."
+          ],
+          "answer": "There were four trees here.",
+          "explanation": "Geçmiş çoğul."
+        }
+      ]
+    }
+  }
+}

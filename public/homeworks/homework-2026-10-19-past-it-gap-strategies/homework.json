@@ -1,0 +1,504 @@
+{
+  "id": "homework-2026-10-19-past-it-gap-strategies",
+  "date": "2026-10-19",
+  "dateLabel": "19 Ekim 2026",
+  "student": "Sümeyye",
+  "title": "Past Simple, Past Continuous ve Boşluk İpuçları",
+  "subtitle": "Bitmiş olayla devam eden sahneyi ayır; boşluğun çevresinden ipucu topla.",
+  "policyVersion": "sumeyye-weekend-monday@1",
+  "templateContractVersion": "sumeyye-six-tab-interactive@1",
+  "assessmentPolicyVersion": "sumeyye-section-and-final-checks@1",
+  "sections": [
+    "learn",
+    "read",
+    "listen",
+    "sort",
+    "order",
+    "quiz"
+  ],
+  "game": {
+    "learn": [
+      {
+        "id": "rules",
+        "shortTitle": "Konu kartları",
+        "title": "Geçmiş zaman dedektifi",
+        "intro": "Past simple bitmiş olayı, past continuous geçmişte sürmekte olan sahneyi anlatır. Boşluk sorularında zaman sözcükleri ve yardımcı fiiller yol gösterir.",
+        "cards": [
+          {
+            "title": "Past simple",
+            "text": "Bitmiş olay: V2; olumsuz ve soruda did + V1.",
+            "examples": [
+              "Leo left early.",
+              "Leo didn't leave early.",
+              "Did Leo leave early?"
+            ]
+          },
+          {
+            "title": "Past continuous",
+            "text": "Sürmekte olan eylem: was/were + V-ing.",
+            "examples": [
+              "Maya was walking.",
+              "They were waiting."
+            ]
+          },
+          {
+            "title": "when / while",
+            "text": "While çoğunlukla uzun sahneye; when kısa olaya bağlanır.",
+            "examples": [
+              "While I was sleeping, the phone rang.",
+              "I was walking when I saw Mina."
+            ]
+          },
+          {
+            "title": "Boşluk taktiği",
+            "text": "Önce zaman ipucunu, sonra boşluktan önceki yardımcı fiili, sonra özneyi kontrol et.",
+            "examples": [
+              "yesterday → past",
+              "was ___ → verb-ing",
+              "did ___ → base verb"
+            ]
+          },
+          {
+            "title": "it tekrar",
+            "text": "Saat, hava, mesafe ve genel durumlarda it kullan.",
+            "examples": [
+              "It was raining.",
+              "It was late.",
+              "It was five kilometres away."
+            ]
+          }
+        ]
+      }
+    ],
+    "read": {
+      "title": "The Missed Train",
+      "instructions": "Metni iki kez oku. İlkinde ana fikri, ikincide dil ipuçlarını bul.",
+      "tokens": [
+        {
+          "id": "1",
+          "text": "Arda and Maya were walking quickly to the station when it started to rain. ",
+          "target": true
+        },
+        {
+          "id": "2",
+          "text": "Arda was carrying the tickets, and Maya was checking the time. ",
+          "target": true
+        },
+        {
+          "id": "3",
+          "text": "While they were crossing the square, a cyclist dropped a bag. ",
+          "target": true
+        },
+        {
+          "id": "4",
+          "text": "They stopped and helped him. ",
+          "target": true
+        },
+        {
+          "id": "5",
+          "text": "The cyclist thanked them, but the delay was important. ",
+          "target": true
+        },
+        {
+          "id": "6",
+          "text": "When they reached the station, the train was leaving. ",
+          "target": true
+        },
+        {
+          "id": "7",
+          "text": "They missed it, so they waited for the next train. ",
+          "target": true
+        },
+        {
+          "id": "8",
+          "text": "While they were waiting, they bought hot drinks and called their friend.",
+          "target": true
+        }
+      ],
+      "questions": [
+        {
+          "id": "r1",
+          "prompt": "What were they doing when it started to rain?",
+          "options": [
+            "Walking to the station",
+            "Buying drinks",
+            "Riding a bicycle"
+          ],
+          "answer": "Walking to the station",
+          "explanation": "Devam eden sahne."
+        },
+        {
+          "id": "r2",
+          "prompt": "What short event happened in the square?",
+          "options": [
+            "A cyclist dropped a bag.",
+            "They were waiting.",
+            "It was raining."
+          ],
+          "answer": "A cyclist dropped a bag.",
+          "explanation": "Bitmiş kısa olay."
+        }
+      ],
+      "extra": {
+        "title": "A Busy Restaurant Evening",
+        "instructions": "Uzun metni oku ve ayrıntıları seç.",
+        "paragraphs": [
+          "Mina worked in a small restaurant last Saturday. At six o’clock, the dining room was quiet, and the kitchen team was preparing dinner. Mina was putting glasses on the tables when the first family arrived. Soon, every table was full. One chef cooked the main dishes while another chef was making desserts.",
+          "At eight o’clock, the lights suddenly went out. It was very dark, but nobody panicked. The customers turned on their phone lights while the manager checked the electricity. Mina brought candles from a cupboard. Ten minutes later, the lights came back. The customers clapped because the team handled the problem calmly. At the end of the evening, the manager thanked everyone. Mina was tired, but she felt proud."
+        ],
+        "questions": [
+          {
+            "id": "er1",
+            "prompt": "What was Mina doing when the first family arrived?",
+            "options": [
+              "Putting glasses on tables",
+              "Checking electricity",
+              "Making desserts"
+            ],
+            "answer": "Putting glasses on tables",
+            "explanation": "was putting + arrived."
+          },
+          {
+            "id": "er2",
+            "prompt": "What happened at eight?",
+            "options": [
+              "The lights went out.",
+              "The restaurant opened.",
+              "Mina went home."
+            ],
+            "answer": "The lights went out.",
+            "explanation": "Kısa bitmiş olay."
+          },
+          {
+            "id": "er3",
+            "prompt": "Which activity continued during the problem?",
+            "options": [
+              "Customers were using phone lights.",
+              "The manager thanked everyone.",
+              "The first family arrived."
+            ],
+            "answer": "Customers were using phone lights.",
+            "explanation": "Past continuous."
+          }
+        ]
+      }
+    },
+    "listening": {
+      "level": "A2",
+      "title": "A2 Listening Lab",
+      "source": "British Council LearnEnglish",
+      "resource": "Missing a class",
+      "instructions": "Bağlantıdan bir A2 kaydı seç. Önce altyazısız, sonra metinle dinle.",
+      "task": "Kısa olayları PS, devam eden sahneleri PC diye not et. İki zaman ipucunu da yaz.",
+      "followUp": "when veya while ile iki eylemli bir geçmiş cümlesi kur.",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a2/missing-class",
+      "questions": [
+        {
+          "id": "l1",
+          "prompt": "Complete: While I ___, the phone rang.",
+          "options": [
+            "was sleeping",
+            "slept now",
+            "did sleeping"
+          ],
+          "answer": "was sleeping",
+          "explanation": "While + devam eden sahne."
+        },
+        {
+          "id": "l2",
+          "prompt": "After “did”, choose…",
+          "options": [
+            "the base verb",
+            "verb-ing",
+            "the past verb"
+          ],
+          "answer": "the base verb",
+          "explanation": "Did + V1."
+        }
+      ]
+    },
+    "sort": [
+      {
+        "text": "The bell rang.",
+        "type": "PS",
+        "choices": [
+          "PS",
+          "PC",
+          "GAP",
+          "IT"
+        ]
+      },
+      {
+        "text": "We were studying.",
+        "type": "PC",
+        "choices": [
+          "PS",
+          "PC",
+          "GAP",
+          "IT"
+        ]
+      },
+      {
+        "text": "did + base verb",
+        "type": "GAP",
+        "choices": [
+          "PS",
+          "PC",
+          "GAP",
+          "IT"
+        ]
+      },
+      {
+        "text": "It was raining.",
+        "type": "IT",
+        "choices": [
+          "PS",
+          "PC",
+          "GAP",
+          "IT"
+        ]
+      },
+      {
+        "text": "Maya left early.",
+        "type": "PS",
+        "choices": [
+          "PS",
+          "PC",
+          "GAP",
+          "IT"
+        ]
+      },
+      {
+        "text": "They were cooking.",
+        "type": "PC",
+        "choices": [
+          "PS",
+          "PC",
+          "GAP",
+          "IT"
+        ]
+      },
+      {
+        "text": "was + verb-ing",
+        "type": "GAP",
+        "choices": [
+          "PS",
+          "PC",
+          "GAP",
+          "IT"
+        ]
+      },
+      {
+        "text": "It's ten o'clock.",
+        "type": "IT",
+        "choices": [
+          "PS",
+          "PC",
+          "GAP",
+          "IT"
+        ]
+      },
+      {
+        "text": "I saw Leo.",
+        "type": "PS",
+        "choices": [
+          "PS",
+          "PC",
+          "GAP",
+          "IT"
+        ]
+      },
+      {
+        "text": "She was wearing a purple dress.",
+        "type": "PC",
+        "choices": [
+          "PS",
+          "PC",
+          "GAP",
+          "IT"
+        ]
+      }
+    ],
+    "order": [
+      {
+        "parts": [
+          "I",
+          "was walking",
+          "when",
+          "I saw",
+          "Leo"
+        ],
+        "answer": "I was walking when I saw Leo",
+        "hint": "Uzun sahne + kısa olay."
+      },
+      {
+        "parts": [
+          "While",
+          "Maya was cooking",
+          "the phone",
+          "rang"
+        ],
+        "answer": "While Maya was cooking the phone rang",
+        "hint": "While + past continuous."
+      },
+      {
+        "parts": [
+          "Did",
+          "Arda",
+          "leave",
+          "early"
+        ],
+        "answer": "Did Arda leave early",
+        "hint": "Did + V1."
+      },
+      {
+        "parts": [
+          "They",
+          "did not",
+          "miss",
+          "the bus"
+        ],
+        "answer": "They did not miss the bus",
+        "hint": "Olumsuzda V1."
+      },
+      {
+        "parts": [
+          "It",
+          "was raining",
+          "at seven"
+        ],
+        "answer": "It was raining at seven",
+        "hint": "Hava için it."
+      }
+    ],
+    "quizzes": {
+      "Past tenses": [
+        {
+          "id": "q1",
+          "prompt": "Complete: I ___ TV when you called.",
+          "options": [
+            "was watching",
+            "watched every now",
+            "did watched"
+          ],
+          "answer": "was watching",
+          "explanation": "Devam eden eylem."
+        },
+        {
+          "id": "q2",
+          "prompt": "Complete: The doorbell ___.",
+          "options": [
+            "rang",
+            "was ring",
+            "did rang"
+          ],
+          "answer": "rang",
+          "explanation": "Kısa bitmiş olay."
+        },
+        {
+          "id": "q3",
+          "prompt": "Choose the correct pair.",
+          "options": [
+            "While I was walking, I saw Maya.",
+            "While I walked now, I was see Maya.",
+            "While was walking, saw I Maya."
+          ],
+          "answer": "While I was walking, I saw Maya.",
+          "explanation": "Uzun + kısa olay."
+        },
+        {
+          "id": "q4",
+          "prompt": "Past continuous form:",
+          "options": [
+            "were waiting",
+            "did waited",
+            "was wait"
+          ],
+          "answer": "were waiting",
+          "explanation": "were + V-ing."
+        }
+      ],
+      "Gap strategies": [
+        {
+          "id": "q5",
+          "prompt": "The word “yesterday” usually points to…",
+          "options": [
+            "past time",
+            "future plan",
+            "a place"
+          ],
+          "answer": "past time",
+          "explanation": "Zaman ipucu."
+        },
+        {
+          "id": "q6",
+          "prompt": "Complete: Did she ___ home?",
+          "options": [
+            "go",
+            "went",
+            "going"
+          ],
+          "answer": "go",
+          "explanation": "Did + V1."
+        },
+        {
+          "id": "q7",
+          "prompt": "Complete: He was ___ dinner.",
+          "options": [
+            "making",
+            "made",
+            "make yesterday"
+          ],
+          "answer": "making",
+          "explanation": "was + V-ing."
+        },
+        {
+          "id": "q8",
+          "prompt": "Choose the general it sentence.",
+          "options": [
+            "It was cold and dark.",
+            "It was my blue bag, weather.",
+            "There cold it."
+          ],
+          "answer": "It was cold and dark.",
+          "explanation": "Genel durum/hava."
+        }
+      ],
+      "Final Görev": [
+        {
+          "id": "q9",
+          "prompt": "Choose the correct sentence.",
+          "options": [
+            "We were sleeping when the alarm rang.",
+            "We slept when the alarm was ring.",
+            "We did sleeping when rang alarm."
+          ],
+          "answer": "We were sleeping when the alarm rang.",
+          "explanation": "Sahne + olay."
+        },
+        {
+          "id": "q10",
+          "prompt": "Complete: They ___ not arrive yesterday.",
+          "options": [
+            "did",
+            "were",
+            "was"
+          ],
+          "answer": "did",
+          "explanation": "Past simple olumsuz."
+        },
+        {
+          "id": "q11",
+          "prompt": "Choose the best clue for an -ing answer.",
+          "options": [
+            "was before the blank",
+            "did before the blank",
+            "last year alone"
+          ],
+          "answer": "was before the blank",
+          "explanation": "was + V-ing."
+        }
+      ]
+    }
+  }
+}

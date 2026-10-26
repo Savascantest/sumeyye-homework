@@ -1,0 +1,439 @@
+{
+  "id": "homework-2026-09-14-countable-quantifiers",
+  "date": "2026-09-14",
+  "dateLabel": "14 Eylül 2026",
+  "student": "Sümeyye",
+  "title": "Countable / Uncountable ve Some / Any",
+  "subtitle": "Yiyecekleri say, miktarı doğru kelimeyle anlat.",
+  "policyVersion": "sumeyye-weekend-monday@1",
+  "templateContractVersion": "sumeyye-six-tab-interactive@1",
+  "assessmentPolicyVersion": "sumeyye-section-and-final-checks@1",
+  "sections": [
+    "learn",
+    "read",
+    "listen",
+    "sort",
+    "order",
+    "quiz"
+  ],
+  "game": {
+    "learn": [
+      {
+        "id": "rules",
+        "shortTitle": "Konu kartları",
+        "title": "Sayılabilir mi, sayılamaz mı?",
+        "intro": "Sayılabilen tekil isimler a/an alır; sayılamayanlar sayı ile kullanılmaz. Some olumlu, any soru ve olumsuz cümlelerde sık görülür.",
+        "cards": [
+          {
+            "title": "Countable nouns",
+            "text": "Tekil ve çoğul olabilir. Tekilken a/an kullan.",
+            "examples": [
+              "an apple",
+              "three tomatoes",
+              "a bottle"
+            ]
+          },
+          {
+            "title": "Uncountable nouns",
+            "text": "Tek tek sayılmaz; ölçü kabıyla sayılabilir.",
+            "examples": [
+              "some water",
+              "a glass of milk",
+              "two bags of rice"
+            ]
+          },
+          {
+            "title": "some / any",
+            "text": "Some: çoğunlukla olumlu. Any: çoğunlukla soru ve olumsuz.",
+            "examples": [
+              "We have some cheese.",
+              "Do we have any eggs?",
+              "We don't have any juice."
+            ]
+          },
+          {
+            "title": "a few / a little",
+            "text": "A few sayılabilen, a little sayılamayan isimlerle kullanılır.",
+            "examples": [
+              "a few carrots",
+              "a little sugar"
+            ]
+          }
+        ]
+      }
+    ],
+    "read": {
+      "title": "A Picnic List",
+      "instructions": "Metni iki kez oku. İlkinde ana fikri, ikincide dil ipuçlarını bul.",
+      "tokens": [
+        {
+          "id": "1",
+          "text": "Mina and Arda are planning a picnic. ",
+          "target": true
+        },
+        {
+          "id": "2",
+          "text": "They have some bread and a little cheese. ",
+          "target": true
+        },
+        {
+          "id": "3",
+          "text": "They also have three apples and a few tomatoes. ",
+          "target": true
+        },
+        {
+          "id": "4",
+          "text": "Arda asks, “Do we have any water?” ",
+          "target": true
+        },
+        {
+          "id": "5",
+          "text": "Mina checks the bag, but there is not any water. ",
+          "target": true
+        },
+        {
+          "id": "6",
+          "text": "They buy two bottles of water and an orange. ",
+          "target": true
+        },
+        {
+          "id": "7",
+          "text": "Now their picnic basket is ready. ",
+          "target": true
+        },
+        {
+          "id": "8",
+          "text": "They do not buy any rice because it is difficult to cook outside.",
+          "target": true
+        }
+      ],
+      "questions": [
+        {
+          "id": "r1",
+          "prompt": "What countable fruit do they have?",
+          "options": [
+            "Apples",
+            "Rice",
+            "Water"
+          ],
+          "answer": "Apples",
+          "explanation": "Apple sayılabilir."
+        },
+        {
+          "id": "r2",
+          "prompt": "What do they need to buy?",
+          "options": [
+            "Water",
+            "Bread",
+            "Cheese"
+          ],
+          "answer": "Water",
+          "explanation": "Çantada su yok."
+        }
+      ],
+      "extra": {
+        "title": "The Small Market",
+        "instructions": "Uzun metni oku ve ayrıntıları seç.",
+        "paragraphs": [
+          "Leo works in a small market near a park. In the morning, he puts some oranges, bananas and apples on the front table. He has a few baskets, but he does not have many boxes. Inside the shop, there is some bread, a little butter and a lot of milk. There are also six bottles of juice.",
+          "At noon, Maya comes with a shopping list. She needs an onion, two peppers and some rice. She asks, “Is there any yoghurt?” Leo says, “Yes, there is some in the fridge.” Maya buys a little yoghurt, but she does not buy any milk. She already has two cartons at home. Before she leaves, she checks every item on her list."
+        ],
+        "questions": [
+          {
+            "id": "er1",
+            "prompt": "How many bottles of juice are there?",
+            "options": [
+              "Six",
+              "Two",
+              "No bottles"
+            ],
+            "answer": "Six",
+            "explanation": "Metin six bottles diyor."
+          },
+          {
+            "id": "er2",
+            "prompt": "Why does Maya not buy milk?",
+            "options": [
+              "She has milk at home.",
+              "She dislikes the market.",
+              "There is no milk."
+            ],
+            "answer": "She has milk at home.",
+            "explanation": "Evde iki kutu sütü var."
+          },
+          {
+            "id": "er3",
+            "prompt": "Choose the uncountable noun.",
+            "options": [
+              "rice",
+              "pepper",
+              "basket"
+            ],
+            "answer": "rice",
+            "explanation": "Rice sayılamayan isimdir."
+          }
+        ]
+      }
+    },
+    "listening": {
+      "level": "A2",
+      "title": "A2 Listening Lab",
+      "source": "British Council LearnEnglish",
+      "resource": "Facts and figures",
+      "instructions": "Bağlantıdan bir A2 kaydı seç. Önce altyazısız, sonra metinle dinle.",
+      "task": "Duyduğun beş yiyecek/içecek kelimesini yaz; sayılabilenleri C, sayılamayanları U diye işaretle.",
+      "followUp": "some ve any ile iki yeni alışveriş cümlesi yaz.",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a2/facts-figures",
+      "questions": [
+        {
+          "id": "l1",
+          "prompt": "Choose the correct shopping question.",
+          "options": [
+            "Do we have any eggs?",
+            "Do we have some egg?",
+            "Have we any an egg?"
+          ],
+          "answer": "Do we have any eggs?",
+          "explanation": "Soru + any + çoğul isim."
+        },
+        {
+          "id": "l2",
+          "prompt": "Choose the correct amount.",
+          "options": [
+            "a little milk",
+            "a few milk",
+            "three milk"
+          ],
+          "answer": "a little milk",
+          "explanation": "Milk sayılamaz."
+        }
+      ]
+    },
+    "sort": [
+      {
+        "text": "three bananas",
+        "type": "C",
+        "choices": [
+          "C",
+          "U"
+        ]
+      },
+      {
+        "text": "some rice",
+        "type": "U",
+        "choices": [
+          "C",
+          "U"
+        ]
+      },
+      {
+        "text": "an egg",
+        "type": "C",
+        "choices": [
+          "C",
+          "U"
+        ]
+      },
+      {
+        "text": "a little milk",
+        "type": "U",
+        "choices": [
+          "C",
+          "U"
+        ]
+      },
+      {
+        "text": "two bottles",
+        "type": "C",
+        "choices": [
+          "C",
+          "U"
+        ]
+      },
+      {
+        "text": "some bread",
+        "type": "U",
+        "choices": [
+          "C",
+          "U"
+        ]
+      },
+      {
+        "text": "a few onions",
+        "type": "C",
+        "choices": [
+          "C",
+          "U"
+        ]
+      },
+      {
+        "text": "some sugar",
+        "type": "U",
+        "choices": [
+          "C",
+          "U"
+        ]
+      }
+    ],
+    "order": [
+      {
+        "parts": [
+          "We",
+          "have",
+          "some",
+          "cheese"
+        ],
+        "answer": "We have some cheese",
+        "hint": "Olumlu cümlede some."
+      },
+      {
+        "parts": [
+          "Do",
+          "you",
+          "have",
+          "any",
+          "water"
+        ],
+        "answer": "Do you have any water",
+        "hint": "Soru yapısı."
+      },
+      {
+        "parts": [
+          "There",
+          "are",
+          "a few",
+          "apples"
+        ],
+        "answer": "There are a few apples",
+        "hint": "A few + çoğul."
+      },
+      {
+        "parts": [
+          "There",
+          "is",
+          "a little",
+          "juice"
+        ],
+        "answer": "There is a little juice",
+        "hint": "A little + sayılamayan."
+      },
+      {
+        "parts": [
+          "I",
+          "do not have",
+          "any",
+          "rice"
+        ],
+        "answer": "I do not have any rice",
+        "hint": "Olumsuz cümlede any."
+      }
+    ],
+    "quizzes": {
+      "Countable / Uncountable": [
+        {
+          "id": "q1",
+          "prompt": "Choose the countable noun.",
+          "options": [
+            "carrot",
+            "water",
+            "bread"
+          ],
+          "answer": "carrot",
+          "explanation": "Carrot tek tek sayılır."
+        },
+        {
+          "id": "q2",
+          "prompt": "Choose the uncountable noun.",
+          "options": [
+            "cheese",
+            "bottle",
+            "orange"
+          ],
+          "answer": "cheese",
+          "explanation": "Cheese burada madde adıdır."
+        },
+        {
+          "id": "q3",
+          "prompt": "Complete: ___ apple",
+          "options": [
+            "an",
+            "a",
+            "some an"
+          ],
+          "answer": "an",
+          "explanation": "Sesli harfle başlayan tekil isim."
+        }
+      ],
+      "Miktar kelimeleri": [
+        {
+          "id": "q4",
+          "prompt": "Complete: I have ___ friends here.",
+          "options": [
+            "a few",
+            "a little",
+            "any water"
+          ],
+          "answer": "a few",
+          "explanation": "Friends sayılabilir."
+        },
+        {
+          "id": "q5",
+          "prompt": "Complete: We need ___ salt.",
+          "options": [
+            "a little",
+            "a few",
+            "two"
+          ],
+          "answer": "a little",
+          "explanation": "Salt sayılamaz."
+        },
+        {
+          "id": "q6",
+          "prompt": "Complete the question: Is there ___ bread?",
+          "options": [
+            "any",
+            "a",
+            "few"
+          ],
+          "answer": "any",
+          "explanation": "Soruda any."
+        }
+      ],
+      "Final Görev": [
+        {
+          "id": "q7",
+          "prompt": "Choose the correct sentence.",
+          "options": [
+            "We have some tomatoes.",
+            "We have any tomatoes.",
+            "We have a little tomatoes."
+          ],
+          "answer": "We have some tomatoes.",
+          "explanation": "Olumlu + some + çoğul."
+        },
+        {
+          "id": "q8",
+          "prompt": "Choose the correct negative.",
+          "options": [
+            "There is not any milk.",
+            "There are not a milk.",
+            "There is not some milks."
+          ],
+          "answer": "There is not any milk.",
+          "explanation": "Milk sayılamaz; olumsuzda any."
+        },
+        {
+          "id": "q9",
+          "prompt": "Which phrase is correct?",
+          "options": [
+            "two glasses of water",
+            "two waters glass",
+            "a few water"
+          ],
+          "answer": "two glasses of water",
+          "explanation": "Kapla ölçülür."
+        }
+      ]
+    }
+  }
+}

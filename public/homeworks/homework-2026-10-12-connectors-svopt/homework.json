@@ -1,0 +1,452 @@
+{
+  "id": "homework-2026-10-12-connectors-svopt",
+  "date": "2026-10-12",
+  "dateLabel": "12 Ekim 2026",
+  "student": "Sümeyye",
+  "title": "Because, So, But ve S–V–O–P–T",
+  "subtitle": "Fikirleri bağla, cümlenin omurgasını doğru sıraya koy.",
+  "policyVersion": "sumeyye-weekend-monday@1",
+  "templateContractVersion": "sumeyye-six-tab-interactive@1",
+  "assessmentPolicyVersion": "sumeyye-section-and-final-checks@1",
+  "sections": [
+    "learn",
+    "read",
+    "listen",
+    "sort",
+    "order",
+    "quiz"
+  ],
+  "game": {
+    "learn": [
+      {
+        "id": "rules",
+        "shortTitle": "Konu kartları",
+        "title": "Bağlaçlar ve cümle haritası",
+        "intro": "Because sebep, so sonuç, but karşıtlık verir. Temel olumlu cümlede sıra çoğunlukla Özne–Fiil–Nesne–Yer–Zaman olur.",
+        "cards": [
+          {
+            "title": "because",
+            "text": "Bir eylemin nedenini açıklar.",
+            "examples": [
+              "I called Mina because I was worried."
+            ]
+          },
+          {
+            "title": "so",
+            "text": "Bir sebebin sonucunu anlatır.",
+            "examples": [
+              "It was late, so we took a taxi."
+            ]
+          },
+          {
+            "title": "but",
+            "text": "Beklenmedik karşıtlık kurar.",
+            "examples": [
+              "She can sing, but she cannot dance."
+            ]
+          },
+          {
+            "title": "S–V–O–P–T",
+            "text": "Özne + fiil + nesne + yer + zaman. Her cümlede tüm parçalar olmak zorunda değildir.",
+            "examples": [
+              "Arda reads books at home every evening.",
+              "Mina met Leo at the café yesterday."
+            ]
+          },
+          {
+            "title": "Genel it",
+            "text": "Saat, hava, mesafe ve genel durumlarda gerçek bir nesne göstermeden kullanılır.",
+            "examples": [
+              "It's seven o'clock.",
+              "It is raining.",
+              "It is far from here."
+            ]
+          }
+        ]
+      }
+    ],
+    "read": {
+      "title": "A Delayed Journey",
+      "instructions": "Metni iki kez oku. İlkinde ana fikri, ikincide dil ipuçlarını bul.",
+      "tokens": [
+        {
+          "id": "1",
+          "text": "Maya left home early because she had an important appointment. ",
+          "target": true
+        },
+        {
+          "id": "2",
+          "text": "She waited at the bus stop for twenty minutes, but the bus did not come. ",
+          "target": true
+        },
+        {
+          "id": "3",
+          "text": "It was cold, so she went into a small café. ",
+          "target": true
+        },
+        {
+          "id": "4",
+          "text": "She called Arda from the café at nine o’clock. ",
+          "target": true
+        },
+        {
+          "id": "5",
+          "text": "Arda drove his car to the café because he wanted to help. ",
+          "target": true
+        },
+        {
+          "id": "6",
+          "text": "They travelled across town slowly, but they arrived on time. ",
+          "target": true
+        },
+        {
+          "id": "7",
+          "text": "It was a stressful morning, so Maya thanked Arda warmly. ",
+          "target": true
+        },
+        {
+          "id": "8",
+          "text": "Later, she sent him a message from home.",
+          "target": true
+        }
+      ],
+      "questions": [
+        {
+          "id": "r1",
+          "prompt": "Why did Maya leave early?",
+          "options": [
+            "She had an appointment.",
+            "It was raining.",
+            "She wanted coffee."
+          ],
+          "answer": "She had an appointment.",
+          "explanation": "Because sebebi veriyor."
+        },
+        {
+          "id": "r2",
+          "prompt": "Where did she call Arda?",
+          "options": [
+            "From the café",
+            "At home",
+            "Across town"
+          ],
+          "answer": "From the café",
+          "explanation": "Yer bilgisi."
+        }
+      ],
+      "extra": {
+        "title": "The Community Concert",
+        "instructions": "Uzun metni oku ve ayrıntıları seç.",
+        "paragraphs": [
+          "Leo practises the guitar in the community hall every Tuesday. He loves music, but he feels nervous before concerts. This week, the group has a special performance. They meet in the hall at four o’clock because they need extra practice. Maya brings some water for everyone, and Arda checks the sound equipment carefully.",
+          "At six o’clock, it starts to rain heavily. The audience waits outside, so the organiser opens the doors early. The musicians are not completely ready, but they welcome the visitors. Leo makes one small mistake during the first song. He continues because the group supports him. At the end, the audience claps loudly, so Leo smiles. He goes home with his family after the concert and writes about the evening in his journal."
+        ],
+        "questions": [
+          {
+            "id": "er1",
+            "prompt": "Why do they meet at four?",
+            "options": [
+              "They need extra practice.",
+              "The audience is outside.",
+              "Leo is at home."
+            ],
+            "answer": "They need extra practice.",
+            "explanation": "Because sebebi bağlar."
+          },
+          {
+            "id": "er2",
+            "prompt": "What happens because of the rain?",
+            "options": [
+              "The doors open early.",
+              "The concert ends.",
+              "Leo goes home."
+            ],
+            "answer": "The doors open early.",
+            "explanation": "Rain is the cause; early opening is result."
+          },
+          {
+            "id": "er3",
+            "prompt": "Choose the P–T part of “They meet in the hall at four.”",
+            "options": [
+              "in the hall / at four",
+              "They / meet",
+              "meet / in"
+            ],
+            "answer": "in the hall / at four",
+            "explanation": "Yer sonra zaman."
+          }
+        ]
+      }
+    },
+    "listening": {
+      "level": "A2",
+      "title": "A2 Listening Lab",
+      "source": "British Council LearnEnglish",
+      "resource": "Leaving a message",
+      "instructions": "Bağlantıdan bir A2 kaydı seç. Önce altyazısız, sonra metinle dinle.",
+      "task": "Bir because, bir so ve bir but örneği not et; sonra her cümlenin S ve V parçalarını bul.",
+      "followUp": "S–V–O–P–T sırasıyla bir cümle yaz ve ikinci fikri bir bağlaçla ekle.",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a2/leaving-message",
+      "questions": [
+        {
+          "id": "l1",
+          "prompt": "Choose the result connector.",
+          "options": [
+            "so",
+            "because",
+            "but"
+          ],
+          "answer": "so",
+          "explanation": "So sonuç verir."
+        },
+        {
+          "id": "l2",
+          "prompt": "Choose the usual order.",
+          "options": [
+            "Subject–Verb–Object–Place–Time",
+            "Time–Object–Subject–Verb–Place",
+            "Verb–Time–Subject–Object–Place"
+          ],
+          "answer": "Subject–Verb–Object–Place–Time",
+          "explanation": "Temel sıra."
+        }
+      ]
+    },
+    "sort": [
+      {
+        "text": "I stayed home ___ I was ill.",
+        "type": "BECAUSE",
+        "choices": [
+          "BECAUSE",
+          "SO",
+          "BUT"
+        ]
+      },
+      {
+        "text": "It was late, ___ we took a taxi.",
+        "type": "SO",
+        "choices": [
+          "BECAUSE",
+          "SO",
+          "BUT"
+        ]
+      },
+      {
+        "text": "She is tired, ___ she is still studying.",
+        "type": "BUT",
+        "choices": [
+          "BECAUSE",
+          "SO",
+          "BUT"
+        ]
+      },
+      {
+        "text": "He smiled ___ he was happy.",
+        "type": "BECAUSE",
+        "choices": [
+          "BECAUSE",
+          "SO",
+          "BUT"
+        ]
+      },
+      {
+        "text": "The road was closed, ___ we turned back.",
+        "type": "SO",
+        "choices": [
+          "BECAUSE",
+          "SO",
+          "BUT"
+        ]
+      },
+      {
+        "text": "I called, ___ nobody answered.",
+        "type": "BUT",
+        "choices": [
+          "BECAUSE",
+          "SO",
+          "BUT"
+        ]
+      },
+      {
+        "text": "We wore coats ___ it was cold.",
+        "type": "BECAUSE",
+        "choices": [
+          "BECAUSE",
+          "SO",
+          "BUT"
+        ]
+      },
+      {
+        "text": "The shop was open, ___ we went inside.",
+        "type": "SO",
+        "choices": [
+          "BECAUSE",
+          "SO",
+          "BUT"
+        ]
+      }
+    ],
+    "order": [
+      {
+        "parts": [
+          "Maya",
+          "reads",
+          "a book",
+          "at home",
+          "every night"
+        ],
+        "answer": "Maya reads a book at home every night",
+        "hint": "S–V–O–P–T."
+      },
+      {
+        "parts": [
+          "Leo",
+          "called",
+          "Arda",
+          "from the café",
+          "yesterday"
+        ],
+        "answer": "Leo called Arda from the café yesterday",
+        "hint": "S–V–O–P–T."
+      },
+      {
+        "parts": [
+          "It",
+          "was",
+          "late",
+          "so",
+          "we took a taxi"
+        ],
+        "answer": "It was late so we took a taxi",
+        "hint": "Sebep sonra sonuç."
+      },
+      {
+        "parts": [
+          "I",
+          "was worried",
+          "because",
+          "you were late"
+        ],
+        "answer": "I was worried because you were late",
+        "hint": "Sonuç sonra because + sebep."
+      },
+      {
+        "parts": [
+          "It",
+          "is raining",
+          "outside",
+          "now"
+        ],
+        "answer": "It is raining outside now",
+        "hint": "Genel it + hava."
+      }
+    ],
+    "quizzes": {
+      "Connectors": [
+        {
+          "id": "q1",
+          "prompt": "Complete: I wore a coat ___ it was cold.",
+          "options": [
+            "because",
+            "so",
+            "but"
+          ],
+          "answer": "because",
+          "explanation": "Neden."
+        },
+        {
+          "id": "q2",
+          "prompt": "Complete: It was cold, ___ I wore a coat.",
+          "options": [
+            "so",
+            "because",
+            "but"
+          ],
+          "answer": "so",
+          "explanation": "Sonuç."
+        },
+        {
+          "id": "q3",
+          "prompt": "Complete: I was tired, ___ I finished the work.",
+          "options": [
+            "but",
+            "because",
+            "so tired"
+          ],
+          "answer": "but",
+          "explanation": "Karşıtlık."
+        }
+      ],
+      "Cümle sırası ve it": [
+        {
+          "id": "q4",
+          "prompt": "Choose the natural sentence.",
+          "options": [
+            "Mina plays tennis in the park on Sundays.",
+            "Mina on Sundays tennis plays in the park.",
+            "Plays Mina tennis Sundays park."
+          ],
+          "answer": "Mina plays tennis in the park on Sundays.",
+          "explanation": "S–V–O–P–T."
+        },
+        {
+          "id": "q5",
+          "prompt": "Choose the weather sentence.",
+          "options": [
+            "It is snowing.",
+            "Is snowing it the weather.",
+            "The it snows is."
+          ],
+          "answer": "It is snowing.",
+          "explanation": "Genel it."
+        },
+        {
+          "id": "q6",
+          "prompt": "Choose the time sentence.",
+          "options": [
+            "It's half past eight.",
+            "It has half past eight.",
+            "There is eight half."
+          ],
+          "answer": "It's half past eight.",
+          "explanation": "Saat için it."
+        }
+      ],
+      "Final Görev": [
+        {
+          "id": "q7",
+          "prompt": "Choose the correct linked sentence.",
+          "options": [
+            "I was hungry, so I made a sandwich.",
+            "I was hungry because I made a sandwich result.",
+            "I was hungry but so sandwich."
+          ],
+          "answer": "I was hungry, so I made a sandwich.",
+          "explanation": "Sebep → sonuç."
+        },
+        {
+          "id": "q8",
+          "prompt": "Choose the S–V–O–P–T sentence.",
+          "options": [
+            "Arda studied English at the library yesterday.",
+            "Yesterday English Arda at studied library.",
+            "Studied Arda yesterday English at library."
+          ],
+          "answer": "Arda studied English at the library yesterday.",
+          "explanation": "Doğru sıra."
+        },
+        {
+          "id": "q9",
+          "prompt": "Choose the contrast.",
+          "options": [
+            "She can sing, but she cannot dance.",
+            "She can sing because she cannot dance.",
+            "She can sing, so she cannot dance."
+          ],
+          "answer": "She can sing, but she cannot dance.",
+          "explanation": "Zıt iki fikir."
+        }
+      ]
+    }
+  }
+}
