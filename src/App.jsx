@@ -21,7 +21,8 @@ const roleNames = {
   C: 'Sayılabilen', U: 'Sayılamayan', SOME: 'some', ANY: 'any', MANY: 'many', MUCH: 'much', FEW: 'a few', LITTLE: 'a little',
   PLACE: 'Yer ilişkisi', THERE: 'there is / are', COMP: 'Karşılaştırma', SUPER: 'En üstünlük', WILL: 'will', GOING: 'be going to',
   ADJ: 'Sıfat', ADV: 'Zarf', BECAUSE: 'Sebep', SO: 'Sonuç', BUT: 'Karşıtlık', PS: 'Past simple', PC: 'Past continuous',
-  IT: 'Genel it', GAP: 'Boşluk ipucu', WORD: 'Bağlama uygun kelime', USED: 'used to', GETUSED: 'get used to',
+  IT: 'Genel it', GAP: 'Boşluk ipucu', WORD: 'Bağlama uygun kelime', USED: 'used to', BEUSED: 'be used to', GETUSED: 'get used to',
+  IRREG: 'Düzensiz fiil', READ: 'Okuma ipucu',
 };
 
 function MarkedText({ text }) {

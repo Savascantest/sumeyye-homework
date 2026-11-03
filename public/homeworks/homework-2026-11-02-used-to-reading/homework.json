@@ -1,0 +1,274 @@
+{
+  "id": "homework-2026-11-02-used-to-reading",
+  "date": "2026-11-02",
+  "dateLabel": "2 Kasım 2026",
+  "student": "Sümeyye",
+  "title": "Used to Üçlüsü, Irregular Verbs ve Story Reading",
+  "subtitle": "Eski alışkanlığı, alışılmış durumu ve alışma sürecini ayır; hikâyedeki ipuçlarını yakala.",
+  "policyVersion": "sumeyye-weekend-monday@1",
+  "templateContractVersion": "sumeyye-six-tab-interactive@1",
+  "assessmentPolicyVersion": "sumeyye-section-and-final-checks@1",
+  "sections": ["learn", "read", "listen", "sort", "order", "quiz"],
+  "game": {
+    "learn": [
+      {
+        "id": "rules",
+        "shortTitle": "Konu kartları",
+        "title": "Üç yapı, üç farklı zaman fikri",
+        "intro": "Used to geçmişte olup artık olmayanı, be used to alışılmış durumu, get used to ise alışma sürecini anlatır. Hikâye okurken de fiil biçimleri ve bağlam ipuçları ayrıntıları bulmana yardım eder.",
+        "cards": [
+          {
+            "title": "used to + V1",
+            "text": "Geçmişte düzenli olan ama şimdi artık doğru olmayan alışkanlık veya durum.",
+            "examples": ["I used to ride a bike.", "Maya used to live near the sea.", "Leo did not use to wake up early."]
+          },
+          {
+            "title": "be used to + isim / V-ing",
+            "text": "Bir şey artık tanıdık ve normal geliyor. Buradaki be özneye ve zamana göre değişir.",
+            "examples": ["I am used to early mornings.", "Arda is used to taking the bus.", "They were used to the noise."]
+          },
+          {
+            "title": "get used to + isim / V-ing",
+            "text": "Yeni bir duruma zamanla alışma süreci. Get; am/is/are getting, got veya will get olabilir.",
+            "examples": ["I am getting used to waking up early.", "Mina got used to her new school.", "You will get used to the system."]
+          },
+          {
+            "title": "Irregular verb ipuçları",
+            "text": "Düzensiz fiiller -ed kuralına uymaz. Cümlenin zaman ipucunu bul ve doğru V2 biçimini seç.",
+            "examples": ["leave → left", "get → got", "feel → felt", "hide → hid", "become → became"]
+          },
+          {
+            "title": "Story reading yöntemi",
+            "text": "Önce kim, nerede, ne zaman sorularını cevapla. Sonra zamirlerin kimi gösterdiğini ve sebep-sonuç bağlarını bul.",
+            "examples": ["Who is the main character?", "Why did she leave?", "What does “it” refer to?"]
+          }
+        ]
+      }
+    ],
+    "read": {
+      "title": "A New School Routine",
+      "instructions": "Metni iki kez oku. İlk okumada üç yapıyı, ikinci okumada düzensiz fiilleri bul.",
+      "tokens": [
+        {"id": "1", "text": "Maya used to walk to her old school, but she moved to a different town in September. ", "target": true},
+        {"id": "2", "text": "Now she takes a bus at seven o’clock. ", "target": true},
+        {"id": "3", "text": "During the first week, she felt tired and left her travel card at home twice. ", "target": true},
+        {"id": "4", "text": "She was not used to the early journey or the busy bus. ", "target": true},
+        {"id": "5", "text": "After a month, she got used to preparing her bag at night. ", "target": true},
+        {"id": "6", "text": "She is still getting used to reading while the bus is moving. ", "target": true},
+        {"id": "7", "text": "Her new routine is becoming easier, and early mornings no longer feel strange. ", "target": true},
+        {"id": "8", "text": "Maya still misses her old walk, but she likes meeting her friends before class.", "target": true}
+      ],
+      "questions": [
+        {
+          "id": "r1",
+          "prompt": "How did Maya travel to her old school?",
+          "options": ["She used to walk.", "She got used to driving.", "She was taking a plane."],
+          "answer": "She used to walk.",
+          "explanation": "Used to geçmişteki ve artık devam etmeyen rutini gösteriyor."
+        },
+        {
+          "id": "r2",
+          "prompt": "What is Maya still getting used to?",
+          "options": ["Reading on a moving bus", "Living near the sea", "Walking to her old school"],
+          "answer": "Reading on a moving bus",
+          "explanation": "Metin bunun hâlâ devam eden bir alışma süreci olduğunu söylüyor."
+        }
+      ],
+      "extra": {
+        "title": "The Secret of Raven House",
+        "instructions": "Hikâyeyi oku. Kişi, yer, olay sırası ve doğrudan metin kanıtlarına dikkat et.",
+        "paragraphs": [
+          "Raven House stood at the end of a quiet road. Years ago, a young musician named Elena lived there with her family. Elena used to practise the violin every evening, but she wanted to travel and play in a city orchestra. One stormy night, she packed a small bag and left the house. Her family searched the village, yet nobody found her. The music room remained closed for many years.",
+          "Today, the building is a small museum. The guide, Leo, is used to old houses, dark rooms and strange sounds. New visitors are not used to the cold music room, so they often feel nervous. Some say they heard a violin while they were walking upstairs. Others felt a cold breeze when they stood near the window. Leo is getting used to these stories, but one detail still surprises him: every November, a fresh white flower appears on the piano although the doors are locked."
+        ],
+        "questions": [
+          {
+            "id": "er1",
+            "prompt": "What did Elena use to do every evening?",
+            "options": ["Practise the violin", "Work in the museum", "Put flowers on the piano"],
+            "answer": "Practise the violin",
+            "explanation": "İlk paragrafta geçmiş alışkanlık açıkça veriliyor."
+          },
+          {
+            "id": "er2",
+            "prompt": "Why do new visitors often feel nervous?",
+            "options": ["They are not used to the cold room.", "They cannot find Leo.", "They dislike music."],
+            "answer": "They are not used to the cold room.",
+            "explanation": "Be used to burada alışılmış durumu anlatıyor; olumsuz biçim, ortamın yabancı geldiğini gösteriyor."
+          },
+          {
+            "id": "er3",
+            "prompt": "Which detail still surprises Leo?",
+            "options": ["A fresh flower appears on the piano.", "The museum closes in November.", "Visitors play the violin."],
+            "answer": "A fresh flower appears on the piano.",
+            "explanation": "Son cümledeki iki nokta üst üste bu ayrıntıyı açıklıyor."
+          },
+          {
+            "id": "er4",
+            "prompt": "Choose the correct event order.",
+            "options": ["Elena left; the house became a museum; visitors reported strange events.", "The house became a museum; Elena practised; she was found.", "Visitors arrived; Elena left; the family built the house."],
+            "answer": "Elena left; the house became a museum; visitors reported strange events.",
+            "explanation": "Paragraflar geçmiş olaydan bugünkü müzeye doğru ilerliyor."
+          }
+        ]
+      }
+    },
+    "listening": {
+      "level": "A2",
+      "title": "A Morning Briefing",
+      "source": "British Council LearnEnglish",
+      "resource": "A morning briefing",
+      "instructions": "Önce altyazısız dinle ve ana değişiklikleri not et. İkinci dinlemede ayrıntıları kontrol et.",
+      "task": "Konuşmacının anlattığı üç değişikliği yaz. İnsanların hangi yeni durumlara alışması gerektiğini düşün.",
+      "followUp": "Bir be used to ve bir get used to cümlesiyle yeni iş düzenini anlat.",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a2/morning-briefing",
+      "questions": [
+        {
+          "id": "l1",
+          "prompt": "Which sentence describes a familiar situation?",
+          "options": ["The team is used to the normal project routine.", "The team used to the project.", "The team getting use project."],
+          "answer": "The team is used to the normal project routine.",
+          "explanation": "Be used to + isim, alışılmış durumu anlatır."
+        },
+        {
+          "id": "l2",
+          "prompt": "Which sentence describes adapting to a change?",
+          "options": ["They are getting used to the new payment system.", "They used to paying new.", "They are get used the system."],
+          "answer": "They are getting used to the new payment system.",
+          "explanation": "Are getting used to, devam eden alışma sürecidir."
+        }
+      ]
+    },
+    "sort": [
+      {"text": "I used to ride a bike.", "type": "USED", "choices": ["USED", "BEUSED", "GETUSED"]},
+      {"text": "Maya is used to the noise.", "type": "BEUSED", "choices": ["USED", "BEUSED", "GETUSED"]},
+      {"text": "Leo is getting used to his new class.", "type": "GETUSED", "choices": ["USED", "BEUSED", "GETUSED"]},
+      {"text": "They used to live here.", "type": "USED", "choices": ["USED", "BEUSED", "GETUSED"]},
+      {"text": "We were used to cold winters.", "type": "BEUSED", "choices": ["USED", "BEUSED", "GETUSED"]},
+      {"text": "You will get used to waking up early.", "type": "GETUSED", "choices": ["USED", "BEUSED", "GETUSED"]},
+      {"text": "leave → left", "type": "IRREG", "choices": ["IRREG", "READ"]},
+      {"text": "Find who “she” refers to.", "type": "READ", "choices": ["IRREG", "READ"]},
+      {"text": "feel → felt", "type": "IRREG", "choices": ["IRREG", "READ"]},
+      {"text": "Put the events in time order.", "type": "READ", "choices": ["IRREG", "READ"]}
+    ],
+    "order": [
+      {
+        "parts": ["I", "used to", "ride", "a bike"],
+        "answer": "I used to ride a bike",
+        "hint": "Used to + V1."
+      },
+      {
+        "parts": ["Maya", "is used to", "taking", "the bus"],
+        "answer": "Maya is used to taking the bus",
+        "hint": "Be used to + V-ing."
+      },
+      {
+        "parts": ["Leo", "is getting used to", "waking up", "early"],
+        "answer": "Leo is getting used to waking up early",
+        "hint": "Devam eden alışma süreci."
+      },
+      {
+        "parts": ["Elena", "left", "the house", "one night"],
+        "answer": "Elena left the house one night",
+        "hint": "Leave fiilinin V2 biçimi left."
+      },
+      {
+        "parts": ["The visitors", "felt", "a cold breeze", "upstairs"],
+        "answer": "The visitors felt a cold breeze upstairs",
+        "hint": "Feel fiilinin V2 biçimi felt."
+      }
+    ],
+    "quizzes": {
+      "Used to üçlüsü": [
+        {
+          "id": "q1",
+          "prompt": "Choose the old habit.",
+          "options": ["I used to play volleyball.", "I am used to volleyball.", "I am getting used to volleyball."],
+          "answer": "I used to play volleyball.",
+          "explanation": "Used to + V1, artık devam etmeyen geçmiş alışkanlıktır."
+        },
+        {
+          "id": "q2",
+          "prompt": "Complete: I ___ early mornings. They feel normal now.",
+          "options": ["am used to", "used to wake", "am get used"],
+          "answer": "am used to",
+          "explanation": "Şu an alışılmış ve normal olan durum."
+        },
+        {
+          "id": "q3",
+          "prompt": "Complete: She is slowly ___ her new school.",
+          "options": ["getting used to", "used to go", "be use to"],
+          "answer": "getting used to",
+          "explanation": "Slowly, devam eden süreci destekleyen bir ipucudur."
+        },
+        {
+          "id": "q4",
+          "prompt": "Which form follows be/get used to?",
+          "options": ["a noun or verb-ing", "only a base verb", "did + verb"],
+          "answer": "a noun or verb-ing",
+          "explanation": "Buradaki to bir edattır."
+        }
+      ],
+      "Irregular verbs ve reading": [
+        {
+          "id": "q5",
+          "prompt": "Past form of leave:",
+          "options": ["left", "leaved", "leaving"],
+          "answer": "left",
+          "explanation": "Leave düzensiz fiildir."
+        },
+        {
+          "id": "q6",
+          "prompt": "Past form of feel:",
+          "options": ["felt", "feeled", "fell"],
+          "answer": "felt",
+          "explanation": "Feel → felt."
+        },
+        {
+          "id": "q7",
+          "prompt": "What should you identify first in a story?",
+          "options": ["Main people, place and time", "Every unknown word", "Only the final sentence"],
+          "answer": "Main people, place and time",
+          "explanation": "Bu üç bilgi ana çerçeveyi kurar."
+        },
+        {
+          "id": "q8",
+          "prompt": "Which word usually asks for a reason?",
+          "options": ["Why", "Where", "Who"],
+          "answer": "Why",
+          "explanation": "Why sorusu sebep arar."
+        }
+      ],
+      "Final Görev": [
+        {
+          "id": "q9",
+          "prompt": "Choose the correct contrast.",
+          "options": ["I used to wake up late, but now I am used to early mornings.", "I am used to wake late yesterday.", "I get used to woke early."],
+          "answer": "I used to wake up late, but now I am used to early mornings.",
+          "explanation": "Geçmiş alışkanlık ile bugünkü alışılmış durum doğru biçimde karşılaştırılıyor."
+        },
+        {
+          "id": "q10",
+          "prompt": "Choose the adaptation sentence.",
+          "options": ["I am getting used to speaking English in class.", "I used to speaking English now.", "I am used speak English slowly."],
+          "answer": "I am getting used to speaking English in class.",
+          "explanation": "Get used to + V-ing."
+        },
+        {
+          "id": "q11",
+          "prompt": "Choose the correct story sentence.",
+          "options": ["The visitor felt a cold breeze and left the room.", "The visitor feeled a breeze and leaved.", "The visitor feel a breeze yesterday and leave."],
+          "answer": "The visitor felt a cold breeze and left the room.",
+          "explanation": "Feel → felt ve leave → left."
+        },
+        {
+          "id": "q12",
+          "prompt": "A story says “The doors were locked, yet a flower appeared.” What is surprising?",
+          "options": ["The flower appeared although nobody could enter.", "The doors had a colour.", "The guide liked flowers."],
+          "answer": "The flower appeared although nobody could enter.",
+          "explanation": "Yet iki zıt ve şaşırtıcı bilgiyi bağlıyor."
+        }
+      ]
+    }
+  }
+}
