@@ -1,0 +1,233 @@
+{
+  "id": "homework-2026-11-09-exam-simulation",
+  "date": "2026-11-09",
+  "dateLabel": "9 Kasım 2026",
+  "student": "Sümeyye",
+  "title": "Exam Simulation: Tenses, Vocabulary ve Question Tags",
+  "subtitle": "Son dersteki konularla gerçek sınav düzeninde prova yap.",
+  "policyVersion": "sumeyye-weekend-monday@1",
+  "templateContractVersion": "sumeyye-six-tab-interactive@1",
+  "assessmentPolicyVersion": "sumeyye-section-and-final-checks@1",
+  "sections": ["learn", "read", "listen", "sort", "order", "quiz"],
+  "game": {
+    "learn": [
+      {
+        "id": "exam-map",
+        "shortTitle": "Sınav haritası",
+        "title": "Önce ipucunu bul, sonra zamanı seç",
+        "intro": "Bu paket yalnızca son dersin sınav konularını kapsar. Her soruda önce zaman ifadesini, eylemin tamamlanıp tamamlanmadığını ve cümlenin odağını bul.",
+        "cards": [
+          {
+            "title": "Past simple",
+            "text": "Geçmişte başlayıp biten olaylar ve hikâyedeki art arda olaylar. Olumlu cümlede V2, soru ve olumsuzda did + V1.",
+            "examples": ["Maya missed the bus yesterday.", "She called Leo and took a taxi.", "Did she arrive on time?"]
+          },
+          {
+            "title": "Past continuous",
+            "text": "Geçmişte belirli bir anda devam eden sahne veya başka bir olay olurken sürmekte olan eylem. was/were + V-ing.",
+            "examples": ["Maya was waiting at ten.", "While she was waiting, it started to rain.", "They were studying when the lights went out."]
+          },
+          {
+            "title": "Present perfect",
+            "text": "Zamanı belirtilmeyen deneyim, bugünkü sonuç veya geçmişten bugüne süren durum. have/has + V3.",
+            "examples": ["I have visited Ankara twice.", "Leo has lost his ticket.", "We have known Mina for years."]
+          },
+          {
+            "title": "Present perfect continuous",
+            "text": "Geçmişte başlayıp hâlâ süren veya yeni bitmiş fakat etkisi görülen aktivite. have/has been + V-ing.",
+            "examples": ["I have been studying since nine.", "It has been raining all morning.", "They have been waiting for two hours."]
+          },
+          {
+            "title": "when / while / since / for",
+            "text": "When kısa olayı veya zamanı; while devam eden iki eylemi bağlar. Since başlangıç noktası, for süre verir.",
+            "examples": ["I was reading when she called.", "While I was reading, Leo was cooking.", "since Monday", "for three days"]
+          },
+          {
+            "title": "Conjunctions",
+            "text": "Because sebep, so sonuç, but/although karşıtlık, and ek bilgi verir.",
+            "examples": ["I stayed home because I was ill.", "The bus was late, so we called a taxi.", "Although it was tiring, it was unforgettable."]
+          },
+          {
+            "title": "Question tags",
+            "text": "Olumlu cümleye olumsuz, olumsuz cümleye olumlu kısa soru eklenir. Yardımcı fiili ve özneyi cümleden al.",
+            "examples": ["You are ready, aren't you?", "She didn't leave, did she?", "They have arrived, haven't they?", "Let's start, shall we?"]
+          },
+          {
+            "title": "Used to ailesi",
+            "text": "Used to geçmiş alışkanlık; be used to alışılmış durum; get used to alışma sürecidir.",
+            "examples": ["I used to walk to school.", "I am used to early mornings.", "I am getting used to the new timetable."]
+          }
+        ]
+      }
+    ],
+    "read": {
+      "title": "The Delayed Journey",
+      "instructions": "Metni sınav gibi oku. Önce ana fikri bul, sonra zamanları ve bağlaçları işaretle.",
+      "tokens": [
+        {"id": "1", "text": "Arda has been preparing for a school contest for three weeks. ", "target": true},
+        {"id": "2", "text": "Yesterday, he was travelling to the event when the bus suddenly stopped at a crossroad. ", "target": true},
+        {"id": "3", "text": "The driver made an announcement because there was a problem with the engine. ", "target": true},
+        {"id": "4", "text": "While the passengers were waiting, Arda checked his backpack and noticed that he had all his materials. ", "target": true},
+        {"id": "5", "text": "The delay was exhausting, but Arda stayed calm. ", "target": true},
+        {"id": "6", "text": "The school rescheduled his presentation, so he did not miss the contest. ", "target": true},
+        {"id": "7", "text": "He has already received approval to present this afternoon. ", "target": true},
+        {"id": "8", "text": "It has been an unforgettable journey, hasn't it?", "target": true}
+      ],
+      "questions": [
+        {
+          "id": "r1",
+          "prompt": "How long has Arda been preparing?",
+          "options": ["For three weeks", "Since yesterday", "At the crossroad"],
+          "answer": "For three weeks",
+          "explanation": "For + süre; present perfect continuous devam eden hazırlığı anlatır."
+        },
+        {
+          "id": "r2",
+          "prompt": "What was Arda doing when the bus stopped?",
+          "options": ["He was travelling to the event.", "He presented his project.", "He was making an announcement."],
+          "answer": "He was travelling to the event.",
+          "explanation": "Devam eden sahne past continuous, araya giren olay past simple."
+        },
+        {
+          "id": "r3",
+          "prompt": "Why did the driver make an announcement?",
+          "options": ["There was an engine problem.", "Arda lost his backpack.", "The contest ended."],
+          "answer": "There was an engine problem.",
+          "explanation": "Because sebebi açıklar."
+        }
+      ],
+      "extra": {
+        "title": "A Festival Exam Text",
+        "instructions": "Metni oku; true/false ve ayrıntı sorularını metin kanıtıyla cevapla.",
+        "paragraphs": [
+          "Mina has always been passionate about local festivals. This year, she has been helping a community team organise a seaside event. The team has put colourful banners near every crossroad and a large billboard beside the terminal. They have also negotiated a fair price for the food carts. Mina is responsible for the applicants who want to join the art contest. She has checked twenty forms since Monday, but she has not finished the approval process yet.",
+          "Last Saturday, the team tested the programme. While a procession was moving through the town, volunteers were carrying torchlights and visitors were watching a tug of war on the sandy beach. Suddenly, the weather changed. It started to rain, so the organiser rescheduled the prize-giving ceremony. Although the day was exhausting, everyone remained immersed in the activities. The desk clerk at the visitors’ accommodation said the view after the storm was breathtaking. The volunteers have learned an important lesson: they must prioritise safety, mustn't they?"
+        ],
+        "questions": [
+          {
+            "id": "er1",
+            "prompt": "True or False: Mina has finished every application.",
+            "options": ["True", "False"],
+            "answer": "False",
+            "explanation": "Metinde approval process henüz bitmedi diyor."
+          },
+          {
+            "id": "er2",
+            "prompt": "What happened while the procession was moving?",
+            "options": ["Visitors were watching a tug of war.", "The festival ended permanently.", "Mina left the town."],
+            "answer": "Visitors were watching a tug of war.",
+            "explanation": "While aynı anda devam eden iki eylemi bağlıyor."
+          },
+          {
+            "id": "er3",
+            "prompt": "Why was the prize-giving ceremony rescheduled?",
+            "options": ["The weather changed.", "The applicants were curious.", "The fare was expensive."],
+            "answer": "The weather changed.",
+            "explanation": "Yağmur sebebiyle program değişti."
+          },
+          {
+            "id": "er4",
+            "prompt": "What does “breathtaking” mean here?",
+            "options": ["Extremely beautiful or impressive", "Very ordinary", "Impossible to see"],
+            "answer": "Extremely beautiful or impressive",
+            "explanation": "Fırtına sonrası manzara çok etkileyici."
+          }
+        ]
+      }
+    },
+    "listening": {
+      "level": "A2",
+      "title": "Transport Announcements",
+      "source": "British Council LearnEnglish",
+      "resource": "Transport announcements",
+      "instructions": "Bir kez ana bilgi için, ikinci kez saat-platform-kapı ayrıntıları için dinle.",
+      "task": "Duyduğun announcement, boarding ve terminal bağlamlarını not et. Değişen bir planı past simple ile yaz.",
+      "followUp": "Kayıttan iki doğru/yanlış sorusu hazırla ve bir question tag ekle.",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a2/transport-announcements",
+      "questions": [
+        {
+          "id": "l1",
+          "prompt": "Which word means getting onto a plane?",
+          "options": ["boarding", "accommodation", "approval"],
+          "answer": "boarding",
+          "explanation": "Boarding, uçağa binme sürecidir."
+        },
+        {
+          "id": "l2",
+          "prompt": "Choose the correct confirmation question.",
+          "options": ["The platform has changed, hasn't it?", "The platform changed, isn't it?", "The platform has changed, doesn't it?"],
+          "answer": "The platform has changed, hasn't it?",
+          "explanation": "Present perfect cümlesinde yardımcı fiil has → hasn't."
+        }
+      ]
+    },
+    "sort": [
+      {"text": "Mina finished the form yesterday.", "type": "PS", "choices": ["PS", "PC", "PP", "PPC"]},
+      {"text": "Mina was filling in the form at ten.", "type": "PC", "choices": ["PS", "PC", "PP", "PPC"]},
+      {"text": "Mina has finished the form.", "type": "PP", "choices": ["PS", "PC", "PP", "PPC"]},
+      {"text": "Mina has been filling in forms all morning.", "type": "PPC", "choices": ["PS", "PC", "PP", "PPC"]},
+      {"text": "They left the terminal last night.", "type": "PS", "choices": ["PS", "PC", "PP", "PPC"]},
+      {"text": "They were waiting when the announcement started.", "type": "PC", "choices": ["PS", "PC", "PP", "PPC"]},
+      {"text": "They have already boarded.", "type": "PP", "choices": ["PS", "PC", "PP", "PPC"]},
+      {"text": "They have been waiting for two hours.", "type": "PPC", "choices": ["PS", "PC", "PP", "PPC"]},
+      {"text": "because / although / so", "type": "CONJ", "choices": ["CONJ", "TAG", "VOCAB"]},
+      {"text": "You are ready, aren't you?", "type": "TAG", "choices": ["CONJ", "TAG", "VOCAB"]},
+      {"text": "breathtaking / exhausting", "type": "VOCAB", "choices": ["CONJ", "TAG", "VOCAB"]},
+      {"text": "She hasn't arrived, has she?", "type": "TAG", "choices": ["CONJ", "TAG", "VOCAB"]},
+      {"text": "announcement / applicant / approval", "type": "VOCAB", "choices": ["CONJ", "TAG", "VOCAB"]},
+      {"text": "while / when / but", "type": "CONJ", "choices": ["CONJ", "TAG", "VOCAB"]}
+    ],
+    "order": [
+      {"parts": ["While", "Maya was studying", "the phone", "rang"], "answer": "While Maya was studying the phone rang", "hint": "Devam eden sahne + kısa olay."},
+      {"parts": ["I", "have been studying", "for", "three hours"], "answer": "I have been studying for three hours", "hint": "For + süre."},
+      {"parts": ["Leo", "has already finished", "the application"], "answer": "Leo has already finished the application", "hint": "Already, present perfect ile sık kullanılır."},
+      {"parts": ["The trip", "was exhausting", "but", "unforgettable"], "answer": "The trip was exhausting but unforgettable", "hint": "But karşıt iki fikri bağlar."},
+      {"parts": ["You", "have checked", "the terminal", "haven't you"], "answer": "You have checked the terminal haven't you", "hint": "Olumlu present perfect + olumsuz tag."},
+      {"parts": ["She", "used to", "carry", "a backpack"], "answer": "She used to carry a backpack", "hint": "Used to + V1."}
+    ],
+    "quizzes": {
+      "1. True / False": [
+        {"id": "tf1", "prompt": "Past continuous uses was/were + V-ing.", "options": ["True", "False"], "answer": "True", "explanation": "Temel yapı budur."},
+        {"id": "tf2", "prompt": "Present perfect always gives a finished past time such as yesterday.", "options": ["True", "False"], "answer": "False", "explanation": "Yesterday gibi bitmiş zamanla past simple kullanılır."},
+        {"id": "tf3", "prompt": "Since gives a starting point; for gives a duration.", "options": ["True", "False"], "answer": "True", "explanation": "Since Monday / for three days."},
+        {"id": "tf4", "prompt": "While can connect two actions continuing at the same time.", "options": ["True", "False"], "answer": "True", "explanation": "While I was reading, Leo was cooking."},
+        {"id": "tf5", "prompt": "A positive statement usually takes a positive question tag.", "options": ["True", "False"], "answer": "False", "explanation": "Olumlu cümleye genellikle olumsuz tag gelir."},
+        {"id": "tf6", "prompt": "Get used to describes the process of adapting.", "options": ["True", "False"], "answer": "True", "explanation": "Alışma sürecidir."}
+      ],
+      "2. Fill in the blanks": [
+        {"id": "gap1", "prompt": "While I ___ for the bus, it started to rain.", "options": ["was waiting", "waited every", "have waited yesterday"], "answer": "was waiting", "explanation": "Devam eden sahne."},
+        {"id": "gap2", "prompt": "We ___ the announcement ten minutes ago.", "options": ["heard", "have heard", "have been hearing"], "answer": "heard", "explanation": "Ten minutes ago → past simple."},
+        {"id": "gap3", "prompt": "Maya ___ her application already.", "options": ["has sent", "sent yesterday already now", "has been send"], "answer": "has sent", "explanation": "Already + present perfect; sonuç önemli."},
+        {"id": "gap4", "prompt": "They ___ for the exam since nine o’clock.", "options": ["have been studying", "were studying since now", "studied at the moment"], "answer": "have been studying", "explanation": "Since + başlangıç, eylem hâlâ sürüyor."},
+        {"id": "gap5", "prompt": "The trip was tiring, ___ it was unforgettable.", "options": ["but", "because", "so that reason"], "answer": "but", "explanation": "Karşıt iki fikir."},
+        {"id": "gap6", "prompt": "She didn't miss the terminal, ___ she?", "options": ["did", "didn't", "has"], "answer": "did", "explanation": "Olumsuz past simple + olumlu did tag."},
+        {"id": "gap7", "prompt": "You are used to ___ early.", "options": ["waking up", "wake up", "woke up"], "answer": "waking up", "explanation": "Be used to + V-ing."},
+        {"id": "gap8", "prompt": "When the inspector arrived, the passengers ___ near the gate.", "options": ["were waiting", "have waited yesterday", "waits"], "answer": "were waiting", "explanation": "Belirli geçmiş anda devam eden eylem."}
+      ],
+      "3. Vocabulary": [
+        {"id": "v1", "prompt": "A place to stay on a trip:", "options": ["accommodation", "crossroad", "approval"], "answer": "accommodation", "explanation": "Accommodation = konaklama."},
+        {"id": "v2", "prompt": "A person who applies:", "options": ["applicant", "inspector", "desk clerk"], "answer": "applicant", "explanation": "Applicant = başvuran kişi."},
+        {"id": "v3", "prompt": "Permission to do something:", "options": ["approval", "expectation", "sacrifice"], "answer": "approval", "explanation": "Approval = onay."},
+        {"id": "v4", "prompt": "Getting onto a plane:", "options": ["boarding", "procession", "negotiating"], "answer": "boarding", "explanation": "Boarding = uçağa/taşıta biniş."},
+        {"id": "v5", "prompt": "Extremely beautiful or impressive:", "options": ["breathtaking", "exhausting", "curious"], "answer": "breathtaking", "explanation": "Breathtaking = nefes kesici."},
+        {"id": "v6", "prompt": "Very tiring:", "options": ["exhausting", "fascinated", "sandy"], "answer": "exhausting", "explanation": "Exhausting = çok yorucu."},
+        {"id": "v7", "prompt": "Change an event to a new time:", "options": ["reschedule", "prioritise", "require"], "answer": "reschedule", "explanation": "Reschedule = yeniden zamanlamak."},
+        {"id": "v8", "prompt": "The price of a train or bus ticket:", "options": ["fare", "fair", "banner"], "answer": "fare", "explanation": "Fare ulaşım ücreti; fair farklı bir kelimedir."},
+        {"id": "v9", "prompt": "An event where awards are presented:", "options": ["prize-giving", "tug of war", "torchlight"], "answer": "prize-giving", "explanation": "Prize-giving = ödül töreni."},
+        {"id": "v10", "prompt": "Decide what is most important first:", "options": ["prioritise", "immerse", "negotiate"], "answer": "prioritise", "explanation": "Prioritise = önceliklendirmek."}
+      ],
+      "4. Final Exam": [
+        {"id": "f1", "prompt": "Choose the completed past event.", "options": ["The train left at eight yesterday.", "The train has left at eight yesterday.", "The train has been leaving yesterday."], "answer": "The train left at eight yesterday.", "explanation": "Bitmiş zaman → past simple."},
+        {"id": "f2", "prompt": "Choose the background action.", "options": ["We were walking when we saw the billboard.", "We have walked yesterday when saw.", "We walking when have seen."], "answer": "We were walking when we saw the billboard.", "explanation": "Past continuous + past simple."},
+        {"id": "f3", "prompt": "Choose the present result.", "options": ["She has lost her boarding pass.", "She lost her pass last year now.", "She has been lose her pass."], "answer": "She has lost her boarding pass.", "explanation": "Kayıp kartın sonucu şimdi önemli."},
+        {"id": "f4", "prompt": "Choose the continuing activity.", "options": ["They have been preparing since Monday.", "They prepared since Monday and still.", "They were prepare since Monday."], "answer": "They have been preparing since Monday.", "explanation": "Geçmişten şimdiye süren aktivite."},
+        {"id": "f5", "prompt": "Choose the correct question tag.", "options": ["Mina is passionate, isn't she?", "Mina is passionate, doesn't she?", "Mina is passionate, is she?"], "answer": "Mina is passionate, isn't she?", "explanation": "Is → isn't; özne she."},
+        {"id": "f6", "prompt": "Choose the correct present perfect tag.", "options": ["They have arrived, haven't they?", "They have arrived, don't they?", "They have arrived, have they?"], "answer": "They have arrived, haven't they?", "explanation": "Have → haven't."},
+        {"id": "f7", "prompt": "Choose the correct link.", "options": ["Although it was raining, the procession continued.", "Because it was raining, but the procession continued.", "So it was raining although procession."], "answer": "Although it was raining, the procession continued.", "explanation": "Although karşıtlık verir."},
+        {"id": "f8", "prompt": "Choose the correct used-to sentence.", "options": ["I used to carry a backpack, but now I use a small bag.", "I used to carrying a backpack now.", "I am used carry backpack before."], "answer": "I used to carry a backpack, but now I use a small bag.", "explanation": "Used to + V1."},
+        {"id": "f9", "prompt": "Which sentence means the new routine is becoming normal?", "options": ["I am getting used to the new routine.", "I used to the new routine.", "I get use the routine yesterday."], "answer": "I am getting used to the new routine.", "explanation": "Get used to = alışma süreci."},
+        {"id": "f10", "prompt": "Choose the best exam strategy.", "options": ["Underline time clues and identify whether the action is finished or continuing.", "Choose the longest option without reading.", "Translate only one word and ignore the sentence."], "answer": "Underline time clues and identify whether the action is finished or continuing.", "explanation": "Zaman ipucu ve eylemin durumu doğru tense seçimini kolaylaştırır."}
+      ]
+    }
+  }
+}
