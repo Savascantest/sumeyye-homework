@@ -18,11 +18,12 @@ for (const entry of entries) {
   lessons.push({
     id: homework.id,
     date: homework.date,
+    ...(homework.lessonDate ? { lessonDate: homework.lessonDate } : {}),
     title: homework.title,
     path: `${entry.name}/homework.json`,
   });
 }
 
-lessons.sort((a, b) => b.date.localeCompare(a.date) || b.id.localeCompare(a.id));
+lessons.sort((a, b) => b.date.localeCompare(a.date) || (b.lessonDate || b.date).localeCompare(a.lessonDate || a.date) || b.id.localeCompare(a.id));
 await writeFile(path.join(root, 'index.json'), `${JSON.stringify({ lessons }, null, 2)}\n`);
 console.log(`Indexed ${lessons.length} homework package(s).`);

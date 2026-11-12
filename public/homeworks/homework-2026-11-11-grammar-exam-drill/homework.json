@@ -1,0 +1,139 @@
+{
+  "id": "homework-2026-11-11-grammar-exam-drill",
+  "date": "2026-11-09",
+  "lessonDate": "2026-11-11",
+  "dateLabel": "11 Kasım 2026",
+  "student": "Sümeyye",
+  "title": "Grammar Exam Drill: Tenses, Conjunctions ve Question Tags",
+  "subtitle": "Son dersteki dilbilgisi konularını dönüşüm ve sınav sorularıyla pekiştir.",
+  "policyVersion": "sumeyye-weekend-monday@1",
+  "templateContractVersion": "sumeyye-six-tab-interactive@1",
+  "assessmentPolicyVersion": "sumeyye-section-and-final-checks@1",
+  "sections": ["learn", "read", "listen", "sort", "order", "quiz"],
+  "game": {
+    "learn": [{
+      "id": "grammar-map",
+      "shortTitle": "Hızlı tekrar",
+      "title": "Tense seç, fikri bağla, cevabı doğrula",
+      "intro": "Bu paket yalnızca son dersteki sınav konularını kapsar. Önce zaman ipucunu ve eylemin durumunu bul; sonra doğru tense, conjunction veya question tag yapısını seç.",
+      "cards": [
+        {"title": "Present simple / continuous", "text": "Present simple rutin ve genel gerçek; present continuous şu anda veya geçici olarak devam eden eylem içindir.", "examples": ["Maya studies every evening.", "Maya is studying now."]},
+        {"title": "Past simple / continuous", "text": "Past simple tamamlanan olay; past continuous geçmişte belirli bir anda sürmekte olan sahnedir.", "examples": ["Leo finished yesterday.", "Leo was writing when the bell rang."]},
+        {"title": "Present perfect", "text": "Bugüne bağlantısı olan sonuç, deneyim veya durum. have/has + V3.", "examples": ["I have finished the worksheet.", "We have known Arda for years."]},
+        {"title": "Present perfect continuous", "text": "Geçmişte başlayıp hâlâ süren veya etkisi görülen aktivite. have/has been + V-ing.", "examples": ["I have been revising since nine.", "They have been practising for two hours."]},
+        {"title": "Conjunctions", "text": "And ek bilgi, but/although karşıtlık, because sebep, so sonuç, when kısa olay, while devam eden sahne verir.", "examples": ["I revised because the exam was near.", "While I was reading, the phone rang."]},
+        {"title": "Question tags", "text": "Olumlu cümleye olumsuz; olumsuz cümleye olumlu kısa soru ekle. Yardımcı fiil ve zamir ana cümleyle eşleşir.", "examples": ["You are ready, aren't you?", "They have finished, haven't they?", "He studies hard, doesn't he?"]},
+        {"title": "Tense transformations", "text": "Anlamı koruyarak yardımcı fiili, ana fiil biçimini ve zaman ifadesini birlikte değiştir.", "examples": ["She studies every day. → She is studying now.", "They started at nine and continue. → They have been working since nine."]}
+      ]
+    }],
+    "read": {
+      "title": "The Revision Evening",
+      "instructions": "Metni oku; tense ipuçlarını, conjunctions ve question tags yapılarını bul.",
+      "tokens": [
+        {"id": "1", "text": "Mina usually revises in the library, but she is studying at home tonight. ", "target": true},
+        {"id": "2", "text": "She has completed two worksheets and has been practising question tags for an hour. ", "target": true},
+        {"id": "3", "text": "Yesterday, she was reviewing past tenses when Leo called. ", "target": true},
+        {"id": "4", "text": "Leo did not understand one exercise, so Mina explained it. ", "target": true},
+        {"id": "5", "text": "They compared the perfect tenses because the forms looked similar. ", "target": true},
+        {"id": "6", "text": "Mina feels more confident now, doesn't she?", "target": true}
+      ],
+      "questions": [
+        {"id": "r1", "prompt": "Where does Mina usually revise?", "options": ["In the library", "At Leo's house", "At school tonight"], "answer": "In the library", "explanation": "Usually, present simple rutini gösterir."},
+        {"id": "r2", "prompt": "What has Mina been practising?", "options": ["Question tags", "Only listening", "Spelling names"], "answer": "Question tags", "explanation": "For an hour, devam eden çalışmanın süresini verir."},
+        {"id": "r3", "prompt": "Why did they compare two tenses?", "options": ["The forms looked similar.", "The library was closed.", "Leo missed the exam."], "answer": "The forms looked similar.", "explanation": "Because sebebi açıklar."}
+      ],
+      "extra": {
+        "title": "The Practice Test",
+        "instructions": "Metni sınav gibi oku; her cevap için metinden dilbilgisi kanıtı bul.",
+        "paragraphs": [
+          "Arda takes a practice test every Saturday. Today he is working on a longer paper because his English exam is approaching. He has answered the present-tense questions, but he has not checked them yet. He has been concentrating for forty minutes, so he takes a short break.",
+          "Last week, Arda made mistakes because he chose the tense before reading the whole sentence. He was looking at only one word when the teacher explained a better method. Now he reads the time expression, checks whether the action is finished or continuing, and then chooses the verb form. This method has helped him, hasn't it?"
+        ],
+        "questions": [
+          {"id": "er1", "prompt": "True or False: Arda has checked every answer.", "options": ["True", "False"], "answer": "False", "explanation": "Metinde has not checked them yet yazıyor."},
+          {"id": "er2", "prompt": "Why does Arda take a break?", "options": ["He has been concentrating for forty minutes.", "He completed the real exam.", "The teacher called him."], "answer": "He has been concentrating for forty minutes.", "explanation": "So sonuç bağlacından önce sebep veriliyor."},
+          {"id": "er3", "prompt": "What was Arda doing when the teacher explained a method?", "options": ["Looking at one word", "Taking the real exam", "Speaking on the phone"], "answer": "Looking at one word", "explanation": "Past continuous devam eden sahneyi gösterir."},
+          {"id": "er4", "prompt": "What does Arda check before choosing a tense?", "options": ["Whether the action is finished or continuing", "Only the sentence length", "Only the first word"], "answer": "Whether the action is finished or continuing", "explanation": "Son paragrafta yöntem açıklanıyor."}
+        ]
+      }
+    },
+    "listening": {
+      "level": "A2",
+      "title": "Four Conversations",
+      "source": "British Council LearnEnglish",
+      "resource": "Four conversations",
+      "instructions": "İlk dinlemede konuşmaların zamanını ve ana fikrini bul. İkinci dinlemede tense ve conjunction örneklerini not et.",
+      "task": "İki past form, iki present form, bir present perfect ve iki conjunction örneği yaz.",
+      "followUp": "Dinlediğin bir cümleye uygun question tag ekle.",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a2/four-conversations",
+      "questions": [
+        {"id": "l1", "prompt": "Which sentence reports a completed past event?", "options": ["I prepared a lot.", "I have been preparing yesterday.", "I am prepared every past."], "answer": "I prepared a lot.", "explanation": "V2 tamamlanmış geçmiş olayı gösterir."},
+        {"id": "l2", "prompt": "Complete: You've prepared well, ___?", "options": ["haven't you", "don't you", "didn't you"], "answer": "haven't you", "explanation": "You've = you have; tag haven't you olur."}
+      ]
+    },
+    "sort": [
+      {"text": "She studies every evening.", "type": "PS", "choices": ["PS", "PC", "PP", "PPC"]},
+      {"text": "She was studying at eight.", "type": "PC", "choices": ["PS", "PC", "PP", "PPC"]},
+      {"text": "She has completed the task.", "type": "PP", "choices": ["PS", "PC", "PP", "PPC"]},
+      {"text": "She has been studying since eight.", "type": "PPC", "choices": ["PS", "PC", "PP", "PPC"]},
+      {"text": "They finished yesterday.", "type": "PS", "choices": ["PS", "PC", "PP", "PPC"]},
+      {"text": "They were talking when I arrived.", "type": "PC", "choices": ["PS", "PC", "PP", "PPC"]},
+      {"text": "They have never failed an exam.", "type": "PP", "choices": ["PS", "PC", "PP", "PPC"]},
+      {"text": "They have been practising for hours.", "type": "PPC", "choices": ["PS", "PC", "PP", "PPC"]},
+      {"text": "because / so / although", "type": "CONJ", "choices": ["CONJ", "TAG"]},
+      {"text": "You're ready, aren't you?", "type": "TAG", "choices": ["CONJ", "TAG"]},
+      {"text": "when / while / but", "type": "CONJ", "choices": ["CONJ", "TAG"]},
+      {"text": "She hasn't left, has she?", "type": "TAG", "choices": ["CONJ", "TAG"]}
+    ],
+    "order": [
+      {"parts": ["Mina", "studies", "English", "every evening"], "answer": "Mina studies English every evening", "hint": "Present simple rutin."},
+      {"parts": ["Mina", "is studying", "English", "now"], "answer": "Mina is studying English now", "hint": "Present continuous."},
+      {"parts": ["While", "Leo was reading", "the phone", "rang"], "answer": "While Leo was reading the phone rang", "hint": "Süren sahne + kısa olay."},
+      {"parts": ["They", "have finished", "the practice test"], "answer": "They have finished the practice test", "hint": "Present perfect sonuç."},
+      {"parts": ["We", "have been revising", "for", "two hours"], "answer": "We have been revising for two hours", "hint": "Devam eden aktivite + süre."},
+      {"parts": ["You", "are prepared", "aren't you"], "answer": "You are prepared aren't you", "hint": "Olumlu be + olumsuz tag."}
+    ],
+    "quizzes": {
+      "1. Tense Recognition": [
+        {"id": "t1", "prompt": "Choose the routine.", "options": ["Leo revises every day.", "Leo is revising now.", "Leo revised yesterday."], "answer": "Leo revises every day.", "explanation": "Every day → present simple."},
+        {"id": "t2", "prompt": "Choose the action happening now.", "options": ["Mina is writing now.", "Mina writes yesterday.", "Mina has been write."], "answer": "Mina is writing now.", "explanation": "Now → present continuous."},
+        {"id": "t3", "prompt": "Choose the completed past action.", "options": ["They finished at six.", "They have finished yesterday.", "They were finish at six."], "answer": "They finished at six.", "explanation": "Bitmiş geçmiş → past simple."},
+        {"id": "t4", "prompt": "Choose the past background action.", "options": ["I was reading when she called.", "I read when she was call.", "I have read yesterday."], "answer": "I was reading when she called.", "explanation": "Sahne past continuous, kısa olay past simple."},
+        {"id": "t5", "prompt": "Choose the present result.", "options": ["She has completed the form.", "She completed the form last year now.", "She has been complete."], "answer": "She has completed the form.", "explanation": "Present perfect sonucu bugüne bağlar."},
+        {"id": "t6", "prompt": "Choose the activity continuing to now.", "options": ["We have been studying since nine.", "We studied since nine and still.", "We were study since nine."], "answer": "We have been studying since nine.", "explanation": "Since + devam eden aktivite."}
+      ],
+      "2. Tense Transformations": [
+        {"id": "x1", "prompt": "Change to now: She studies English every day.", "options": ["She is studying English now.", "She has studied English yesterday.", "She was study English now."], "answer": "She is studying English now.", "explanation": "Now → present continuous."},
+        {"id": "x2", "prompt": "Change to completed past: They are taking the test.", "options": ["They took the test yesterday.", "They have take the test yesterday.", "They were took the test."], "answer": "They took the test yesterday.", "explanation": "Take → took."},
+        {"id": "x3", "prompt": "Express the present result: Leo finished the worksheet.", "options": ["Leo has finished the worksheet.", "Leo has been finish the worksheet.", "Leo is finished yesterday."], "answer": "Leo has finished the worksheet.", "explanation": "Has + V3."},
+        {"id": "x4", "prompt": "Express an activity continuing from nine.", "options": ["Leo has been working since nine.", "Leo worked since nine now.", "Leo has worked at nine yesterday."], "answer": "Leo has been working since nine.", "explanation": "Has been + V-ing."},
+        {"id": "x5", "prompt": "Make it negative: Maya has completed the task.", "options": ["Maya hasn't completed the task.", "Maya doesn't has completed.", "Maya hasn't complete yesterday."], "answer": "Maya hasn't completed the task.", "explanation": "Has not + V3."},
+        {"id": "x6", "prompt": "Make a question: They were studying.", "options": ["Were they studying?", "Did they were studying?", "Have they studying?"], "answer": "Were they studying?", "explanation": "Were başa gelir."}
+      ],
+      "3. Conjunctions": [
+        {"id": "c1", "prompt": "I revised ___ the exam was near.", "options": ["because", "so", "although"], "answer": "because", "explanation": "Sebep."},
+        {"id": "c2", "prompt": "The exam was near, ___ I revised.", "options": ["so", "because", "while"], "answer": "so", "explanation": "Sonuç."},
+        {"id": "c3", "prompt": "It was difficult, ___ I continued.", "options": ["but", "because", "so difficult"], "answer": "but", "explanation": "Karşıtlık."},
+        {"id": "c4", "prompt": "___ I was revising, the phone rang.", "options": ["While", "Because", "So"], "answer": "While", "explanation": "Devam eden sahne."},
+        {"id": "c5", "prompt": "I was revising ___ the phone rang.", "options": ["when", "although", "and because"], "answer": "when", "explanation": "Kısa olayın anı."},
+        {"id": "c6", "prompt": "___ she was tired, she finished the test.", "options": ["Although", "Because of she", "So"], "answer": "Although", "explanation": "Karşıtlık."}
+      ],
+      "4. Question Tags": [
+        {"id": "q1", "prompt": "You are ready, ___?", "options": ["aren't you", "don't you", "are you"], "answer": "aren't you", "explanation": "Olumlu are → olumsuz aren't."},
+        {"id": "q2", "prompt": "She isn't worried, ___?", "options": ["is she", "isn't she", "does she"], "answer": "is she", "explanation": "Olumsuz is → olumlu is."},
+        {"id": "q3", "prompt": "He studies every day, ___?", "options": ["doesn't he", "isn't he", "hasn't he"], "answer": "doesn't he", "explanation": "Present simple → does."},
+        {"id": "q4", "prompt": "They didn't leave, ___?", "options": ["did they", "didn't they", "have they"], "answer": "did they", "explanation": "Olumsuz did → olumlu did."},
+        {"id": "q5", "prompt": "Mina has finished, ___?", "options": ["hasn't she", "doesn't she", "isn't she"], "answer": "hasn't she", "explanation": "Present perfect yardımcı fiili has."},
+        {"id": "q6", "prompt": "We were studying, ___?", "options": ["weren't we", "didn't we", "haven't we"], "answer": "weren't we", "explanation": "Past continuous yardımcı fiili were."}
+      ],
+      "5. Final Exam": [
+        {"id": "f1", "prompt": "Choose the correct sentence.", "options": ["I usually study at home, but I am studying in the library today.", "I am usually study at home but study today now.", "I studied usually and am study today."], "answer": "I usually study at home, but I am studying in the library today.", "explanation": "Rutin + geçici eylem."},
+        {"id": "f2", "prompt": "Choose the correct narrative pair.", "options": ["While I was walking, I saw Leo.", "While I walked, I was see Leo.", "While was walking, saw I Leo."], "answer": "While I was walking, I saw Leo.", "explanation": "Süren sahne + kısa olay."},
+        {"id": "f3", "prompt": "Choose the correct perfect form.", "options": ["She has already completed the test.", "She already has complete yesterday.", "She has been completed the test."], "answer": "She has already completed the test.", "explanation": "Has + V3."},
+        {"id": "f4", "prompt": "Choose the continuing activity.", "options": ["They have been revising for two hours.", "They have revised for two hours and still.", "They were revise for two hours now."], "answer": "They have been revising for two hours.", "explanation": "Have been + V-ing."},
+        {"id": "f5", "prompt": "Choose the correct cause and result.", "options": ["The test was difficult, so I read carefully.", "The test was difficult because so I read.", "Although difficult because I read."], "answer": "The test was difficult, so I read carefully.", "explanation": "So sonuç verir."},
+        {"id": "f6", "prompt": "Choose the correct question tag.", "options": ["You haven't checked the answers, have you?", "You haven't checked, haven't you?", "You haven't checked, do you?"], "answer": "You haven't checked the answers, have you?", "explanation": "Olumsuz present perfect + olumlu have."}
+      ]
+    }
+  }
+}

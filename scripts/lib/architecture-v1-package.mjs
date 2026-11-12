@@ -3,6 +3,13 @@ export const APPROVED_POLICY_VERSION = 'sumeyye-weekend-monday@1';
 export const APPROVED_TEMPLATE_VERSION = 'sumeyye-six-tab-interactive@1';
 export const APPROVED_ASSESSMENT_POLICY_VERSION = 'sumeyye-section-and-final-checks@1';
 
+function weekStart(dateString) {
+  const date = new Date(`${dateString}T12:00:00Z`);
+  const day = date.getUTCDay() || 7;
+  date.setUTCDate(date.getUTCDate() - day + 1);
+  return date.toISOString().slice(0, 10);
+}
+
 export function collectArchitectureV1PackageErrors(homework) {
   if (!homework?.date || homework.date < ARCHITECTURE_V1_EFFECTIVE_DATE) return [];
   const errors = [];
@@ -10,6 +17,14 @@ export function collectArchitectureV1PackageErrors(homework) {
   if (homework.policyVersion !== APPROVED_POLICY_VERSION) errors.push(`policyVersion must equal ${APPROVED_POLICY_VERSION}`);
   if (homework.templateContractVersion !== APPROVED_TEMPLATE_VERSION) errors.push(`templateContractVersion must equal ${APPROVED_TEMPLATE_VERSION}`);
   if (homework.assessmentPolicyVersion !== APPROVED_ASSESSMENT_POLICY_VERSION) errors.push(`assessmentPolicyVersion must equal ${APPROVED_ASSESSMENT_POLICY_VERSION}`);
+  if (homework.lessonDate) {
+    const lessonDate = new Date(`${homework.lessonDate}T12:00:00Z`);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(homework.lessonDate) || Number.isNaN(lessonDate.getTime()) || lessonDate.toISOString().slice(0, 10) !== homework.lessonDate) {
+      errors.push('lessonDate must be a valid YYYY-MM-DD date');
+    } else if (weekStart(homework.lessonDate) !== homework.date) {
+      errors.push('lessonDate must belong to the package Monday cycle');
+    }
+  }
   return errors;
 }
 

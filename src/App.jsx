@@ -126,7 +126,7 @@ function HomeworkPicker({ lessons, activeId, onSelect }) {
     return groups;
   }, {});
   const lessonNumber = (entry) => lessons.length - lessons.findIndex((lesson) => lesson.id === entry.id);
-  const lessonButton = (entry, compact = false) => <button key={entry.id} className={`${activeId===entry.id?'active':''} ${compact?'compact':''}`} onClick={()=>onSelect(entry)} aria-pressed={activeId===entry.id}><span className="homework-number">{lessonNumber(entry)}</span><span><small>{entry.date}</small><strong>{entry.title}</strong></span>{activeId===entry.id?<CheckCircle2 size={22}/>:<ChevronRight size={22}/>}</button>;
+  const lessonButton = (entry, compact = false) => <button key={entry.id} className={`${activeId===entry.id?'active':''} ${compact?'compact':''}`} onClick={()=>onSelect(entry)} aria-pressed={activeId===entry.id}><span className="homework-number">{lessonNumber(entry)}</span><span><small>{entry.lessonDate||entry.date}</small><strong>{entry.title}</strong></span>{activeId===entry.id?<CheckCircle2 size={22}/>:<ChevronRight size={22}/>}</button>;
   return <section className="homework-picker" aria-label="Ödev seçimi">
     <div className="picker-heading"><div><strong>Bu Haftanın Ödevleri</strong><span>{weekLabel(newestWeek)} · Çalışmak istediğin dersi seç</span></div><span>{current.length} ödev</span></div>
     <div className="homework-options">{current.map((entry)=>lessonButton(entry))}</div>

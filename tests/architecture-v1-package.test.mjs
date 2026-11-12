@@ -11,3 +11,6 @@ test('unknown policy version fails', () => assert.throws(() => assertArchitectur
 test('future package requires assessment policy coherence', () => assert.throws(() => assertArchitectureV1Package({ ...future(), assessmentPolicyVersion: 'other@1' }), /assessmentPolicyVersion/));
 test('future package belongs to the Monday weekly cycle', () => assert.throws(() => assertArchitectureV1Package({ ...future(), date: '2026-09-20' }), /Monday/));
 test('existing six-tab package shape remains compatible with metadata', () => assert.equal(assertArchitectureV1Package({ ...future(), sections: ['learn', 'read', 'listen', 'sort', 'order', 'quiz'] }).date, '2026-09-21'));
+test('actual lessonDate may differ from the Monday cycle date within the same week', () => assert.equal(assertArchitectureV1Package({ ...future(), lessonDate: '2026-09-23' }).lessonDate, '2026-09-23'));
+test('lessonDate cannot escape its Monday cycle week', () => assert.throws(() => assertArchitectureV1Package({ ...future(), lessonDate: '2026-09-28' }), /Monday cycle/));
+test('lessonDate must be a real calendar date', () => assert.throws(() => assertArchitectureV1Package({ ...future(), lessonDate: '2026-09-31' }), /valid YYYY-MM-DD/));

@@ -1,6 +1,13 @@
 {
   "lessons": [
     {
+      "id": "homework-2026-11-11-grammar-exam-drill",
+      "date": "2026-11-09",
+      "lessonDate": "2026-11-11",
+      "title": "Grammar Exam Drill: Tenses, Conjunctions ve Question Tags",
+      "path": "homework-2026-11-11-grammar-exam-drill/homework.json"
+    },
+    {
       "id": "homework-2026-11-09-exam-simulation",
       "date": "2026-11-09",
       "title": "Exam Simulation: Tenses, Vocabulary ve Question Tags",
