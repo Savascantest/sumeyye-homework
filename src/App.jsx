@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import {
   AlertTriangle, Archive, BookOpen, Check, CheckCircle2, ChevronDown, ChevronRight, CircleHelp,
-  ExternalLink, Glasses, GraduationCap, Headphones, Layers3, ListChecks, LoaderCircle, Puzzle,
+  ClipboardCheck, ExternalLink, Glasses, GraduationCap, Headphones, Layers3, ListChecks, LoaderCircle, Puzzle,
   RefreshCw, RotateCcw, Sparkles, Star, Trophy, Volume2,
 } from 'lucide-react';
 
@@ -12,8 +12,9 @@ const nav = [
   ['sort', 'Eşleştir', Layers3],
   ['order', 'Sırala', Puzzle],
   ['quiz', 'Testler', ListChecks],
+  ['exam', 'Sınav', ClipboardCheck],
 ];
-const gameKey = { learn: 'learn', read: 'read', listen: 'listening', sort: 'sort', order: 'order', quiz: 'quizzes' };
+const gameKey = { learn: 'learn', read: 'read', listen: 'listening', sort: 'sort', order: 'order', quiz: 'quizzes', exam: 'exam' };
 
 const roleNames = {
   S: 'Özne', V: 'Fiil', O: 'Nesne', P: 'Yer', T: 'Zaman', BE: 'BE', AUX: 'Yardımcı Fiil', QW: 'Soru Kelimesi',
@@ -116,6 +117,31 @@ function Quiz({ groups, onPoints }) {
   return <section className="quiz-player"><button className="text-button" onClick={()=>setGroup(null)}>← Test menüsü</button><div className="quiz-progress"><span style={{width:`${index/questions.length*100}%`}} /></div><p>Soru {index+1} / {questions.length}</p><h2>{q.prompt}</h2><div className="quiz-options">{q.options.map((x)=><button onClick={()=>pick(x)} className={choice===x?(correct?'right':'wrong'):choice!==null&&x===q.answer?'right':''} key={x}>{x}</button>)}</div>{choice!==null&&<><div className={`big-feedback ${correct?'good':'try'}`}>{correct?'Doğru!':q.explanation}</div><button className="primary next" onClick={()=>{setIndex((x)=>x+1);setChoice(null)}}>Sonraki <ChevronRight size={17}/></button></>}</section>;
 }
 
+function ExamSimulation({ data, onPoints }) {
+  const [formatId,setFormatId]=useState(data.formats[0]?.id); const [answers,setAnswers]=useState({}); const [checked,setChecked]=useState({}); const [awarded,setAwarded]=useState({});
+  const format=data.formats.find((item)=>item.id===formatId)||data.formats[0];
+  useEffect(()=>setFormatId(data.formats[0]?.id),[data]);
+  const key=(item)=>`${format.id}:${item.id}`;
+  const normalize=(value)=>String(value||'').trim().toLocaleLowerCase('en-US').replace(/[.!?]$/,'');
+  const accepted=(item)=>[item.answer,...(item.accepted||[])].map(normalize);
+  const isCorrect=(item)=>format.type==='open-ended'?Boolean(normalize(answers[key(item)])):accepted(item).includes(normalize(answers[key(item)]));
+  function update(item,value){setAnswers((current)=>({...current,[key(item)]:value}));setChecked((current)=>({...current,[key(item)]:false}));}
+  function check(item){const itemKey=key(item);setChecked((current)=>({...current,[itemKey]:true}));if(isCorrect(item)){if(!awarded[itemKey]){setAwarded((current)=>({...current,[itemKey]:true}));onPoints(10)}playTone(650)}else playTone(280,.2)}
+  function renderInput(item){
+    if(format.type==='match-halves')return <select value={answers[key(item)]||''} onChange={(event)=>update(item,event.target.value)}><option value="">Cümlenin ikinci yarısını seç…</option>{format.options.map((option)=><option value={option.id} key={option.id}>{option.text}</option>)}</select>;
+    return <input value={answers[key(item)]||''} onChange={(event)=>update(item,event.target.value)} placeholder={format.type==='open-ended'?'Kendi cümlenle yaz…':'Cevabını yaz…'} />;
+  }
+  return <section className="exam-simulation">
+    <div className="topic-intro"><span className="level-pill">7. Sekme · Sınav Provası</span><h2>{data.title}</h2><p>{data.intro}</p></div>
+    <div className="exam-formats">{data.formats.map((item,index)=><button className={item.id===format.id?'active':''} key={item.id} onClick={()=>setFormatId(item.id)}><span>{index+1}</span>{item.title}</button>)}</div>
+    <article className="exam-paper"><header><span>{format.kicker}</span><h3>{format.title}</h3><p>{format.instructions}</p></header>
+      {format.wordBank&&<div className="exam-word-bank"><strong>Word list:</strong>{format.wordBank.map((word)=><span key={word}>{word}</span>)}</div>}
+      {format.passage&&<div className="exam-passage">{format.passage.map((paragraph,index)=><p key={index}>{paragraph.parts?paragraph.parts.map((part,partIndex)=>part.highlight?<mark key={partIndex}>{part.text}</mark>:<span key={partIndex}>{part.text}</span>):paragraph}</p>)}</div>}
+      <div className="exam-items">{format.items.map((item,index)=>{const result=checked[key(item)];const correct=isCorrect(item);return <article className={result?(correct?'correct':'incorrect'):''} key={item.id}><label><strong>{index+1}. {item.prompt}</strong>{renderInput(item)}</label><button className="secondary" onClick={()=>check(item)}>{format.type==='open-ended'?'Model cevabı gör':'Kontrol et'}</button>{result&&<p className={`exam-feedback ${correct?'good':'try'}`}>{format.type==='open-ended'?`Model cevap: ${item.answer}`:correct?'Doğru!':`Doğru cevap: ${item.answerText||item.answer}`}</p>}</article>})}</div>
+    </article>
+  </section>;
+}
+
 function HomeworkPicker({ lessons, activeId, onSelect }) {
   const newestWeek = weekStart(lessons[0].date);
   const current = lessons.filter((lesson) => weekStart(lesson.date) === newestWeek);
@@ -148,6 +174,6 @@ export default function App(){
   return <div className="page"><Confetti burst={burst}/><header className="game-header"><div className="identity"><span><GraduationCap size={27}/></span><div><h1>İngilizce Dilbilgisi Ustası</h1><p>Sümeyye · A1–A2</p></div></div><div className="score"><span><Star size={14}/> Puan</span><strong>{score}</strong></div></header>
     <HomeworkPicker lessons={index.lessons} activeId={hw.id} onSelect={load}/>
     <nav className="game-nav">{availableNav.map(([id,label,Icon],index)=><button className={tab===id?'active':''} key={id} onClick={()=>setTab(id)}><Icon size={18}/><span>{index+1}. {label}</span></button>)}</nav>
-    <main className="game-main"><div className="lesson-ribbon"><Sparkles size={18}/><span>{hw.dateLabel}</span><strong>{hw.title}</strong></div>{tab==='learn'&&<Learn data={hw.game.learn}/>} {tab==='read'&&<Reading data={hw.game.read} onPoints={points}/>} {tab==='listen'&&<Listening data={hw.game.listening} onPoints={points}/>} {tab==='sort'&&<SortGame items={hw.game.sort} onPoints={points}/>} {tab==='order'&&<OrderGame sentences={hw.game.order} onPoints={points}/>} {tab==='quiz'&&<Quiz groups={hw.game.quizzes} onPoints={points}/>}</main>
+    <main className="game-main"><div className="lesson-ribbon"><Sparkles size={18}/><span>{hw.dateLabel}</span><strong>{hw.title}</strong></div>{tab==='learn'&&<Learn data={hw.game.learn}/>} {tab==='read'&&<Reading data={hw.game.read} onPoints={points}/>} {tab==='listen'&&<Listening data={hw.game.listening} onPoints={points}/>} {tab==='sort'&&<SortGame items={hw.game.sort} onPoints={points}/>} {tab==='order'&&<OrderGame sentences={hw.game.order} onPoints={points}/>} {tab==='quiz'&&<Quiz groups={hw.game.quizzes} onPoints={points}/>} {tab==='exam'&&<ExamSimulation data={hw.game.exam} onPoints={points}/>}</main>
     <footer><Volume2 size={15}/> Doğru cevaplarda ses ve puan kazanırsın. İlerlemen bu tarayıcıda saklanır.</footer></div>;
 }

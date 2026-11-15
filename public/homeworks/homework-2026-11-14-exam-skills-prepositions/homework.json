@@ -9,7 +9,7 @@
   "policyVersion": "sumeyye-weekend-monday@1",
   "templateContractVersion": "sumeyye-six-tab-interactive@1",
   "assessmentPolicyVersion": "sumeyye-section-and-final-checks@1",
-  "sections": ["learn", "read", "listen", "sort", "order", "quiz"],
+  "sections": ["learn", "read", "listen", "sort", "order", "quiz", "exam"],
   "game": {
     "learn": [{
       "id": "exam-tools",
@@ -139,6 +139,112 @@
         {"id": "f6", "prompt": "Choose the best correction strategy.", "options": ["Check subject, verb, word order and preposition.", "Change every word.", "Choose the longest sentence."], "answer": "Check subject, verb, word order and preposition.", "explanation": "Sistemli kontrol hatayı buldurur."},
         {"id": "f7", "prompt": "Transform without changing meaning: “The café is across the street from the bank.”", "options": ["The café is opposite the bank.", "The café goes through the bank.", "The café is into the bank."], "answer": "The café is opposite the bank.", "explanation": "Across the street from ve opposite aynı yer ilişkisini verebilir."},
         {"id": "f8", "prompt": "Which answer uses text evidence correctly?", "options": ["I chose B because the second paragraph says the room is behind the gallery.", "I chose B because it is the longest.", "I chose B without reading."], "answer": "I chose B because the second paragraph says the room is behind the gallery.", "explanation": "Cevap açık metin kanıtına dayanıyor."}
+      ]
+    },
+    "exam": {
+      "title": "Gerçek Soru Tipleriyle Sınav Provası",
+      "intro": "Bu ayrı sekme, derste Sümeyye'nin Türkçe anlattığı sınav düzenini uygular. Normal altı sekme aynı kalır; burada aynı kelime ve dilbilgisi konularını sınavdaki yazılı soru biçimleriyle çalışırsın.",
+      "formats": [
+        {
+          "id": "highlighted-vocabulary",
+          "type": "written-answer",
+          "kicker": "Highlighted vocabulary",
+          "title": "Metindeki koyu kelimeyi anlamının yanına yaz",
+          "instructions": "Metindeki sarı kelimeleri oku. Her anlamın yanına doğru İngilizce kelimeyi yaz. Bu bölüm eşleştirme değil; cevabı sen yazıyorsun.",
+          "passage": [
+            {"parts": [{"text": "Maya entered through the main "}, {"text": "entrance", "highlight": true}, {"text": " and followed the long "}, {"text": "corridor", "highlight": true}, {"text": ". Her "}, {"text": "destination", "highlight": true}, {"text": " was Room 12, but she checked the "}, {"text": "route", "highlight": true}, {"text": " on the wall first."}]}
+          ],
+          "items": [
+            {"id": "hv1", "prompt": "the place where you go into a building", "answer": "entrance"},
+            {"id": "hv2", "prompt": "a long passage inside a building", "answer": "corridor"},
+            {"id": "hv3", "prompt": "the place you are travelling to", "answer": "destination"},
+            {"id": "hv4", "prompt": "the way from one place to another", "answer": "route"}
+          ]
+        },
+        {
+          "id": "open-reading",
+          "type": "open-ended",
+          "kicker": "Reading · Open-ended",
+          "title": "Metni oku ve açık uçlu cevap yaz",
+          "instructions": "Cevabı metinde bul, sonra mümkünse kendi cümlenle yaz. Kontrol düğmesi örnek bir model cevap gösterir.",
+          "passage": [
+            "Leo arrived at the museum early. He walked through the glass doors and stopped at the information desk opposite the entrance. A guide told him to go along the corridor, past the map room and up the stairs. Leo entered the reading room between the language lab and the art room. He put his bag under the chair and began the exam on time."
+          ],
+          "items": [
+            {"id": "or1", "prompt": "Where was the information desk?", "answer": "It was opposite the entrance."},
+            {"id": "or2", "prompt": "What did Leo walk past?", "answer": "He walked past the map room."},
+            {"id": "or3", "prompt": "Where was the reading room?", "answer": "It was between the language lab and the art room."},
+            {"id": "or4", "prompt": "Why was Leo ready when the exam started?", "answer": "He arrived early, followed the route and reached the room on time."}
+          ]
+        },
+        {
+          "id": "verb-gaps",
+          "type": "written-answer",
+          "kicker": "Grammar · Verb gaps",
+          "title": "Parantezdeki fiili doğru biçimde yaz",
+          "instructions": "Cümlenin zaman ipucuna bak. Boşluğa yalnızca doğru fiil grubunu yaz.",
+          "items": [
+            {"id": "vg1", "prompt": "Maya ___ along the corridor for ten minutes. (walk)", "answer": "has been walking"},
+            {"id": "vg2", "prompt": "Leo ___ through the glass doors already. (go)", "answer": "has gone"},
+            {"id": "vg3", "prompt": "I ___ confused by movement prepositions, but now they are easier. (use)", "answer": "used to be"},
+            {"id": "vg4", "prompt": "She is ___ written exam questions now. (get / use)", "answer": "getting used to"},
+            {"id": "vg5", "prompt": "They ___ the bridge before the guide called them. (cross)", "answer": "had crossed"}
+          ]
+        },
+        {
+          "id": "matching-halves",
+          "type": "match-halves",
+          "kicker": "Matching the halves",
+          "title": "Cümlelerin iki yarısını eşleştir",
+          "instructions": "Soldaki başlangıç için anlamlı ve dilbilgisel olarak doğru ikinci yarıyı seç.",
+          "options": [
+            {"id": "mh-a", "text": "through the glass doors."},
+            {"id": "mh-b", "text": "opposite the main entrance."},
+            {"id": "mh-c", "text": "towards Room 12."},
+            {"id": "mh-d", "text": "under her chair."},
+            {"id": "mh-e", "text": "out of the wrong classroom."}
+          ],
+          "items": [
+            {"id": "mh1", "prompt": "The reception desk was", "answer": "mh-b", "answerText": "opposite the main entrance."},
+            {"id": "mh2", "prompt": "Maya walked", "answer": "mh-a", "answerText": "through the glass doors."},
+            {"id": "mh3", "prompt": "Then she turned", "answer": "mh-c", "answerText": "towards Room 12."},
+            {"id": "mh4", "prompt": "She came", "answer": "mh-e", "answerText": "out of the wrong classroom."},
+            {"id": "mh5", "prompt": "During the exam, her bag was", "answer": "mh-d", "answerText": "under her chair."}
+          ]
+        },
+        {
+          "id": "word-list-cloze",
+          "type": "written-answer",
+          "kicker": "Text cloze · Word list",
+          "title": "Verilen kelime listesinden metni tamamla",
+          "instructions": "Her kelimeyi yalnızca bir kez kullan. Boşluğa yalnızca listedeki kelimeyi yaz.",
+          "wordBank": ["towards", "through", "across", "around", "out of", "into"],
+          "passage": [
+            "Nina left the study room and followed a route to the sports centre. Complete the route with the six words above."
+          ],
+          "items": [
+            {"id": "wc1", "prompt": "She walked ___ the study room and closed the door.", "answer": "out of"},
+            {"id": "wc2", "prompt": "She went ___ the park gate.", "answer": "through"},
+            {"id": "wc3", "prompt": "She walked ___ a large fountain.", "answer": "around"},
+            {"id": "wc4", "prompt": "Then she walked ___ the road.", "answer": "across"},
+            {"id": "wc5", "prompt": "She moved ___ the sports centre.", "answer": "towards"},
+            {"id": "wc6", "prompt": "Finally, she went ___ the building.", "answer": "into"}
+          ]
+        },
+        {
+          "id": "correct-mistakes",
+          "type": "written-answer",
+          "kicker": "Error correction",
+          "title": "Hatayı bul, üstünü çizmiş gibi doğrusunu yaz",
+          "instructions": "Her cümlede bir hata var. Yanlış kısmı belirle ve bütün cümlenin doğru hâlini yaz.",
+          "items": [
+            {"id": "cm1", "prompt": "She walked in the classroom. (movement)", "answer": "She walked into the classroom"},
+            {"id": "cm2", "prompt": "The café is opposite to the bank.", "answer": "The café is opposite the bank"},
+            {"id": "cm3", "prompt": "He has been walk along the corridor for ten minutes.", "answer": "He has been walking along the corridor for ten minutes"},
+            {"id": "cm4", "prompt": "Maya went out the exam room.", "answer": "Maya went out of the exam room"},
+            {"id": "cm5", "prompt": "The map is in the wall.", "answer": "The map is on the wall"}
+          ]
+        }
       ]
     }
   }

@@ -4,7 +4,7 @@ import { collectArchitectureV1PackageErrors } from './lib/architecture-v1-packag
 
 const root = path.resolve('public/homeworks');
 const index = JSON.parse(fs.readFileSync(path.join(root, 'index.json'), 'utf8'));
-const gameKey = { learn: 'learn', read: 'read', listen: 'listening', sort: 'sort', order: 'order', quiz: 'quizzes' };
+const gameKey = { learn: 'learn', read: 'read', listen: 'listening', sort: 'sort', order: 'order', quiz: 'quizzes', exam: 'exam' };
 const errors = [];
 
 function requireValue(value, message) {
@@ -37,6 +37,11 @@ for (const lesson of index.lessons || []) {
   if (sections.includes('listen')) {
     requireValue(homework.game.listening.url, `${lesson.id}: listening URL is missing`);
     requireValue(homework.game.listening.questions, `${lesson.id}: listening questions are missing`);
+  }
+  if (sections.includes('exam')) {
+    requireValue(homework.game.exam.title, `${lesson.id}: exam title is missing`);
+    requireValue(homework.game.exam.formats, `${lesson.id}: exam formats are missing`);
+    for (const format of homework.game.exam.formats || []) requireValue(format.items, `${lesson.id}: exam format ${format.id || '(unknown)'} has no items`);
   }
 }
 
