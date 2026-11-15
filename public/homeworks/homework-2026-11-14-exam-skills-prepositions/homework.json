@@ -142,107 +142,121 @@
       ]
     },
     "exam": {
-      "title": "Gerçek Soru Tipleriyle Sınav Provası",
-      "intro": "Bu ayrı sekme, derste Sümeyye'nin Türkçe anlattığı sınav düzenini uygular. Normal altı sekme aynı kalır; burada aynı kelime ve dilbilgisi konularını sınavdaki yazılı soru biçimleriyle çalışırsın.",
+      "title": "Ünite 1-2 Düzeyinde Sınav Provası",
+      "intro": "Bu ayrı sekme, derste Sümeyye'nin Türkçe anlattığı altı yazılı soru biçimini korur. Metin uzunluğu, kelime çeşitliliği ve dilbilgisi zorluğu 7. sınıf kitabının ilk iki ünitesine yükseltilmiştir; son dersteki hareket ve konum edatları da soruların içinde kullanılır.",
       "formats": [
         {
           "id": "highlighted-vocabulary",
           "type": "written-answer",
-          "kicker": "Highlighted vocabulary",
+          "kicker": "Highlighted vocabulary · Units 1-2 level",
           "title": "Metindeki koyu kelimeyi anlamının yanına yaz",
-          "instructions": "Metindeki sarı kelimeleri oku. Her anlamın yanına doğru İngilizce kelimeyi yaz. Bu bölüm eşleştirme değil; cevabı sen yazıyorsun.",
+          "instructions": "Metni bağlamıyla oku. Sarı kelimelerden doğru olanı her tanımın yanına kendin yaz; seçenek işaretleme yok.",
           "passage": [
-            {"parts": [{"text": "Maya entered through the main "}, {"text": "entrance", "highlight": true}, {"text": " and followed the long "}, {"text": "corridor", "highlight": true}, {"text": ". Her "}, {"text": "destination", "highlight": true}, {"text": " was Room 12, but she checked the "}, {"text": "route", "highlight": true}, {"text": " on the wall first."}]}
+            {"parts": [{"text": "Our school invited every "}, {"text": "applicant", "highlight": true}, {"text": " to join an adventurous science contest. A local company agreed to "}, {"text": "sponsor", "highlight": true}, {"text": " the trip, so it paid the transport costs. The route through the forest was challenging, but the view from the hill was "}, {"text": "breathtaking", "highlight": true}, {"text": ". One student felt distracted at first; however, teamwork helped her "}, {"text": "overcome", "highlight": true}, {"text": " the difficulty and "}, {"text": "maintain", "highlight": true}, {"text": " her focus. By the end, her careful work had improved the group's "}, {"text": "accuracy", "highlight": true}, {"text": "."}]}
           ],
           "items": [
-            {"id": "hv1", "prompt": "the place where you go into a building", "answer": "entrance"},
-            {"id": "hv2", "prompt": "a long passage inside a building", "answer": "corridor"},
-            {"id": "hv3", "prompt": "the place you are travelling to", "answer": "destination"},
-            {"id": "hv4", "prompt": "the way from one place to another", "answer": "route"}
+            {"id": "hv1", "prompt": "a person who asks to take part in something", "answer": "applicant"},
+            {"id": "hv2", "prompt": "to pay for an activity or event", "answer": "sponsor"},
+            {"id": "hv3", "prompt": "extremely beautiful or impressive", "answer": "breathtaking"},
+            {"id": "hv4", "prompt": "to successfully deal with a problem", "answer": "overcome"},
+            {"id": "hv5", "prompt": "to keep something at the same level", "answer": "maintain"},
+            {"id": "hv6", "prompt": "the quality of being correct and without mistakes", "answer": "accuracy"}
           ]
         },
         {
           "id": "open-reading",
           "type": "open-ended",
-          "kicker": "Reading · Open-ended",
-          "title": "Metni oku ve açık uçlu cevap yaz",
-          "instructions": "Cevabı metinde bul, sonra mümkünse kendi cümlenle yaz. Kontrol düğmesi örnek bir model cevap gösterir.",
+          "kicker": "Reading · Open-ended · Evidence",
+          "title": "Uzun metni oku ve açık uçlu cevap yaz",
+          "instructions": "Cevabın dayanağını metinde bul; sonra mümkünse kendi cümlenle yaz. Model cevap tek olasılık değildir.",
           "passage": [
-            "Leo arrived at the museum early. He walked through the glass doors and stopped at the information desk opposite the entrance. A guide told him to go along the corridor, past the map room and up the stairs. Leo entered the reading room between the language lab and the art room. He put his bag under the chair and began the exam on time."
+            "The students at Green Valley School have been preparing a learning festival for three weeks. Their teacher has arranged several workshops, a debate contest and an educational trip to the science centre. A local travel agency has sponsored the trip, so every applicant can join without paying a fare. On Friday morning, the group walked through the main entrance, went across the exhibition hall and turned towards the robotics room. Although the route was crowded, the students maintained their focus and arrived on time.",
+            "During the first workshop, Elif felt overwhelmed by a complicated reading task. She has dyslexia, so long instructions sometimes make it difficult for her to identify important details. Her classmate Maya divided the task into shorter steps and explained the unfamiliar vocabulary with examples. The teacher also had the instructions printed in a clearer format. These changes did not make the task easier for everyone; they gave Elif fair access to the same challenge. After a short brain break, she returned to the activity and completed it with greater accuracy.",
+            "By the end of the festival, the class had presented four projects. They did not win every prize; however, they were proud because they had overcome several difficulties together. Elif said she was getting used to asking for support instead of remaining silent. The teacher has observed a dramatic improvement in the students' interaction and self-esteem, so the school is planning another festival next term."
           ],
           "items": [
-            {"id": "or1", "prompt": "Where was the information desk?", "answer": "It was opposite the entrance."},
-            {"id": "or2", "prompt": "What did Leo walk past?", "answer": "He walked past the map room."},
-            {"id": "or3", "prompt": "Where was the reading room?", "answer": "It was between the language lab and the art room."},
-            {"id": "or4", "prompt": "Why was Leo ready when the exam started?", "answer": "He arrived early, followed the route and reached the room on time."}
+            {"id": "or1", "prompt": "Why could every applicant join the science-centre trip?", "answer": "Every applicant could join because a travel agency sponsored the trip and paid the fare."},
+            {"id": "or2", "prompt": "Which route did the group follow after entering the building?", "answer": "They walked across the exhibition hall and turned towards the robotics room."},
+            {"id": "or3", "prompt": "What two kinds of support helped Elif complete the reading task?", "answer": "Maya divided and explained the task, and the teacher had clearer instructions printed."},
+            {"id": "or4", "prompt": "Why does the writer say the changes gave Elif fair access rather than an easier task?", "answer": "The support removed barriers caused by long instructions, but Elif still completed the same challenging work."},
+            {"id": "or5", "prompt": "What evidence shows that the festival improved the classroom atmosphere?", "answer": "The students overcame problems together, Elif began asking for support, and their interaction and self-esteem improved."}
           ]
         },
         {
           "id": "verb-gaps",
           "type": "written-answer",
-          "kicker": "Grammar · Verb gaps",
+          "kicker": "Grammar · Units 1-2 verb forms",
           "title": "Parantezdeki fiili doğru biçimde yaz",
-          "instructions": "Cümlenin zaman ipucuna bak. Boşluğa yalnızca doğru fiil grubunu yaz.",
+          "instructions": "Zaman ifadesini, özneyi ve cümlenin active/passive/causative anlamını kontrol et. Boşluğa yalnızca eksik fiil grubunu yaz.",
           "items": [
-            {"id": "vg1", "prompt": "Maya ___ along the corridor for ten minutes. (walk)", "answer": "has been walking"},
-            {"id": "vg2", "prompt": "Leo ___ through the glass doors already. (go)", "answer": "has gone"},
-            {"id": "vg3", "prompt": "I ___ confused by movement prepositions, but now they are easier. (use)", "answer": "used to be"},
-            {"id": "vg4", "prompt": "She is ___ written exam questions now. (get / use)", "answer": "getting used to"},
-            {"id": "vg5", "prompt": "They ___ the bridge before the guide called them. (cross)", "answer": "had crossed"}
+            {"id": "vg1", "prompt": "Our teacher usually ___ educational trips in spring. (organise)", "answer": "organises"},
+            {"id": "vg2", "prompt": "The students ___ the classroom for the festival right now. (decorate)", "answer": "are decorating"},
+            {"id": "vg3", "prompt": "The travel agency ___ a good deal for the school so far. (negotiate)", "answer": "has negotiated"},
+            {"id": "vg4", "prompt": "We ___ on the science project since Monday. (work)", "answer": "have been working"},
+            {"id": "vg5", "prompt": "Elif is ___ for help when instructions are long. (get / use / ask)", "answer": "getting used to asking"},
+            {"id": "vg6", "prompt": "Extra support sessions ___ for students every week. (arrange)", "answer": "are arranged"},
+            {"id": "vg7", "prompt": "The teacher ___ in a clearer format yesterday. (have / instructions / print)", "answer": "had the instructions printed"},
+            {"id": "vg8", "prompt": "Maya walked through the entrance and ___ towards the robotics room. (turn)", "answer": "turned"}
           ]
         },
         {
           "id": "matching-halves",
           "type": "match-halves",
-          "kicker": "Matching the halves",
+          "kicker": "Matching the halves · Meaning and grammar",
           "title": "Cümlelerin iki yarısını eşleştir",
-          "instructions": "Soldaki başlangıç için anlamlı ve dilbilgisel olarak doğru ikinci yarıyı seç.",
+          "instructions": "İkinci yarıyı seçerken yalnızca kelime anlamına değil; bağlaç, edat ve dilbilgisi yapısına da dikkat et.",
           "options": [
-            {"id": "mh-a", "text": "through the glass doors."},
-            {"id": "mh-b", "text": "opposite the main entrance."},
-            {"id": "mh-c", "text": "towards Room 12."},
-            {"id": "mh-d", "text": "under her chair."},
-            {"id": "mh-e", "text": "out of the wrong classroom."}
+            {"id": "mh-a", "text": "because a local company sponsored the trip."},
+            {"id": "mh-b", "text": "although the route through the forest was challenging."},
+            {"id": "mh-c", "text": "so that she could focus on the key details."},
+            {"id": "mh-d", "text": "have the project boards prepared before Friday."},
+            {"id": "mh-e", "text": "are organised for students who need extra support."},
+            {"id": "mh-f", "text": "hasn't she?"}
           ],
           "items": [
-            {"id": "mh1", "prompt": "The reception desk was", "answer": "mh-b", "answerText": "opposite the main entrance."},
-            {"id": "mh2", "prompt": "Maya walked", "answer": "mh-a", "answerText": "through the glass doors."},
-            {"id": "mh3", "prompt": "Then she turned", "answer": "mh-c", "answerText": "towards Room 12."},
-            {"id": "mh4", "prompt": "She came", "answer": "mh-e", "answerText": "out of the wrong classroom."},
-            {"id": "mh5", "prompt": "During the exam, her bag was", "answer": "mh-d", "answerText": "under her chair."}
+            {"id": "mh1", "prompt": "Every applicant could join", "answer": "mh-a", "answerText": "because a local company sponsored the trip."},
+            {"id": "mh2", "prompt": "The students enjoyed the breathtaking view", "answer": "mh-b", "answerText": "although the route through the forest was challenging."},
+            {"id": "mh3", "prompt": "Maya divided Elif's task into shorter steps", "answer": "mh-c", "answerText": "so that she could focus on the key details."},
+            {"id": "mh4", "prompt": "The teacher will", "answer": "mh-d", "answerText": "have the project boards prepared before Friday."},
+            {"id": "mh5", "prompt": "Extra reading sessions", "answer": "mh-e", "answerText": "are organised for students who need extra support."},
+            {"id": "mh6", "prompt": "Elif has improved her accuracy,", "answer": "mh-f", "answerText": "hasn't she?"}
           ]
         },
         {
           "id": "word-list-cloze",
           "type": "written-answer",
-          "kicker": "Text cloze · Word list",
+          "kicker": "Text cloze · One extra word",
           "title": "Verilen kelime listesinden metni tamamla",
-          "instructions": "Her kelimeyi yalnızca bir kez kullan. Boşluğa yalnızca listedeki kelimeyi yaz.",
-          "wordBank": ["towards", "through", "across", "around", "out of", "into"],
+          "instructions": "Bağlamı bütünüyle oku. Her doğru kelimeyi yalnızca bir kez kullan; listede bir fazla kelime var.",
+          "wordBank": ["applicants", "sponsor", "maintain", "overcome", "through", "towards", "accuracy", "breathtaking", "conflict"],
           "passage": [
-            "Nina left the study room and followed a route to the sports centre. Complete the route with the six words above."
+            "Complete the report about a school trip and a teamwork challenge. One word will not be used."
           ],
           "items": [
-            {"id": "wc1", "prompt": "She walked ___ the study room and closed the door.", "answer": "out of"},
-            {"id": "wc2", "prompt": "She went ___ the park gate.", "answer": "through"},
-            {"id": "wc3", "prompt": "She walked ___ a large fountain.", "answer": "around"},
-            {"id": "wc4", "prompt": "Then she walked ___ the road.", "answer": "across"},
-            {"id": "wc5", "prompt": "She moved ___ the sports centre.", "answer": "towards"},
-            {"id": "wc6", "prompt": "Finally, she went ___ the building.", "answer": "into"}
+            {"id": "wc1", "prompt": "Twenty ___ signed up for the educational trip.", "answer": "applicants"},
+            {"id": "wc2", "prompt": "A local company agreed to ___ the event and pay the travel costs.", "answer": "sponsor"},
+            {"id": "wc3", "prompt": "The group walked ___ the forest before turning left.", "answer": "through"},
+            {"id": "wc4", "prompt": "They moved ___ the hill and finally reached the top.", "answer": "towards"},
+            {"id": "wc5", "prompt": "The view was so ___ that everyone stopped to take photos.", "answer": "breathtaking"},
+            {"id": "wc6", "prompt": "During the difficult task, the students worked together to ___ the problem.", "answer": "overcome"},
+            {"id": "wc7", "prompt": "They took a brain break to ___ their focus.", "answer": "maintain"},
+            {"id": "wc8", "prompt": "After checking every detail, they completed the report with greater ___.", "answer": "accuracy"}
           ]
         },
         {
           "id": "correct-mistakes",
           "type": "written-answer",
-          "kicker": "Error correction",
+          "kicker": "Error correction · One error each",
           "title": "Hatayı bul, üstünü çizmiş gibi doğrusunu yaz",
-          "instructions": "Her cümlede bir hata var. Yanlış kısmı belirle ve bütün cümlenin doğru hâlini yaz.",
+          "instructions": "Her cümlede bir hata var. Hatanın türünü belirle ve bütün cümlenin doğru hâlini yaz.",
           "items": [
-            {"id": "cm1", "prompt": "She walked in the classroom. (movement)", "answer": "She walked into the classroom"},
-            {"id": "cm2", "prompt": "The café is opposite to the bank.", "answer": "The café is opposite the bank"},
-            {"id": "cm3", "prompt": "He has been walk along the corridor for ten minutes.", "answer": "He has been walking along the corridor for ten minutes"},
-            {"id": "cm4", "prompt": "Maya went out the exam room.", "answer": "Maya went out of the exam room"},
-            {"id": "cm5", "prompt": "The map is in the wall.", "answer": "The map is on the wall"}
+            {"id": "cm1", "prompt": "The students has been working on the project since Monday.", "answer": "The students have been working on the project since Monday"},
+            {"id": "cm2", "prompt": "Extra support sessions is arranged every week.", "answer": "Extra support sessions are arranged every week"},
+            {"id": "cm3", "prompt": "The teacher had the posters print before the festival.", "answer": "The teacher had the posters printed before the festival"},
+            {"id": "cm4", "prompt": "Elif is getting used to ask for support.", "answer": "Elif is getting used to asking for support"},
+            {"id": "cm5", "prompt": "The information desk is opposite to the main entrance.", "answer": "The information desk is opposite the main entrance"},
+            {"id": "cm6", "prompt": "Maya walked in the robotics room. (movement)", "answer": "Maya walked into the robotics room"},
+            {"id": "cm7", "prompt": "The class has improved its interaction, hasn't it not?", "answer": "The class has improved its interaction, hasn't it"}
           ]
         }
       ]
