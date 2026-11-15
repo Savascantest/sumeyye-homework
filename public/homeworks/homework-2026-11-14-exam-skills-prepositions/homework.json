@@ -1,0 +1,145 @@
+{
+  "id": "homework-2026-11-14-exam-skills-prepositions",
+  "date": "2026-11-09",
+  "lessonDate": "2026-11-14",
+  "dateLabel": "14 Kasım 2026",
+  "student": "Sümeyye",
+  "title": "Exam Skills: Matching, Correction, Reading ve Prepositions",
+  "subtitle": "Yeni soru tiplerini tanı; kelime, cümle ve okuma ipuçlarını sistemli kullan.",
+  "policyVersion": "sumeyye-weekend-monday@1",
+  "templateContractVersion": "sumeyye-six-tab-interactive@1",
+  "assessmentPolicyVersion": "sumeyye-section-and-final-checks@1",
+  "sections": ["learn", "read", "listen", "sort", "order", "quiz"],
+  "game": {
+    "learn": [{
+      "id": "exam-tools",
+      "shortTitle": "Sınav araçları",
+      "title": "Soru tipini tanı, doğru stratejiyi seç",
+      "intro": "Bu paket yalnızca son dersteki sınav becerilerini kapsar: vocabulary matching, sentence correction, reading comprehension ve movement/location prepositions.",
+      "cards": [
+        {"title": "Vocabulary matching", "text": "Önce kelimenin türünü ve bağlamını bul; sonra tanımdaki anahtar sözcükle eşleştir.", "examples": ["entrance → a place where you go in", "destination → the place you are travelling to"]},
+        {"title": "Sentence correction", "text": "Özne-fiil uyumu, yardımcı fiil, fiil biçimi, kelime sırası ve preposition noktalarını sırayla kontrol et.", "examples": ["She go to school. → She goes to school.", "He walked in the room. → He walked into the room."]},
+        {"title": "Reading comprehension", "text": "Ana fikir için başlık ve ilk cümleye; ayrıntı için isim, sayı, yer ve bağlaçlara bak. Cevabı metin kanıtıyla doğrula.", "examples": ["Why? → sebep cümlesini bul.", "Where? → yer ifadesini bul.", "What happened next? → olay sırasını izle."]},
+        {"title": "Location prepositions", "text": "Bir şeyin sabit yerini anlatır: in, on, at, next to, opposite, between, behind, in front of, under, over.", "examples": ["The desk is next to the window.", "The café is opposite the station.", "The bag is under the chair."]},
+        {"title": "Movement prepositions", "text": "Bir hareketin yönünü veya yolunu anlatır: to, into, out of, across, through, along, towards, past, up, down.", "examples": ["Walk into the room.", "Go across the road.", "Run through the park.", "Turn towards the entrance."]},
+        {"title": "Location mı movement mı?", "text": "Fiil hareket bildiriyorsa yön preposition'ını; be/stay/stand gibi sabit durumlarda location preposition'ını kontrol et.", "examples": ["She is in the room.", "She walked into the room.", "He stood by the door.", "He walked past the door."]},
+        {"title": "Yeni soru tipleri", "text": "Error spotting, odd one out, cloze, transformation, evidence selection ve inference sorularında önce görev fiilini oku.", "examples": ["Find the mistake.", "Choose the odd one out.", "Complete the sentence.", "Which sentence proves the answer?"]}
+      ]
+    }],
+    "read": {
+      "title": "Finding the Exam Room",
+      "instructions": "Metni oku; yön, sabit yer ve olay sırası ifadelerini işaretle.",
+      "tokens": [
+        {"id": "1", "text": "Maya arrived at the learning centre fifteen minutes before her practice exam. ", "target": true},
+        {"id": "2", "text": "The reception desk was opposite the main entrance, and a map was on the wall behind it. ", "target": true},
+        {"id": "3", "text": "The receptionist told Maya to walk along the corridor and go past the library. ", "target": true},
+        {"id": "4", "text": "Then she had to go up the stairs and turn towards Room 12. ", "target": true},
+        {"id": "5", "text": "Maya accidentally walked into Room 10, but she noticed a science poster over the door. ", "target": true},
+        {"id": "6", "text": "She came out of the room, crossed the hall and found Room 12 between the language lab and the art room. ", "target": true},
+        {"id": "7", "text": "Her bag was under her chair during the exam, and her water bottle was next to it. ", "target": true},
+        {"id": "8", "text": "Maya reached the correct destination before the test began.", "target": true}
+      ],
+      "questions": [
+        {"id": "r1", "prompt": "Where was the reception desk?", "options": ["Opposite the entrance", "Inside Room 12", "Behind the library"], "answer": "Opposite the entrance", "explanation": "İkinci cümlede sabit yer veriliyor."},
+        {"id": "r2", "prompt": "What did Maya go past?", "options": ["The library", "The language lab", "The reception desk"], "answer": "The library", "explanation": "Go past hareket yolunu anlatıyor."},
+        {"id": "r3", "prompt": "Which detail showed Maya that Room 10 was wrong?", "options": ["A science poster", "A water bottle", "A staircase"], "answer": "A science poster", "explanation": "Poster, yanlış odayı fark etmesini sağlıyor."}
+      ],
+      "extra": {
+        "title": "The Museum Route",
+        "instructions": "Metni oku; ana fikir, ayrıntı, çıkarım ve olay sırası sorularını cevapla.",
+        "paragraphs": [
+          "Leo's class visited a history museum for an exam-reading activity. Their teacher gave each group a route card. Leo's group entered through the glass doors and stopped at the information desk. The ancient maps were in a room beside the desk, while the transport exhibition was at the end of a long corridor. The students matched six new words with their definitions before they continued.",
+          "Next, the group walked through the map room, went down a short staircase and crossed a small indoor bridge. A guide stood between two display cases and asked them to correct three sentences about the exhibition. After that, the students followed arrows towards the exit, but they turned left before the gift shop. They reached a quiet reading room behind the main gallery and answered five comprehension questions. Leo checked every answer against the text before choosing it."
+        ],
+        "questions": [
+          {"id": "er1", "prompt": "What was the main purpose of the visit?", "options": ["To practise exam-reading tasks", "To buy gifts", "To build a bridge"], "answer": "To practise exam-reading tasks", "explanation": "İlk cümle ana amacı veriyor."},
+          {"id": "er2", "prompt": "What did the students do before continuing?", "options": ["Matched words with definitions", "Corrected the guide", "Left the museum"], "answer": "Matched words with definitions", "explanation": "İlk paragrafın son cümlesi."},
+          {"id": "er3", "prompt": "Which room was behind the main gallery?", "options": ["The reading room", "The map room", "The gift shop"], "answer": "The reading room", "explanation": "Son cümlelerden biri sabit yeri açıkça veriyor."},
+          {"id": "er4", "prompt": "What can we infer about Leo's strategy?", "options": ["He uses text evidence before answering.", "He guesses without reading.", "He answers only vocabulary questions."], "answer": "He uses text evidence before answering.", "explanation": "Her cevabı metinle kontrol etmesi bu çıkarımı destekliyor."}
+        ]
+      }
+    },
+    "listening": {
+      "level": "A2",
+      "title": "Who's Who in the Office",
+      "source": "British Council LearnEnglish",
+      "resource": "Who's who in the office",
+      "instructions": "İlk dinlemede kişileri ve yerlerini eşleştir. İkinci dinlemede location prepositions ifadelerini yaz.",
+      "task": "by, beside, next to, in ve over there örneklerini duyduğun bağlamla not et.",
+      "followUp": "Dinleme için iki matching ve bir sentence-correction sorusu hazırla.",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a2/whos-who-office",
+      "questions": [
+        {"id": "l1", "prompt": "Which phrase describes a location near something?", "options": ["next to the printer", "through the printer", "across the printer"], "answer": "next to the printer", "explanation": "Next to sabit yakınlığı gösterir."},
+        {"id": "l2", "prompt": "Correct the sentence: “He works next the window.”", "options": ["He works next to the window.", "He works into the window.", "He works through the window."], "answer": "He works next to the window.", "explanation": "Next to iki kelimelik preposition'dır."}
+      ]
+    },
+    "sort": [
+      {"text": "The desk is next to the window.", "type": "PLACE", "choices": ["PLACE", "MOVE"]},
+      {"text": "Walk into the classroom.", "type": "MOVE", "choices": ["PLACE", "MOVE"]},
+      {"text": "The bank is opposite the café.", "type": "PLACE", "choices": ["PLACE", "MOVE"]},
+      {"text": "Go across the road.", "type": "MOVE", "choices": ["PLACE", "MOVE"]},
+      {"text": "The bag is under the chair.", "type": "PLACE", "choices": ["PLACE", "MOVE"]},
+      {"text": "Run through the park.", "type": "MOVE", "choices": ["PLACE", "MOVE"]},
+      {"text": "The room is between two offices.", "type": "PLACE", "choices": ["PLACE", "MOVE"]},
+      {"text": "Walk past the library.", "type": "MOVE", "choices": ["PLACE", "MOVE"]},
+      {"text": "The poster is over the door.", "type": "PLACE", "choices": ["PLACE", "MOVE"]},
+      {"text": "Come out of the building.", "type": "MOVE", "choices": ["PLACE", "MOVE"]},
+      {"text": "The station is at the end of the street.", "type": "PLACE", "choices": ["PLACE", "MOVE"]},
+      {"text": "Climb up the stairs.", "type": "MOVE", "choices": ["PLACE", "MOVE"]}
+    ],
+    "order": [
+      {"parts": ["The reception desk", "is", "opposite", "the entrance"], "answer": "The reception desk is opposite the entrance", "hint": "Sabit yer."},
+      {"parts": ["Walk", "along", "the corridor"], "answer": "Walk along the corridor", "hint": "Bir çizgi boyunca hareket."},
+      {"parts": ["Go", "past", "the library"], "answer": "Go past the library", "hint": "Yanından geçmek."},
+      {"parts": ["Maya", "walked", "into", "the room"], "answer": "Maya walked into the room", "hint": "Dışarıdan içeri hareket."},
+      {"parts": ["The reading room", "is", "behind", "the gallery"], "answer": "The reading room is behind the gallery", "hint": "Sabit yer."},
+      {"parts": ["They", "crossed", "the bridge", "carefully"], "answer": "They crossed the bridge carefully", "hint": "Özne + fiil + nesne + zarf."}
+    ],
+    "quizzes": {
+      "1. Question Formats": [
+        {"id": "qf1", "prompt": "Which instruction asks you to find an error?", "options": ["Choose the incorrect part.", "Match the words.", "Read the title."], "answer": "Choose the incorrect part.", "explanation": "Error spotting görevidir."},
+        {"id": "qf2", "prompt": "Which instruction asks for a definition pair?", "options": ["Match each word with its meaning.", "Put the events in order.", "Correct the sentence."], "answer": "Match each word with its meaning.", "explanation": "Vocabulary matching."},
+        {"id": "qf3", "prompt": "Which instruction asks for text evidence?", "options": ["Which sentence proves the answer?", "Which word is longest?", "Which option has more words?"], "answer": "Which sentence proves the answer?", "explanation": "Evidence-selection sorusudur."},
+        {"id": "qf4", "prompt": "What does “odd one out” ask you to find?", "options": ["The item that does not belong", "The first item", "The longest definition"], "answer": "The item that does not belong", "explanation": "Diğerlerinden farklı olan seçenek."},
+        {"id": "qf5", "prompt": "A cloze question asks you to…", "options": ["complete a gap", "draw a map", "write every definition"], "answer": "complete a gap", "explanation": "Cloze = boşluk doldurma."},
+        {"id": "qf6", "prompt": "A transformation question asks you to…", "options": ["rewrite without changing the meaning", "choose a picture only", "delete the whole sentence"], "answer": "rewrite without changing the meaning", "explanation": "Anlam korunur, yapı değişir."}
+      ],
+      "2. Vocabulary Matching": [
+        {"id": "v1", "prompt": "entrance", "options": ["a place where you go in", "a place where you sleep", "a person who checks tickets"], "answer": "a place where you go in", "explanation": "Entrance = giriş."},
+        {"id": "v2", "prompt": "destination", "options": ["the place you are travelling to", "the place you started from", "a mistake in a sentence"], "answer": "the place you are travelling to", "explanation": "Destination = varış noktası."},
+        {"id": "v3", "prompt": "corridor", "options": ["a long passage inside a building", "a bridge over a river", "a desk by a door"], "answer": "a long passage inside a building", "explanation": "Corridor = koridor."},
+        {"id": "v4", "prompt": "route", "options": ["the way from one place to another", "a fixed chair", "an answer choice"], "answer": "the way from one place to another", "explanation": "Route = rota."},
+        {"id": "v5", "prompt": "staircase", "options": ["a set of stairs", "a road crossing", "a reading title"], "answer": "a set of stairs", "explanation": "Staircase = merdiven."},
+        {"id": "v6", "prompt": "evidence", "options": ["information that proves an answer", "a movement preposition", "a room number"], "answer": "information that proves an answer", "explanation": "Evidence = kanıt."}
+      ],
+      "3. Sentence Correction": [
+        {"id": "s1", "prompt": "Choose the correction: “She go to the exam room.”", "options": ["She goes to the exam room.", "She going to the exam room.", "She go into at exam."], "answer": "She goes to the exam room.", "explanation": "Üçüncü tekil kişi -s alır."},
+        {"id": "s2", "prompt": "Choose the correction: “He walked in the room.” (movement)", "options": ["He walked into the room.", "He walked on the room.", "He walked at the room."], "answer": "He walked into the room.", "explanation": "Into, dışarıdan içeri hareketi anlatır."},
+        {"id": "s3", "prompt": "Choose the correction: “The desk is between the door.”", "options": ["The desk is next to the door.", "The desk is between to the door.", "The desk goes through the door."], "answer": "The desk is next to the door.", "explanation": "Between iki referans ister; tek referansla next to uygundur."},
+        {"id": "s4", "prompt": "Choose the correction: “Walk across the tunnel.”", "options": ["Walk through the tunnel.", "Walk under into tunnel.", "Walk opposite the tunnel."], "answer": "Walk through the tunnel.", "explanation": "Kapalı alanın içinden geçerken through."},
+        {"id": "s5", "prompt": "Choose the correction: “The café is opposite to the bank.”", "options": ["The café is opposite the bank.", "The café is into the bank.", "The café opposite to bank is."], "answer": "The café is opposite the bank.", "explanation": "Opposite bu yapıda to almaz."},
+        {"id": "s6", "prompt": "Choose the correction: “She went out the classroom.”", "options": ["She went out of the classroom.", "She went out to classroom.", "She went outside into classroom."], "answer": "She went out of the classroom.", "explanation": "Out of, içeriden dışarı hareket."}
+      ],
+      "4. Prepositions": [
+        {"id": "p1", "prompt": "The printer is ___ the desk and the window.", "options": ["between", "through", "towards"], "answer": "between", "explanation": "İki şey arasında."},
+        {"id": "p2", "prompt": "Walk ___ the road to reach the station.", "options": ["across", "opposite", "under"], "answer": "across", "explanation": "Bir taraftan diğer tarafa."},
+        {"id": "p3", "prompt": "The sign is ___ the door.", "options": ["over", "through", "along"], "answer": "over", "explanation": "Kapının üzerinde/yukarısında."},
+        {"id": "p4", "prompt": "Go ___ the glass doors.", "options": ["through", "between", "behind"], "answer": "through", "explanation": "Bir açıklığın içinden."},
+        {"id": "p5", "prompt": "The library is ___ the café.", "options": ["next to", "into", "across through"], "answer": "next to", "explanation": "Sabit yakınlık."},
+        {"id": "p6", "prompt": "Walk ___ the entrance and turn left.", "options": ["towards", "under", "between"], "answer": "towards", "explanation": "Bir hedef yönünde hareket."},
+        {"id": "p7", "prompt": "The bag is ___ the chair.", "options": ["under", "past", "through"], "answer": "under", "explanation": "Sabit alt konumu."},
+        {"id": "p8", "prompt": "Go ___ the stairs to the first floor.", "options": ["up", "opposite", "behind"], "answer": "up", "explanation": "Yukarı yönlü hareket."}
+      ],
+      "5. Final Exam": [
+        {"id": "f1", "prompt": "Odd one out:", "options": ["into", "through", "between"], "answer": "between", "explanation": "Into ve through hareket; between sabit yer olabilir."},
+        {"id": "f2", "prompt": "Complete: The desk is ___ the two windows.", "options": ["between", "along", "out of"], "answer": "between", "explanation": "İki referans arasında."},
+        {"id": "f3", "prompt": "Choose the sentence with a movement preposition.", "options": ["Maya walked past the library.", "Maya was beside the library.", "The library was opposite the café."], "answer": "Maya walked past the library.", "explanation": "Walked past hareket yolunu anlatır."},
+        {"id": "f4", "prompt": "Choose the sentence with a location preposition.", "options": ["The map is on the wall.", "Walk through the door.", "Run towards the gate."], "answer": "The map is on the wall.", "explanation": "Sabit yer."},
+        {"id": "f5", "prompt": "Which sentence proves the reading room's location?", "options": ["It was behind the main gallery.", "The students matched six words.", "The group entered through glass doors."], "answer": "It was behind the main gallery.", "explanation": "Doğrudan yer kanıtı."},
+        {"id": "f6", "prompt": "Choose the best correction strategy.", "options": ["Check subject, verb, word order and preposition.", "Change every word.", "Choose the longest sentence."], "answer": "Check subject, verb, word order and preposition.", "explanation": "Sistemli kontrol hatayı buldurur."},
+        {"id": "f7", "prompt": "Transform without changing meaning: “The café is across the street from the bank.”", "options": ["The café is opposite the bank.", "The café goes through the bank.", "The café is into the bank."], "answer": "The café is opposite the bank.", "explanation": "Across the street from ve opposite aynı yer ilişkisini verebilir."},
+        {"id": "f8", "prompt": "Which answer uses text evidence correctly?", "options": ["I chose B because the second paragraph says the room is behind the gallery.", "I chose B because it is the longest.", "I chose B without reading."], "answer": "I chose B because the second paragraph says the room is behind the gallery.", "explanation": "Cevap açık metin kanıtına dayanıyor."}
+      ]
+    }
+  }
+}

@@ -19,7 +19,7 @@ const roleNames = {
   S: 'Özne', V: 'Fiil', O: 'Nesne', P: 'Yer', T: 'Zaman', BE: 'BE', AUX: 'Yardımcı Fiil', QW: 'Soru Kelimesi',
   POS: "Sahiplik ('s)", IS: "Kısalmış is ('s)", OF: 'of yapısı', WHOIS: "who is (who's)", WHOSE: 'kimin (whose)',
   C: 'Sayılabilen', U: 'Sayılamayan', SOME: 'some', ANY: 'any', MANY: 'many', MUCH: 'much', FEW: 'a few', LITTLE: 'a little',
-  PLACE: 'Yer ilişkisi', THERE: 'there is / are', COMP: 'Karşılaştırma', SUPER: 'En üstünlük', WILL: 'will', GOING: 'be going to',
+  PLACE: 'Yer ilişkisi', MOVE: 'Hareket yönü', THERE: 'there is / are', COMP: 'Karşılaştırma', SUPER: 'En üstünlük', WILL: 'will', GOING: 'be going to',
   ADJ: 'Sıfat', ADV: 'Zarf', BECAUSE: 'Sebep', SO: 'Sonuç', BUT: 'Karşıtlık', PS: 'Past simple', PC: 'Past continuous',
   PP: 'Present perfect', PPC: 'Present perfect continuous', CONJ: 'Bağlaç', TAG: 'Question tag', VOCAB: 'Sınav kelimesi',
   IT: 'Genel it', GAP: 'Boşluk ipucu', WORD: 'Bağlama uygun kelime', USED: 'used to', BEUSED: 'be used to', GETUSED: 'get used to',
