@@ -1,0 +1,266 @@
+{
+  "id": "homework-2026-11-15-past-narratives-exam-practice",
+  "date": "2026-11-09",
+  "lessonDate": "2026-11-15",
+  "dateLabel": "15 Kasım 2026",
+  "student": "Sümeyye",
+  "title": "Past Narratives: While, When ve Exam Practice",
+  "subtitle": "Past simple ve past continuous ile hikâye kur; okuma, dinleme ve sınav tipi sorularla pekiştir.",
+  "policyVersion": "sumeyye-weekend-monday@1",
+  "templateContractVersion": "sumeyye-six-tab-interactive@1",
+  "assessmentPolicyVersion": "sumeyye-section-and-final-checks@1",
+  "sections": ["learn", "read", "listen", "sort", "order", "quiz", "exam"],
+  "game": {
+    "learn": [
+      {
+        "id": "past-narrative-tools",
+        "shortTitle": "Hikâye araçları",
+        "title": "Geçmişte sahne ve olay",
+        "intro": "Past continuous geçmişte devam eden sahneyi; past simple tamamlanan veya sahneyi kesen olayı anlatır.",
+        "cards": [
+          {"title": "Past simple", "text": "Tamamlanan olay için fiilin ikinci hâlini kullan. Olumsuzda didn't + V1, soruda Did + özne + V1 gelir.", "examples": ["The bell rang at ten.", "Maya didn't leave early.", "Did the lights go out?"]},
+          {"title": "Past continuous", "text": "Geçmişte belirli bir anda sürmekte olan eylem için was/were + V-ing kullan.", "examples": ["Maya was reading at ten.", "They were waiting outside.", "He wasn't listening."]},
+          {"title": "Kısa olay sahneyi keser", "text": "Devam eden eylem past continuous; araya giren kısa olay past simple olur.", "examples": ["I was studying when the phone rang.", "The lights went out while we were reading."]},
+          {"title": "While", "text": "While genellikle devam eden eylemin önünde gelir. İki eş zamanlı uzun eylemi de bağlayabilir.", "examples": ["While Leo was writing, Maya was checking the answers.", "Maya listened while Leo was speaking."]},
+          {"title": "When", "text": "When kısa olayı veya belirli geçmiş anı tanıtır. Cümlenin başında ya da ortasında olabilir.", "examples": ["When the teacher arrived, we were revising.", "We were revising when the teacher arrived."]},
+          {"title": "Okuma ve dinleme kanıtı", "text": "Who, where, what happened ve what was happening ayrımını yap. Cevabı metindeki veya sesteki ayrıntıyla doğrula.", "examples": ["What happened? → past simple olay", "What was happening? → past continuous sahne"]},
+          {"title": "Sınav yöntemi", "text": "Önce zaman ipucunu bul, sonra eylemin bitmiş mi sürüyor mu olduğunu belirle. En son fiil biçimini kontrol et.", "examples": ["suddenly → kısa olay", "at 8 p.m. → belirli anda süren sahne", "yesterday → tamamlanmış geçmiş"]}
+        ]
+      }
+    ],
+    "read": {
+      "title": "The Unexpected Announcement",
+      "instructions": "Metinde yalnızca past continuous fiil gruplarını seç.",
+      "tokens": [
+        {"id": "1", "text": "The students were practising for an English presentation on Saturday morning. ", "target": true},
+        {"id": "2", "text": "Maya was reading the introduction while Leo was checking the slides. ", "target": true},
+        {"id": "3", "text": "Their teacher entered the room and made an announcement. ", "target": false},
+        {"id": "4", "text": "While everyone was listening, the projector suddenly stopped. ", "target": true},
+        {"id": "5", "text": "Leo restarted it, but one slide disappeared. ", "target": false},
+        {"id": "6", "text": "Maya was explaining the first example when the missing slide returned. ", "target": true},
+        {"id": "7", "text": "The group finished the practice and wrote down the problems. ", "target": false},
+        {"id": "8", "text": "They felt more confident because they solved the problem calmly.", "target": false}
+      ],
+      "questions": [
+        {"id": "r1", "prompt": "What were the students doing on Saturday morning?", "options": ["Practising a presentation", "Taking the final exam", "Leaving the school"], "answer": "Practising a presentation", "explanation": "İlk cümlede devam eden sahne veriliyor."},
+        {"id": "r2", "prompt": "What happened while everyone was listening?", "options": ["The projector stopped", "The teacher left", "The presentation ended"], "answer": "The projector stopped", "explanation": "Kısa olay past simple ile anlatılıyor."},
+        {"id": "r3", "prompt": "What was Maya doing when the slide returned?", "options": ["Explaining an example", "Restarting the projector", "Writing an announcement"], "answer": "Explaining an example", "explanation": "Was explaining devam eden eylemdir."},
+        {"id": "r4", "prompt": "Why did the group feel more confident?", "options": ["They solved the problem calmly", "They cancelled the presentation", "They ignored the missing slide"], "answer": "They solved the problem calmly", "explanation": "Son cümlede sebep açıkça veriliyor."}
+      ],
+      "extra": {
+        "title": "A Busy Afternoon at the Library",
+        "instructions": "Metni oku; olay sırasını, aynı anda süren eylemleri ve araya giren kısa olayları ayır.",
+        "paragraphs": [
+          "Last Wednesday, Elif and Arda went to the school library for an exam-practice session. At three o'clock, several students were reading quietly while the librarian was organising new books. Elif chose a long comprehension text, and Arda opened the listening task on a tablet. They planned to compare their answers after each section.",
+          "While Elif was answering the second question, someone dropped a pile of books near the entrance. The sudden noise interrupted everyone, but the librarian quickly helped the student. At the same time, Arda was listening to a conversation when the tablet lost its internet connection. He wrote down the last detail he remembered and restarted the audio.",
+          "The connection returned a few minutes later. Elif finished the reading, and Arda completed the listening task. Before they left, they checked each answer against evidence from the text or audio. They made two corrections and decided to complete the remaining exam-style exercises at home."
+        ],
+        "questions": [
+          {"id": "er1", "prompt": "Why did Elif and Arda go to the library?", "options": ["For exam practice", "To return a novel only", "To meet the headteacher"], "answer": "For exam practice", "explanation": "İlk cümle amacı verir."},
+          {"id": "er2", "prompt": "What were the students and librarian doing at three o'clock?", "options": ["Students were reading and the librarian was organising books", "Everyone was leaving", "The librarian was taking an exam"], "answer": "Students were reading and the librarian was organising books", "explanation": "While ile iki eş zamanlı sahne anlatılıyor."},
+          {"id": "er3", "prompt": "What interrupted the quiet reading?", "options": ["A pile of books fell", "The fire alarm rang", "The tablet played music"], "answer": "A pile of books fell", "explanation": "Kısa olay ikinci paragrafta."},
+          {"id": "er4", "prompt": "What was Arda doing when the internet connection disappeared?", "options": ["Listening to a conversation", "Reading a novel", "Organising books"], "answer": "Listening to a conversation", "explanation": "Was listening devam eden eylemdir."},
+          {"id": "er5", "prompt": "How did they check their work before leaving?", "options": ["Against evidence from the text or audio", "By choosing the longest answers", "Without reviewing anything"], "answer": "Against evidence from the text or audio", "explanation": "Son paragraf çalışma yöntemini açıklar."}
+        ]
+      }
+    },
+    "listening": {
+      "level": "A2",
+      "title": "Changing Plans",
+      "source": "British Council LearnEnglish",
+      "resource": "Changing plans",
+      "instructions": "İlk dinlemede ana fikri bul. İkinci dinlemede geçmişte tamamlanan olayları ve devam eden sahneyi not et.",
+      "task": "Konuşmacıların önceki planlarını, değişikliğin sebebini ve yeni planı üç sütunda yaz.",
+      "followUp": "Dinledikten sonra iki past simple ve bir past continuous cümlesi kur.",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a2/changing-plans",
+      "questions": [
+        {"id": "l1", "prompt": "Why can't Francesco go to the theatre on Friday?", "options": ["He has a concert", "He is ill", "He lost the tickets"], "answer": "He has a concert", "explanation": "Planın değişme sebebi bu."},
+        {"id": "l2", "prompt": "What did Sachi have tickets for two weeks earlier?", "options": ["A cinema film", "A football match", "A museum visit"], "answer": "A cinema film", "explanation": "Geçmiş planın ayrıntısı."},
+        {"id": "l3", "prompt": "Which activity was happening at a birthday party?", "options": ["Francesco's band was playing", "Sachi was buying tickets", "They were watching a play"], "answer": "Francesco's band was playing", "explanation": "Was playing geçmişte devam eden sahnedir."},
+        {"id": "l4", "prompt": "What new plan do they make?", "options": ["Dinner before the concert and the play next Friday", "The play this Friday", "No plans for the next week"], "answer": "Dinner before the concert and the play next Friday", "explanation": "Konuşmanın sonunda yeni plan oluşturuluyor."}
+      ]
+    },
+    "sort": [
+      {"text": "The teacher entered the room.", "type": "PS", "choices": ["PS", "PC", "CONJ"]},
+      {"text": "The students were practising.", "type": "PC", "choices": ["PS", "PC", "CONJ"]},
+      {"text": "while / when", "type": "CONJ", "choices": ["PS", "PC", "CONJ"]},
+      {"text": "The projector suddenly stopped.", "type": "PS", "choices": ["PS", "PC", "CONJ"]},
+      {"text": "Maya was explaining an example.", "type": "PC", "choices": ["PS", "PC", "CONJ"]},
+      {"text": "Elif finished the reading.", "type": "PS", "choices": ["PS", "PC", "CONJ"]},
+      {"text": "Arda was listening at three o'clock.", "type": "PC", "choices": ["PS", "PC", "CONJ"]},
+      {"text": "while", "type": "CONJ", "choices": ["PS", "PC", "CONJ"]},
+      {"text": "They made two corrections.", "type": "PS", "choices": ["PS", "PC", "CONJ"]},
+      {"text": "when", "type": "CONJ", "choices": ["PS", "PC", "CONJ"]},
+      {"text": "The librarian was organising books.", "type": "PC", "choices": ["PS", "PC", "CONJ"]},
+      {"text": "The connection returned.", "type": "PS", "choices": ["PS", "PC", "CONJ"]}
+    ],
+    "order": [
+      {"parts": ["While", "Maya was reading", "Leo was checking", "the slides"], "answer": "While Maya was reading Leo was checking the slides", "hint": "While + iki devam eden eylem."},
+      {"parts": ["The projector", "stopped", "while", "everyone was listening"], "answer": "The projector stopped while everyone was listening", "hint": "Kısa olay + while + sahne."},
+      {"parts": ["I was studying", "when", "the phone", "rang"], "answer": "I was studying when the phone rang", "hint": "Sahne + when + kısa olay."},
+      {"parts": ["When", "the teacher arrived", "we were revising", "the text"], "answer": "When the teacher arrived we were revising the text", "hint": "When + kısa olay, sonra süren sahne."},
+      {"parts": ["Arda", "was listening", "when", "the connection disappeared"], "answer": "Arda was listening when the connection disappeared", "hint": "Was listening + when + past simple."},
+      {"parts": ["They", "checked", "their answers", "before they left"], "answer": "They checked their answers before they left", "hint": "İki tamamlanmış olay."},
+      {"parts": ["Did", "you hear", "the announcement"], "answer": "Did you hear the announcement", "hint": "Did + özne + V1."}
+    ],
+    "quizzes": {
+      "1. Past Simple vs Continuous": [
+        {"id": "pc1", "prompt": "At 4 p.m., Maya ___ the reading task.", "options": ["was completing", "completed suddenly", "did completing"], "answer": "was completing", "explanation": "Belirli geçmiş anda devam eden eylem."},
+        {"id": "pc2", "prompt": "The internet connection ___ a few minutes later.", "options": ["returned", "was return", "returning"], "answer": "returned", "explanation": "Tamamlanan olay past simple."},
+        {"id": "pc3", "prompt": "They ___ quietly when the books fell.", "options": ["were reading", "readed", "did reading"], "answer": "were reading", "explanation": "Devam eden sahne."},
+        {"id": "pc4", "prompt": "Elif ___ the final question before she left.", "options": ["answered", "was answer", "did answered"], "answer": "answered", "explanation": "Tamamlanmış geçmiş olay."},
+        {"id": "pc5", "prompt": "Choose the correct negative.", "options": ["They didn't finish early.", "They didn't finished early.", "They weren't finish early."], "answer": "They didn't finish early.", "explanation": "Didn't + V1."},
+        {"id": "pc6", "prompt": "Choose the correct question.", "options": ["Were you listening?", "Did you were listening?", "Was you listen?"], "answer": "Were you listening?", "explanation": "Past continuous sorusunda was/were başa gelir."},
+        {"id": "pc7", "prompt": "Which sentence describes a finished event?", "options": ["The teacher made an announcement.", "The teacher was making notes at four.", "The students were waiting."], "answer": "The teacher made an announcement.", "explanation": "Made past simple."},
+        {"id": "pc8", "prompt": "Which sentence gives background?", "options": ["The librarian was organising books.", "A pile of books fell.", "The connection returned."], "answer": "The librarian was organising books.", "explanation": "Was organising sahneyi kurar."}
+      ],
+      "2. While and When": [
+        {"id": "ww1", "prompt": "___ I was reading, the phone rang.", "options": ["While", "Because", "After did"], "answer": "While", "explanation": "While devam eden eylemi tanıtır."},
+        {"id": "ww2", "prompt": "I was reading ___ the phone rang.", "options": ["when", "while was", "so"], "answer": "when", "explanation": "When kısa olayı tanıtır."},
+        {"id": "ww3", "prompt": "___ the teacher entered, we were revising.", "options": ["When", "While did", "But"], "answer": "When", "explanation": "Kısa olay past simple."},
+        {"id": "ww4", "prompt": "Leo was writing ___ Maya was checking the answers.", "options": ["while", "when suddenly", "because of"], "answer": "while", "explanation": "İki eş zamanlı devam eden eylem."},
+        {"id": "ww5", "prompt": "Choose the correct pair.", "options": ["While we were waiting, the bus arrived.", "While we waited, the bus was arrive.", "When were waiting, arrived bus."], "answer": "While we were waiting, the bus arrived.", "explanation": "Sahne past continuous; kısa olay past simple."},
+        {"id": "ww6", "prompt": "The lights went out ___ we were listening.", "options": ["while", "because did", "after was"], "answer": "while", "explanation": "Eylem devam ederken kısa olay oldu."},
+        {"id": "ww7", "prompt": "What does while usually signal here?", "options": ["A continuing background action", "A finished list only", "A future plan"], "answer": "A continuing background action", "explanation": "While sahne/uzun eylem ipucudur."},
+        {"id": "ww8", "prompt": "What does when usually introduce in these narratives?", "options": ["The interrupting or timed event", "Only a place", "A present habit"], "answer": "The interrupting or timed event", "explanation": "When kısa olayın anını gösterir."}
+      ],
+      "3. Comprehension Skills": [
+        {"id": "cs1", "prompt": "For a listening first round, what should you find?", "options": ["The main idea", "Every exact word", "Only verb spelling"], "answer": "The main idea", "explanation": "İlk dinlemede genel anlam."},
+        {"id": "cs2", "prompt": "Which question asks for a continuing action?", "options": ["What was Arda doing?", "What happened next?", "Who arrived?"], "answer": "What was Arda doing?", "explanation": "Was doing devam eden eylemi sorar."},
+        {"id": "cs3", "prompt": "Which detail is evidence?", "options": ["The text says the connection disappeared during the audio.", "I guessed the longest option.", "The answer looks familiar."], "answer": "The text says the connection disappeared during the audio.", "explanation": "Cevap metindeki ayrıntıya dayanıyor."},
+        {"id": "cs4", "prompt": "What should you note during the second listening?", "options": ["Key people, reasons and sequence", "Only punctuation", "Every article"], "answer": "Key people, reasons and sequence", "explanation": "Ayrıntı dinlemesinde temel bilgiler."},
+        {"id": "cs5", "prompt": "Which word asks about the reason?", "options": ["Why", "Where", "Who"], "answer": "Why", "explanation": "Why sebep sorar."},
+        {"id": "cs6", "prompt": "Which answer shows sequence?", "options": ["First the books fell; then the librarian helped.", "The library was quiet.", "Arda had a tablet."], "answer": "First the books fell; then the librarian helped.", "explanation": "First/then olay sırası verir."}
+      ],
+      "4. Final Review": [
+        {"id": "fr1", "prompt": "Complete: While the students ___, the teacher arrived.", "options": ["were practising", "practised every", "did practised"], "answer": "were practising", "explanation": "Devam eden sahne."},
+        {"id": "fr2", "prompt": "Complete: The teacher ___ an announcement.", "options": ["made", "was make", "did made"], "answer": "made", "explanation": "Tamamlanan olay."},
+        {"id": "fr3", "prompt": "Correct: They didn't completed the task.", "options": ["They didn't complete the task.", "They weren't complete the task.", "They didn't completing the task."], "answer": "They didn't complete the task.", "explanation": "Didn't + V1."},
+        {"id": "fr4", "prompt": "Correct: Was they listening?", "options": ["Were they listening?", "Did they were listening?", "They were listening?"], "answer": "Were they listening?", "explanation": "They ile were."},
+        {"id": "fr5", "prompt": "Choose the interrupted action pair.", "options": ["I was writing when the bell rang.", "I wrote while bell was ring.", "I was write when rang."], "answer": "I was writing when the bell rang.", "explanation": "Past continuous + when + past simple."},
+        {"id": "fr6", "prompt": "What was Elif doing when the books fell?", "options": ["Answering a question", "Leaving the library", "Organising the shelves"], "answer": "Answering a question", "explanation": "Uzun okumadaki ayrıntı."},
+        {"id": "fr7", "prompt": "Why did Arda restart the audio?", "options": ["The internet connection disappeared", "He finished the task", "The librarian asked him"], "answer": "The internet connection disappeared", "explanation": "Sebep ikinci paragrafta."},
+        {"id": "fr8", "prompt": "Choose the best exam method.", "options": ["Find the time clue, decide finished or continuing, then check the verb form.", "Choose the longest option first.", "Ignore the whole sentence."], "answer": "Find the time clue, decide finished or continuing, then check the verb form.", "explanation": "Üç adımlı kontrol."},
+        {"id": "fr9", "prompt": "Which connector can join two simultaneous long actions?", "options": ["while", "when suddenly", "because of yesterday"], "answer": "while", "explanation": "While iki devam eden eylemi bağlayabilir."},
+        {"id": "fr10", "prompt": "Which form is past continuous?", "options": ["were checking", "checked", "did check yesterday"], "answer": "were checking", "explanation": "Were + V-ing."}
+      ]
+    },
+    "exam": {
+      "title": "Past Narrative Exam Simulation",
+      "intro": "Bu sekme, 9-15 Kasım ödevlerini tamamlamak için past simple, past continuous, while/when, okuma ve dinleme becerilerini yazılı sınav biçimlerinde birleştirir.",
+      "formats": [
+        {
+          "id": "highlighted-vocabulary",
+          "type": "written-answer",
+          "kicker": "Highlighted vocabulary",
+          "title": "Koyu kelimeyi anlamının yanına yaz",
+          "instructions": "Metindeki sarı kelimelerden doğru olanı her tanımın yanına yaz.",
+          "passage": [
+            {"parts": [{"text": "During the exam practice, a sudden announcement "}, {"text": "interrupted", "highlight": true}, {"text": " the students. Maya was describing the "}, {"text": "background", "highlight": true}, {"text": " of a story while Leo was checking the event "}, {"text": "sequence", "highlight": true}, {"text": ". They used details from the text as "}, {"text": "evidence", "highlight": true}, {"text": " and corrected an inaccurate answer."}]}
+          ],
+          "items": [
+            {"id": "hv1", "prompt": "information that proves an answer", "answer": "evidence"},
+            {"id": "hv2", "prompt": "the order in which events happen", "answer": "sequence"},
+            {"id": "hv3", "prompt": "stopped an activity for a short time", "answer": "interrupted"},
+            {"id": "hv4", "prompt": "the situation already happening before the main event", "answer": "background"},
+            {"id": "hv5", "prompt": "a spoken or written public message", "answer": "announcement"}
+          ]
+        },
+        {
+          "id": "open-reading",
+          "type": "open-ended",
+          "kicker": "Reading · Open-ended",
+          "title": "Metni oku ve kendi cümlenle cevapla",
+          "instructions": "Cevabı metinde bul, sonra kendi cümlenle yaz. Model cevap olası cevaplardan biridir.",
+          "passage": [
+            "On Sunday afternoon, Deniz was completing an online English practice test while his sister was listening to music in the next room. He finished the vocabulary section quickly, but the reading text required more attention.",
+            "While Deniz was answering an open-ended question, the website suddenly froze. He took a screenshot of his completed answers and refreshed the page. When the website returned, his final answer was missing, so he rewrote it using evidence from the passage.",
+            "After the test, Deniz listened to a short dialogue twice. During the first listening, he identified the main idea. During the second, he wrote down the reason for a changed plan and the order of events. He checked every answer before submitting the practice."
+          ],
+          "items": [
+            {"id": "or1", "prompt": "What were Deniz and his sister doing at the beginning?", "answer": "Deniz was completing an English test while his sister was listening to music."},
+            {"id": "or2", "prompt": "What happened while Deniz was answering an open-ended question?", "answer": "The website froze."},
+            {"id": "or3", "prompt": "Why did he take a screenshot?", "answer": "He wanted to keep evidence of his completed answers before refreshing the page."},
+            {"id": "or4", "prompt": "What was missing when the website returned?", "answer": "His final answer was missing."},
+            {"id": "or5", "prompt": "How were the goals of the two listening rounds different?", "answer": "He found the main idea first, then listened for reasons and event order."}
+          ]
+        },
+        {
+          "id": "verb-gaps",
+          "type": "written-answer",
+          "kicker": "Grammar · Verb gaps",
+          "title": "Fiilleri doğru geçmiş biçimde yaz",
+          "instructions": "Past simple veya past continuous seç; yalnızca eksik fiil grubunu yaz.",
+          "items": [
+            {"id": "vg1", "prompt": "At four o'clock, Deniz ___ an online test. (complete)", "answer": "was completing"},
+            {"id": "vg2", "prompt": "The website suddenly ___. (freeze)", "answer": "froze"},
+            {"id": "vg3", "prompt": "His sister ___ to music while he was studying. (listen)", "answer": "was listening"},
+            {"id": "vg4", "prompt": "Deniz ___ a screenshot before he refreshed the page. (take)", "answer": "took"},
+            {"id": "vg5", "prompt": "When the page returned, one answer ___. (be / miss)", "answer": "was missing"},
+            {"id": "vg6", "prompt": "He ___ the answer with evidence from the passage. (rewrite)", "answer": "rewrote"},
+            {"id": "vg7", "prompt": "While he ___ for details, he wrote short notes. (listen)", "answer": "was listening"},
+            {"id": "vg8", "prompt": "He ___ every answer before submitting. (check)", "answer": "checked"}
+          ]
+        },
+        {
+          "id": "matching-halves",
+          "type": "match-halves",
+          "kicker": "Matching the halves",
+          "title": "Cümlelerin iki yarısını eşleştir",
+          "instructions": "Anlamlı ve dilbilgisel olarak doğru ikinci yarıyı seç.",
+          "options": [
+            {"id": "mh-a", "text": "the website suddenly froze."},
+            {"id": "mh-b", "text": "his sister was listening to music."},
+            {"id": "mh-c", "text": "he rewrote the missing answer."},
+            {"id": "mh-d", "text": "before he submitted the practice."},
+            {"id": "mh-e", "text": "to identify the main idea."},
+            {"id": "mh-f", "text": "while the librarian was helping another student."}
+          ],
+          "items": [
+            {"id": "mh1", "prompt": "Deniz was studying while", "answer": "mh-b", "answerText": "his sister was listening to music."},
+            {"id": "mh2", "prompt": "While he was answering a question,", "answer": "mh-a", "answerText": "the website suddenly froze."},
+            {"id": "mh3", "prompt": "When the page returned,", "answer": "mh-c", "answerText": "he rewrote the missing answer."},
+            {"id": "mh4", "prompt": "He checked every answer", "answer": "mh-d", "answerText": "before he submitted the practice."},
+            {"id": "mh5", "prompt": "He listened once", "answer": "mh-e", "answerText": "to identify the main idea."},
+            {"id": "mh6", "prompt": "The students were reading", "answer": "mh-f", "answerText": "while the librarian was helping another student."}
+          ]
+        },
+        {
+          "id": "word-list-cloze",
+          "type": "written-answer",
+          "kicker": "Text cloze · One extra word",
+          "title": "Kelime listesinden metni tamamla",
+          "instructions": "Her kelimeyi bir kez kullan. Listede bir fazla kelime var.",
+          "wordBank": ["while", "when", "was checking", "rang", "were waiting", "arrived", "finished", "because", "tomorrow"],
+          "passage": ["Complete the short exam-day story with the words above."],
+          "items": [
+            {"id": "wc1", "prompt": "The students ___ outside the room at nine.", "answer": "were waiting"},
+            {"id": "wc2", "prompt": "The teacher ___ and opened the door.", "answer": "arrived"},
+            {"id": "wc3", "prompt": "___ they were finding their seats, the bell rang.", "answer": "while"},
+            {"id": "wc4", "prompt": "Maya ___ her name when the lights went out.", "answer": "was checking"},
+            {"id": "wc5", "prompt": "The emergency phone ___ a few seconds later.", "answer": "rang"},
+            {"id": "wc6", "prompt": "___ the lights returned, everyone continued calmly.", "answer": "when"},
+            {"id": "wc7", "prompt": "They ___ the exam on time.", "answer": "finished"},
+            {"id": "wc8", "prompt": "They felt proud ___ they stayed focused.", "answer": "because"}
+          ]
+        },
+        {
+          "id": "correct-mistakes",
+          "type": "written-answer",
+          "kicker": "Error correction",
+          "title": "Hatayı bul ve doğru cümleyi yaz",
+          "instructions": "Her cümlede bir hata var. Bütün cümlenin doğru hâlini yaz.",
+          "items": [
+            {"id": "cm1", "prompt": "I was study when the phone rang.", "answer": "I was studying when the phone rang"},
+            {"id": "cm2", "prompt": "While Maya checked the answers, Leo was writing when.", "answer": "While Maya was checking the answers, Leo was writing"},
+            {"id": "cm3", "prompt": "They didn't completed the reading.", "answer": "They didn't complete the reading"},
+            {"id": "cm4", "prompt": "Was the students waiting outside?", "answer": "Were the students waiting outside"},
+            {"id": "cm5", "prompt": "The projector stop while everyone was listening.", "answer": "The projector stopped while everyone was listening"},
+            {"id": "cm6", "prompt": "When the teacher was arrived, we were revising.", "answer": "When the teacher arrived, we were revising"},
+            {"id": "cm7", "prompt": "Arda were listening when the connection disappeared.", "answer": "Arda was listening when the connection disappeared"}
+          ]
+        }
+      ]
+    }
+  }
+}
