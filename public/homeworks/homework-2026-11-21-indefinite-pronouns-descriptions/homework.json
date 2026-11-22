@@ -1,0 +1,277 @@
+{
+  "id": "homework-2026-11-21-indefinite-pronouns-descriptions",
+  "date": "2026-11-16",
+  "lessonDate": "2026-11-21",
+  "dateLabel": "21 Kasım 2026",
+  "student": "Sümeyye",
+  "title": "Someone, Anyone, No One ve Nesne Betimleme",
+  "subtitle": "Günlük mesajlarda belirsiz kişi ve şeylerden söz et; şekil, boyut ve doku ayrıntılarıyla nesneleri açıkça tarif et.",
+  "policyVersion": "sumeyye-weekend-monday@1",
+  "templateContractVersion": "sumeyye-six-tab-interactive@1",
+  "assessmentPolicyVersion": "sumeyye-section-and-final-checks@1",
+  "authoringStandardVersion": "contextual-practice@1",
+  "sections": ["learn", "read", "listen", "sort", "order", "quiz", "exam"],
+  "game": {
+    "learn": [
+      {
+        "id": "people-and-things",
+        "shortTitle": "Kişiler ve şeyler",
+        "title": "Kim olduğunu bilmiyorsan ne dersin?",
+        "intro": "Bir kişiyi veya şeyi tam olarak bilmiyorsan someone, anyone, no one, something, anything ve nothing ile doğal bir mesaj kurabilirsin.",
+        "cards": [
+          {"title": "Olumlu haber", "text": "Olumlu bir cümlede belirsiz bir kişi için someone, belirsiz bir şey için something kullan.", "examples": ["Someone left a parcel at reception.", "There is something soft inside the bag."]},
+          {"title": "Soru ve kontrol", "text": "Bir kişi ya da şey olup olmadığını sorarken genellikle anyone veya anything kullan.", "examples": ["Did anyone call this morning?", "Is there anything in the box?"]},
+          {"title": "Olumsuz mesaj", "text": "Not ile kurulan olumsuz cümlede anyone veya anything kullan.", "examples": ["I didn't see anyone outside.", "We don't need anything else."]},
+          {"title": "Sıfır kişi veya şey", "text": "No one ve nothing zaten olumsuz anlam taşır; aynı cümlede not kullanma.", "examples": ["No one answered the door.", "Nothing was damaged."]},
+          {"title": "Tekil fiil", "text": "Bu sözcüklerden sonra kişi veya şey sayısı bilinmese de tekil fiil kullanılır.", "examples": ["Someone is waiting.", "Nothing looks broken."]}
+        ]
+      },
+      {
+        "id": "describe-objects",
+        "shortTitle": "Nesneyi tarif et",
+        "title": "Şekil, boyut ve doku ile doğru nesneyi bul",
+        "intro": "İyi bir tarif, nesnenin şeklini, boyutunu ve yüzeyini günlük bir amaçla açıklar.",
+        "cards": [
+          {"title": "Şekil", "text": "Round, square, rectangular ve triangular nesnenin biçimini söyler.", "examples": ["a round clock", "a rectangular parcel", "a triangular sign"]},
+          {"title": "Boyut", "text": "Large/small genel boyutu; long/short uzunluğu; thick/thin kalınlığı anlatır.", "examples": ["a large suitcase", "a long cable", "a thin notebook"]},
+          {"title": "Doku", "text": "Smooth ve rough yüzeyi; soft ve hard dokununca hissedileni anlatır.", "examples": ["a smooth glass bottle", "a rough wooden box", "a soft scarf"]},
+          {"title": "Doğal sıralama", "text": "Birden çok sıfat kullanırken genel boyut çoğunlukla şekilden önce gelir.", "examples": ["a small round table", "a large rectangular window"]},
+          {"title": "Kullanışlı tarif", "text": "Tarifi gerçek bir amaçla tamamla: kayıp eşyayı bulmak, ürünü seçmek veya birine yol göstermek.", "examples": ["Has anyone seen my small black bag?", "I need something soft and thick for the sofa."]}
+        ]
+      }
+    ],
+    "read": {
+      "title": "A Parcel at Reception",
+      "instructions": "Görevlinin doğru paketi bulmasına yardım eden ayrıntılı cümlelere dokun.",
+      "selectionExplanation": "Seçtiğin cümleler paketin şeklini, boyutunu, dokusunu veya kime ait olabileceğini açıkça belirtiyor.",
+      "tokens": [
+        {"id": "1", "text": "Someone left a parcel at the community centre reception. ", "target": true},
+        {"id": "2", "text": "It is a medium-sized rectangular box with a smooth white label. ", "target": true},
+        {"id": "3", "text": "The receptionist arrived at nine. ", "target": false},
+        {"id": "4", "text": "There is something soft inside because the box bends slightly. ", "target": true},
+        {"id": "5", "text": "No one wrote a phone number on it. ", "target": true},
+        {"id": "6", "text": "The weather was cool that morning. ", "target": false},
+        {"id": "7", "text": "A volunteer remembered seeing someone in a green coat carrying it. ", "target": true},
+        {"id": "8", "text": "The centre closes at six. ", "target": false}
+      ],
+      "questions": [
+        {"id": "r1", "prompt": "Where was the parcel left?", "options": ["At the community centre reception", "Inside a café kitchen", "At a bus stop"], "answer": "At the community centre reception", "explanation": "The first sentence gives the exact location."},
+        {"id": "r2", "prompt": "Which description would help a volunteer identify the parcel?", "options": ["A medium rectangular box with a smooth white label", "A large round basket with a rough handle", "A small triangular envelope"], "answer": "A medium rectangular box with a smooth white label", "explanation": "The text states its size, shape and label texture."},
+        {"id": "r3", "prompt": "Why does the receptionist think the parcel contains something soft?", "options": ["The box bends slightly", "The label is white", "The parcel arrived at nine"], "answer": "The box bends slightly", "explanation": "The bending box is the evidence given in the text."},
+        {"id": "r4", "prompt": "What useful information is missing from the parcel?", "options": ["A phone number", "A white label", "A description of its shape"], "answer": "A phone number", "explanation": "The text says no one wrote a phone number on it."}
+      ],
+      "extra": {
+        "title": "The Lost-and-Found Table",
+        "instructions": "Metni oku ve her cevabı doğrudan bir ayrıntıyla destekle.",
+        "paragraphs": [
+          "After Saturday's craft fair, the community centre had several objects on its lost-and-found table. There was a small round mirror with a smooth silver frame, a long blue scarf made of soft wool and a thick square notebook with a rough brown cover. No one knew who owned them.",
+          "Mina posted a message in the neighbourhood group: 'Did anyone lose anything at the fair? Please describe it before you come.' Someone replied that the mirror belonged to her. She said it had a tiny star on the back, and Mina found the star immediately.",
+          "Later, a man asked for the scarf, but he described a short green scarf. Mina explained that nothing on the table matched his description. The blue scarf and the notebook stayed at reception so their owners could collect them later."
+        ],
+        "questions": [
+          {"id": "er1", "prompt": "Which item had a rough surface?", "options": ["The notebook", "The mirror", "The scarf"], "answer": "The notebook", "explanation": "Its brown cover is described as rough."},
+          {"id": "er2", "prompt": "What detail proved that the mirror belonged to the person who replied?", "options": ["A tiny star on the back", "A blue wool frame", "A thick square cover"], "answer": "A tiny star on the back", "explanation": "Mina checked this specific detail and found it."},
+          {"id": "er3", "prompt": "Why didn't Mina give the scarf to the man?", "options": ["His description did not match", "He arrived after closing", "Someone had already taken it"], "answer": "His description did not match", "explanation": "He described a short green scarf, but the item was long and blue."},
+          {"id": "er4", "prompt": "What remained at reception at the end?", "options": ["The scarf and notebook", "Only the mirror", "Nothing"], "answer": "The scarf and notebook", "explanation": "The final sentence names the two remaining items."},
+          {"id": "er5", "prompt": "Why did Mina ask owners to describe their items first?", "options": ["To check that each item went to the right person", "To practise drawing shapes", "To change the fair's opening time"], "answer": "To check that each item went to the right person", "explanation": "A matching description provides evidence of ownership."}
+        ]
+      }
+    },
+    "listening": {
+      "level": "A2",
+      "title": "Who's Who in the Office",
+      "source": "British Council LearnEnglish",
+      "resource": "Who's who in the office",
+      "instructions": "İlk dinlemede konuşmanın amacını bul; ikinci dinlemede kişileri görünüşleri ve işleriyle eşleştir.",
+      "task": "Yeni çalışanın kiminle hangi konu için konuşması gerektiğini kısa notlarla yaz.",
+      "followUp": "Dinledikten sonra bir kişiyi görünüşü ve göreviyle iki cümlede tarif et.",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a2/whos-who-office",
+      "questions": [
+        {"id": "l1", "prompt": "Who is showing Yuki around the department?", "options": ["Jani", "Luciana", "Sebastian"], "answer": "Jani", "explanation": "Jani welcomes Yuki and introduces the colleagues."},
+        {"id": "l2", "prompt": "Which detail helps Yuki identify Luciana?", "options": ["She has short dark hair", "She is next to the printer", "She is wearing a green shirt"], "answer": "She has short dark hair", "explanation": "Jani uses this physical detail to identify Luciana."},
+        {"id": "l3", "prompt": "Who is responsible for the internal IT systems?", "options": ["Maria", "Ian", "Yuki"], "answer": "Maria", "explanation": "Jani states that Maria handles the internal IT systems."},
+        {"id": "l4", "prompt": "Who can help Yuki set up email access on her phone?", "options": ["Sebastian", "Luciana", "Ian"], "answer": "Sebastian", "explanation": "Sebastian works in communications and can help with that task."}
+      ]
+    },
+    "sort": [
+      {"text": "Someone is waiting at reception.", "type": "PERSON", "choices": ["PERSON", "THING", "NONE"], "explanation": "Someone olumlu cümlede kimliği belirtilmeyen bir kişiyi anlatır."},
+      {"text": "There is something soft in the parcel.", "type": "THING", "choices": ["PERSON", "THING", "NONE"], "explanation": "Something olumlu cümlede belirsiz bir şeyi anlatır."},
+      {"text": "No one answered the office phone.", "type": "NONE", "choices": ["PERSON", "THING", "NONE"], "explanation": "No one hiç kimsenin cevap vermediğini anlatır ve zaten olumsuz anlam taşır."},
+      {"text": "Did anyone leave a message?", "type": "PERSON", "choices": ["PERSON", "THING", "NONE"], "explanation": "Anyone soruda kim olduğu bilinmeyen bir kişiyi sorar."},
+      {"text": "We didn't find anything under the desk.", "type": "THING", "choices": ["PERSON", "THING", "NONE"], "explanation": "Anything not ile kurulan olumsuz cümlede herhangi bir şeyi anlatır."},
+      {"text": "Nothing was damaged in the box.", "type": "NONE", "choices": ["PERSON", "THING", "NONE"], "explanation": "Nothing hiçbir şeyin zarar görmediğini anlatır ve ikinci bir olumsuzluk istemez."},
+      {"text": "Can someone help me carry this table?", "type": "PERSON", "choices": ["PERSON", "THING", "NONE"], "explanation": "Someone yardım beklendiği için istekte belirsiz bir kişiyi anlatır."},
+      {"text": "Is there anything fragile inside?", "type": "THING", "choices": ["PERSON", "THING", "NONE"], "explanation": "Anything soruda herhangi bir şey olup olmadığını kontrol eder."},
+      {"text": "No one recognised the blue scarf.", "type": "NONE", "choices": ["PERSON", "THING", "NONE"], "explanation": "No one sıfır kişiyi anlatır; fiil tekil biçimde kalır."},
+      {"text": "Someone in a green coat carried the parcel.", "type": "PERSON", "choices": ["PERSON", "THING", "NONE"], "explanation": "Someone kimliği bilinmeyen ama var olan bir kişiyi gösterir."},
+      {"text": "I need something thick for the cold weather.", "type": "THING", "choices": ["PERSON", "THING", "NONE"], "explanation": "Something ihtiyaç duyulan ama henüz belirlenmemiş bir şeyi anlatır."},
+      {"text": "Nothing matches his description.", "type": "NONE", "choices": ["PERSON", "THING", "NONE"], "explanation": "Nothing hiçbir eşyanın tarife uymadığını anlatır."}
+    ],
+    "order": [
+      {"parts": ["Someone", "left", "a rectangular parcel", "at reception"], "answer": "Someone left a rectangular parcel at reception", "hint": "Önce belirsiz kişiyi, sonra yaptığı işi söyle.", "explanation": "Olumlu cümlede belirsiz kişi için someone kullanılır."},
+      {"parts": ["Did", "anyone", "call", "this morning"], "answer": "Did anyone call this morning", "hint": "Geçmişte arayan biri olup olmadığını sor.", "explanation": "Soruda belirsiz kişi için anyone, past simple için did + call kullanılır."},
+      {"parts": ["There isn't", "anything", "fragile", "in the box"], "answer": "There isn't anything fragile in the box", "hint": "Olumsuzluktan sonra belirsiz şeyi yerleştir.", "explanation": "Not ile kurulan olumsuz cümlede anything kullanılır."},
+      {"parts": ["No one", "knows", "who owns", "the scarf"], "answer": "No one knows who owns the scarf", "hint": "Hiç kimse anlamındaki sözcük cümlenin öznesi olsun.", "explanation": "No one tekil özne kabul edilir; bu yüzden knows kullanılır."},
+      {"parts": ["I need", "something", "soft and thick", "for the sofa"], "answer": "I need something soft and thick for the sofa", "hint": "İhtiyacı, nesneyi ve kullanım amacını sırala.", "explanation": "Olumlu cümlede belirsiz şey için something kullanılır; sıfatlar sözcükten sonra gelir."},
+      {"parts": ["Has", "anyone", "seen", "my small round mirror"], "answer": "Has anyone seen my small round mirror", "hint": "Kayıp eşya için gruba soru sor.", "explanation": "Soruda belirsiz kişi için anyone; present perfect sorusunda has + seen kullanılır."},
+      {"parts": ["Nothing", "on the table", "matches", "his description"], "answer": "Nothing on the table matches his description", "hint": "Önce eşleşen hiçbir şey olmadığını söyle.", "explanation": "Nothing tekil özne kabul edilir; bu yüzden matches kullanılır."}
+    ],
+    "quizzes": {
+      "1. Günlük Hayatta Kişiler": [
+        {"id": "p1", "prompt": "The doorbell rang, but I couldn't see ___ outside.", "options": ["anyone", "someone", "no one"], "answer": "anyone", "explanation": "Couldn't ile kurulan olumsuz cümlede belirsiz kişi için anyone kullanılır."},
+        {"id": "p2", "prompt": "___ left an umbrella in the meeting room.", "options": ["Someone", "Anyone", "No one didn't"], "answer": "Someone", "explanation": "Olumlu cümlede var olduğu bilinen ama kimliği bilinmeyen kişi için someone kullanılır."},
+        {"id": "p3", "prompt": "Did ___ from the delivery team call this morning?", "options": ["anyone", "no one", "someone didn't"], "answer": "anyone", "explanation": "Genel bir soruda belirsiz kişi için anyone kullanılır."},
+        {"id": "p4", "prompt": "The reception desk was empty. ___ was there.", "options": ["No one", "Anyone", "Someone"], "answer": "No one", "explanation": "Sıfır kişi anlamında no one kullanılır ve ayrıca not eklenmez."},
+        {"id": "p5", "prompt": "Can ___ help me move this heavy box, please?", "options": ["someone", "no one", "anyone didn't"], "answer": "someone", "explanation": "Yardım geleceği beklendiği için istekte someone doğal kullanımdır."},
+        {"id": "p6", "prompt": "We invited the whole team, but ___ could come.", "options": ["no one", "someone", "anyone"], "answer": "no one", "explanation": "Hiçbir kişinin gelemediğini anlatmak için no one kullanılır."},
+        {"id": "p7", "prompt": "If ___ asks for the parcel, check the label first.", "options": ["anyone", "no one", "someone didn't"], "answer": "anyone", "explanation": "Koşul cümlesinde kim olursa olsun anlamında anyone kullanılır."},
+        {"id": "p8", "prompt": "___ in a green coat may know who owns the bag.", "options": ["Someone", "Anyone", "No one"], "answer": "Someone", "explanation": "Belirli olmayan fakat var olduğu düşünülen kişi için olumlu cümlede someone kullanılır."}
+      ],
+      "2. Günlük Hayatta Şeyler": [
+        {"id": "t1", "prompt": "There is ___ soft inside the parcel.", "options": ["something", "anything", "nothing didn't"], "answer": "something", "explanation": "Olumlu cümlede belirsiz şey için something kullanılır."},
+        {"id": "t2", "prompt": "Is there ___ fragile in this bag?", "options": ["anything", "nothing", "something didn't"], "answer": "anything", "explanation": "Genel bir soruda belirsiz şey için anything kullanılır."},
+        {"id": "t3", "prompt": "I checked the drawer, but I didn't find ___.", "options": ["anything", "nothing", "something"], "answer": "anything", "explanation": "Didn't ile kurulan olumsuz cümlede anything kullanılır."},
+        {"id": "t4", "prompt": "The box was empty. There was ___ inside.", "options": ["nothing", "anything", "something"], "answer": "nothing", "explanation": "Sıfır şey anlamında nothing kullanılır ve ayrıca not gerekmez."},
+        {"id": "t5", "prompt": "Would you like ___ warm to drink?", "options": ["something", "anything didn't", "nothing"], "answer": "something", "explanation": "Olumlu cevap beklenen tekliflerde something kullanılır."},
+        {"id": "t6", "prompt": "We don't need ___ else for the display.", "options": ["anything", "nothing", "something"], "answer": "anything", "explanation": "Don't ile kurulan olumsuz cümlede anything kullanılır."},
+        {"id": "t7", "prompt": "___ on the lost-and-found table matched the man's description.", "options": ["Nothing", "Anything", "Something"], "answer": "Nothing", "explanation": "Hiçbir eşya eşleşmediği için nothing kullanılır ve matches tekil kalır."},
+        {"id": "t8", "prompt": "If you notice ___ unusual, tell the receptionist.", "options": ["anything", "nothing", "something didn't"], "answer": "anything", "explanation": "Koşul cümlesinde herhangi bir şey anlamında anything kullanılır."}
+      ],
+      "3. Nesneyi Doğru Tarif Et": [
+        {"id": "d1", "prompt": "Which note best identifies a window that is wider than it is tall?", "options": ["a large rectangular window", "a soft round window", "a rough triangular window"], "answer": "a large rectangular window", "explanation": "Rectangular şekli, large ise boyutu açıkça belirtir."},
+        {"id": "d2", "prompt": "A customer wants a blanket for cold weather. Which description is most useful?", "options": ["soft and thick", "smooth and thin", "small and hard"], "answer": "soft and thick", "explanation": "Soğuk hava için soft rahatlığı, thick ise sıcak tutacak kalınlığı anlatır."},
+        {"id": "d3", "prompt": "Which object would probably feel uneven under your hand?", "options": ["a rough wooden box", "a smooth glass bottle", "a soft wool scarf"], "answer": "a rough wooden box", "explanation": "Rough düzgün olmayan, pürüzlü bir yüzeyi anlatır."},
+        {"id": "d4", "prompt": "Which description fits a road warning sign with three sides?", "options": ["a triangular sign", "a square sign", "a round sign"], "answer": "a triangular sign", "explanation": "Üç kenarlı şekil triangular olarak tarif edilir."},
+        {"id": "d5", "prompt": "Mina's mirror is circular and easy to carry. Which note matches it?", "options": ["a small round mirror", "a large square mirror", "a long rectangular mirror"], "answer": "a small round mirror", "explanation": "Small taşınabilir boyutu, round ise dairesel şekli anlatır."},
+        {"id": "d6", "prompt": "Mina is labelling a notebook that is small and square. Which label should she write?", "options": ["a small square notebook", "a square small notebook", "a notebook square small"], "answer": "a small square notebook", "explanation": "İngilizcede genel boyut sıfatı genellikle şekil sıfatından önce gelir."},
+        {"id": "d7", "prompt": "A cable reaches across the whole room. Which adjective gives the useful detail?", "options": ["long", "rough", "square"], "answer": "long", "explanation": "Long nesnenin bir uçtan diğer uca uzunluğunu anlatır."},
+        {"id": "d8", "prompt": "Which item is most likely smooth?", "options": ["a clean glass bottle", "tree bark", "a stone wall"], "answer": "a clean glass bottle", "explanation": "Cam şişenin yüzeyi diğer seçeneklere göre düzgün ve pürüzsüzdür."}
+      ],
+      "4. Okuma ve Dinleme Kontrolü": [
+        {"id": "c1", "prompt": "What made the lost mirror easy to identify?", "options": ["A tiny star on the back", "A green wool cover", "A rectangular label"], "answer": "A tiny star on the back", "explanation": "Bu ayrıntı, sahibinin tarifini doğrudan doğruladı."},
+        {"id": "c2", "prompt": "Why did the blue scarf stay at reception?", "options": ["The man's description did not match", "It was damaged", "The owner collected it"], "answer": "The man's description did not match", "explanation": "Adam kısa yeşil bir atkı tarif etti; masadaki atkı uzun ve maviydi."},
+        {"id": "c3", "prompt": "In the office listening, who deals with new orders?", "options": ["Luciana", "Maria", "Ian"], "answer": "Luciana", "explanation": "Jani, yeni siparişlerden Luciana'nın sorumlu olduğunu söyler."},
+        {"id": "c4", "prompt": "Where is Sebastian standing in the office?", "options": ["Next to the printer", "Beside the window", "At reception"], "answer": "Next to the printer", "explanation": "Konuşma Sebastian'ı yazıcının yanındaki kişi olarak tanımlar."},
+        {"id": "c5", "prompt": "Which message gives enough evidence to claim the mirror?", "options": ["It has a tiny star on the back", "It is nice", "I lost something"], "answer": "It has a tiny star on the back", "explanation": "Ayırt edici ayrıntı, genel ifadelerden daha güçlü kanıt sağlar."},
+        {"id": "c6", "prompt": "Which question would help reception return an unknown item safely?", "options": ["Can you describe its shape, size and texture?", "Do you like the item?", "Is the weather good?"], "answer": "Can you describe its shape, size and texture?", "explanation": "Şekil, boyut ve doku yanıtı eşya ile karşılaştırılabilir."},
+        {"id": "c7", "prompt": "Who should Yuki ask about internal IT systems?", "options": ["Maria", "Sebastian", "Luciana"], "answer": "Maria", "explanation": "Dinlemede Maria'nın iç BT sistemlerinden sorumlu olduğu belirtilir."},
+        {"id": "c8", "prompt": "Which final message is both clear and natural?", "options": ["No one has collected the notebook yet.", "No one hasn't collected the notebook yet.", "Anyone collected nothing notebook."], "answer": "No one has collected the notebook yet.", "explanation": "No one zaten olumsuz anlam taşır; ayrıca not kullanılmaz ve tekil yardımcı fiil has gelir."}
+      ]
+    },
+    "exam": {
+      "title": "Community Centre Review",
+      "intro": "Bu prova, belirsiz kişi ve şeyleri günlük bağlamda kullanmayı; nesneleri şekil, boyut ve dokuyla tarif etmeyi ölçer.",
+      "formats": [
+        {
+          "id": "highlighted-vocabulary",
+          "type": "written-answer",
+          "kicker": "Vocabulary in context",
+          "title": "Vurgulanan kelimeyi anlamıyla eşleştir",
+          "instructions": "Kısa iş yeri mesajındaki sarı kelimelerden doğru olanı her açıklamanın yanına yaz.",
+          "passage": [{"parts": [{"text": "At reception, Mina found a "}, {"text": "rectangular", "highlight": true}, {"text": " parcel with a "}, {"text": "smooth", "highlight": true}, {"text": " label. The box was "}, {"text": "thick", "highlight": true}, {"text": " but surprisingly "}, {"text": "light", "highlight": true}, {"text": ". A small tear made one corner feel "}, {"text": "rough", "highlight": true}, {"text": "."}]}],
+          "items": [
+            {"id": "v1", "prompt": "having four sides with opposite sides equal", "answer": "rectangular", "explanation": "Rectangular describes the parcel's four-sided shape."},
+            {"id": "v2", "prompt": "even and not bumpy to touch", "answer": "smooth", "explanation": "Smooth describes the even surface of the label."},
+            {"id": "v3", "prompt": "having a large distance between two surfaces", "answer": "thick", "explanation": "Thick describes the depth of the box material."},
+            {"id": "v4", "prompt": "not heavy", "answer": "light", "explanation": "Light describes the parcel's low weight."},
+            {"id": "v5", "prompt": "uneven or bumpy to touch", "answer": "rough", "explanation": "Rough describes the damaged corner's texture."}
+          ]
+        },
+        {
+          "id": "open-reading",
+          "type": "open-ended",
+          "kicker": "Reading · Open response",
+          "title": "Mesajları oku ve kendi cümlenle cevapla",
+          "instructions": "Cevabını yalnızca mesajlardaki bilgilerle destekle. Model cevap olası doğru cevaplardan biridir.",
+          "passage": [
+            "Reception posted: 'Someone left a long blue scarf after the workshop. It is soft, thick and has a square label.'",
+            "Eda replied: 'I lost something yesterday, but my scarf is short and green. It has a round metal badge.'",
+            "Reception answered: 'Nothing in your description matches this scarf. Has anyone else lost one? Please send one detail that is not visible in our post.'"
+          ],
+          "items": [
+            {"id": "o1", "prompt": "What item did reception find?", "answer": "Reception found a long blue scarf.", "explanation": "The first message names and describes the item."},
+            {"id": "o2", "prompt": "Give two details about the found scarf.", "answer": "It is soft and thick.", "explanation": "The post gives several acceptable details, including long, blue, soft, thick and a square label."},
+            {"id": "o3", "prompt": "Why is the found scarf probably not Eda's?", "answer": "Her scarf is short and green, but the found scarf is long and blue.", "explanation": "The size and colour details conflict."},
+            {"id": "o4", "prompt": "What kind of detail should another claimant send?", "answer": "They should send a detail that is not visible in the public post.", "explanation": "Reception asks for private identifying evidence."},
+            {"id": "o5", "prompt": "What does reception mean by “Nothing in your description matches”?", "answer": "None of Eda's details describe the found scarf.", "explanation": "Nothing indicates that zero details match."}
+          ]
+        },
+        {
+          "id": "pronoun-gaps",
+          "type": "written-answer",
+          "kicker": "Messages · Gap fill",
+          "title": "Günlük mesajları tamamla",
+          "instructions": "Bağlama göre someone, anyone, no one, something, anything veya nothing yaz.",
+          "items": [
+            {"id": "g1", "prompt": "___ left a parcel by the front desk.", "answer": "someone", "explanation": "Olumlu cümlede kimliği bilinmeyen kişi için someone kullanılır."},
+            {"id": "g2", "prompt": "Did ___ see who brought it?", "answer": "anyone", "explanation": "Genel bir soruda belirsiz kişi için anyone kullanılır."},
+            {"id": "g3", "prompt": "There is ___ soft inside the box.", "answer": "something", "explanation": "Olumlu cümlede belirsiz şey için something kullanılır."},
+            {"id": "g4", "prompt": "We didn't find ___ with the owner's name.", "answer": "anything", "explanation": "Didn't ile kurulan olumsuz cümlede anything kullanılır."},
+            {"id": "g5", "prompt": "___ has called to claim it yet.", "answer": "no one", "explanation": "Sıfır kişi anlamında no one kullanılır ve tekil yardımcı fiil has ile uyumludur."},
+            {"id": "g6", "prompt": "Is there ___ fragile in the parcel?", "answer": "anything", "explanation": "Genel bir soruda belirsiz şey için anything kullanılır."},
+            {"id": "g7", "prompt": "The label is blank; ___ is written on it.", "answer": "nothing", "explanation": "Sıfır şey anlamında nothing kullanılır ve ayrıca not eklenmez."},
+            {"id": "g8", "prompt": "Can ___ from the delivery team check the address?", "answer": "someone", "explanation": "Yardım beklendiği için istekte belirsiz kişi için someone kullanılır."}
+          ]
+        },
+        {
+          "id": "matching-halves",
+          "type": "match-halves",
+          "kicker": "Useful messages",
+          "title": "Mesajların iki yarısını eşleştir",
+          "instructions": "Anlamı tamamlayan ve gerçek durumda kullanılabilecek ikinci yarıyı seç.",
+          "options": [
+            {"id": "m-a", "text": "please ask them to describe it first."},
+            {"id": "m-b", "text": "but no one answered."},
+            {"id": "m-c", "text": "so I bought a thick wool blanket."},
+            {"id": "m-d", "text": "because it has a tiny star on the back."},
+            {"id": "m-e", "text": "anything under the table."},
+            {"id": "m-f", "text": "something soft inside."}
+          ],
+          "items": [
+            {"id": "m1", "prompt": "If anyone asks for the mirror,", "answer": "m-a", "answerText": "please ask them to describe it first.", "explanation": "Koşulda anyone, kim olursa olsun anlamını verir."},
+            {"id": "m2", "prompt": "I called the office twice,", "answer": "m-b", "answerText": "but no one answered.", "explanation": "No one sıfır kişinin cevap verdiğini doğal biçimde anlatır."},
+            {"id": "m3", "prompt": "I needed something warm for the sofa,", "answer": "m-c", "answerText": "so I bought a thick wool blanket.", "explanation": "İkinci yarı ihtiyacın sonucunu ve uygun nesneyi açıklar."},
+            {"id": "m4", "prompt": "I can identify my mirror", "answer": "m-d", "answerText": "because it has a tiny star on the back.", "explanation": "Because sonrasında ayırt edici kanıt gelir."},
+            {"id": "m5", "prompt": "The cleaner didn't find", "answer": "m-e", "answerText": "anything under the table.", "explanation": "Olumsuz cümlede belirsiz şey için anything kullanılır."},
+            {"id": "m6", "prompt": "The parcel bends, so there may be", "answer": "m-f", "answerText": "something soft inside.", "explanation": "Olumlu olasılıkta belirsiz şey için something kullanılır."}
+          ]
+        },
+        {
+          "id": "word-list-cloze",
+          "type": "written-answer",
+          "kicker": "Lost property report",
+          "title": "Kelime listesinden raporu tamamla",
+          "instructions": "Her kelimeyi bir kez kullan. Listede bir fazla kelime var.",
+          "wordBank": ["someone", "anyone", "no one", "something", "anything", "nothing", "rectangular", "smooth", "tomorrow"],
+          "passage": ["Complete the reception report with the words above."],
+          "items": [
+            {"id": "w1", "prompt": "___ left a parcel after the workshop.", "answer": "someone", "explanation": "Olumlu cümlede belirsiz kişi için someone kullanılır."},
+            {"id": "w2", "prompt": "It is a medium ___ box.", "answer": "rectangular", "explanation": "Rectangular kutunun dört kenarlı şeklini anlatır."},
+            {"id": "w3", "prompt": "The white label feels ___.", "answer": "smooth", "explanation": "Smooth etiketin pürüzsüz dokusunu anlatır."},
+            {"id": "w4", "prompt": "There may be ___ soft inside.", "answer": "something", "explanation": "Olumlu olasılıkta belirsiz şey için something kullanılır."},
+            {"id": "w5", "prompt": "We asked whether ___ saw the owner.", "answer": "anyone", "explanation": "Dolaylı soruda belirsiz kişi için anyone kullanılır."},
+            {"id": "w6", "prompt": "___ knew who brought the parcel.", "answer": "no one", "explanation": "Sıfır kişi anlamında no one kullanılır."},
+            {"id": "w7", "prompt": "We couldn't find ___ with a phone number.", "answer": "anything", "explanation": "Couldn't ile kurulan olumsuz cümlede anything kullanılır."},
+            {"id": "w8", "prompt": "The parcel is safe; ___ is damaged.", "answer": "nothing", "explanation": "Sıfır şey anlamında nothing kullanılır ve ayrıca not gerekmez."}
+          ]
+        },
+        {
+          "id": "correct-mistakes",
+          "type": "written-answer",
+          "kicker": "Clear messages",
+          "title": "Mesajlardaki hatayı düzelt",
+          "instructions": "Her mesajda bir hata var. Gerçek durumda gönderilebilecek doğru cümleyi yaz.",
+          "items": [
+            {"id": "e1", "prompt": "Did someone call this morning? I have no idea who.", "answer": "Did anyone call this morning? I have no idea who", "explanation": "Bilginin açık olduğu genel soruda someone yerine anyone kullanılır."},
+            {"id": "e2", "prompt": "I didn't see no one near the parcel.", "answer": "I didn't see anyone near the parcel", "explanation": "Standart İngilizcede çift olumsuz kullanılmaz; didn't sonrasında anyone gelir."},
+            {"id": "e3", "prompt": "No one don't know who owns the scarf.", "answer": "No one knows who owns the scarf", "explanation": "No one zaten olumsuzdur ve tekil özne kabul edildiği için knows kullanılır."},
+            {"id": "e4", "prompt": "There isn't nothing fragile in the box.", "answer": "There isn't anything fragile in the box", "explanation": "Not ile kurulan olumsuz cümlede anything kullanılır; çift olumsuzdan kaçınılır."},
+            {"id": "e5", "prompt": "Someone are waiting at reception.", "answer": "Someone is waiting at reception", "explanation": "Someone tekil özne kabul edilir; bu yüzden is kullanılır."},
+            {"id": "e6", "prompt": "It is a square small notebook.", "answer": "It is a small square notebook", "explanation": "Genel boyut sıfatı small, şekil sıfatı square'den önce gelir."},
+            {"id": "e7", "prompt": "The label has a white smooth surface.", "answer": "The label has a smooth white surface", "explanation": "Doku sıfatı smooth, renk sıfatı white'dan önce gelir."}
+          ]
+        }
+      ]
+    }
+  }
+}
