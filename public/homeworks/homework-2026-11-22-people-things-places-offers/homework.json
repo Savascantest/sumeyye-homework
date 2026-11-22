@@ -1,0 +1,268 @@
+{
+  "id": "homework-2026-11-22-people-things-places-offers",
+  "date": "2026-11-22",
+  "cycleDate": "2026-11-16",
+  "lessonDate": "2026-11-22",
+  "dateLabel": "22 Kasım 2026",
+  "student": "Sümeyye",
+  "title": "People, Things, Places ve Teklifler",
+  "subtitle": "Some-, any-, no- ve every- sözcüklerini günlük mesajlarda; kişi, şey ve yer anlatırken güvenle kullan.",
+  "policyVersion": "sumeyye-weekend-monday@1",
+  "templateContractVersion": "sumeyye-six-tab-interactive@1",
+  "assessmentPolicyVersion": "sumeyye-section-and-final-checks@1",
+  "authoringStandardVersion": "contextual-practice@1",
+  "sections": ["learn", "read", "listen", "sort", "order", "quiz", "exam"],
+  "game": {
+    "learn": [
+      {
+        "id": "word-family-map",
+        "shortTitle": "Kişi, şey, yer",
+        "title": "Aynı aile, üç farklı anlam",
+        "intro": "-one/-body kişi, -thing şey, -where ise yer anlatır. Cümlenin amacı hangi aileyi kullanacağını belirler.",
+        "cards": [
+          {"title": "Some-: var ama belirsiz", "text": "Olumlu bir bilgide someone/somebody, something ve somewhere kullan.", "examples": ["Someone booked the table.", "I left my keys somewhere safe."]},
+          {"title": "Any-: açık soru veya olumsuzluk", "text": "Genel sorularda ve not ile kurulan olumsuz cümlelerde anyone/anybody, anything ve anywhere kullan.", "examples": ["Did anybody reply?", "We couldn't find it anywhere."]},
+          {"title": "No-: sıfır", "text": "No one/nobody, nothing ve nowhere zaten olumsuz anlam taşır; ayrıca not kullanma.", "examples": ["Nobody was at the desk.", "There is nowhere to sit."]},
+          {"title": "Every-: hepsi", "text": "Everyone/everybody, everything ve everywhere tüm grubu, tüm şeyleri veya tüm yerleri kapsar.", "examples": ["Everyone received the message.", "We looked everywhere."]},
+          {"title": "Tekil uyum", "text": "Bu belirsiz sözcükler tekil kabul edilir.", "examples": ["Everybody is ready.", "Nothing looks damaged."]}
+        ]
+      },
+      {
+        "id": "questions-and-offers",
+        "shortTitle": "Soru ve teklif",
+        "title": "Gerçek soru mu, nazik teklif mi?",
+        "intro": "Sorunun amacı önemlidir: bilgi ararken any-, olumlu cevap beklenen teklif ve isteklerde some- doğal olabilir.",
+        "cards": [
+          {"title": "Açık bilgi sorusu", "text": "Cevabı bilmiyorsan any- ailesini kullan.", "examples": ["Is anyone free after lunch?", "Did you buy anything?"]},
+          {"title": "Nazik teklif", "text": "Bir şey sunarken something kullanabilirsin çünkü olumlu cevap beklenir.", "examples": ["Would you like something to drink?", "Can I get you something warm?"]},
+          {"title": "Nazik istek", "text": "Birinden belirli olmayan ama var olması beklenen bir şey isterken some- kullanımı doğaldır.", "examples": ["Could someone open the window?", "Can I have something to write with?"]},
+          {"title": "Çift olumsuz yok", "text": "Not ile any- kullan veya no- sözcüğünü tek başına kullan; ikisini aynı cümlede birleştirme.", "examples": ["I didn't see anyone.", "I saw no one."]},
+          {"title": "Bağlama bak", "text": "Tek bir sözcüğe değil, mesajın olumlu bilgi, soru, teklif, olumsuzluk veya tümünü kapsama amacı taşımasına bak.", "examples": ["Everything is ready.", "Would anyone like to volunteer?"]}
+        ]
+      }
+    ],
+    "read": {
+      "title": "The Neighbourhood Dinner",
+      "instructions": "Etkinlik ekibinin bir sonraki adımı atmasına yardımcı olan cümlelere dokun.",
+      "selectionExplanation": "Seçtiğin cümleler kimin yardıma ihtiyacı olduğunu, neyin eksik olduğunu veya nerede çözüm bulunduğunu açıkça gösteriyor.",
+      "tokens": [
+        {"id": "1", "text": "Everyone in the neighbourhood received an invitation to Sunday dinner. ", "target": false},
+        {"id": "2", "text": "Someone called to ask for a vegetarian meal. ", "target": true},
+        {"id": "3", "text": "The hall has blue curtains. ", "target": false},
+        {"id": "4", "text": "The organiser couldn't find the caller's name anywhere in her notes. ", "target": true},
+        {"id": "5", "text": "Nobody had written anything beside the phone number. ", "target": true},
+        {"id": "6", "text": "The tables arrived on Friday. ", "target": false},
+        {"id": "7", "text": "A volunteer suggested putting a message somewhere everybody would see it. ", "target": true},
+        {"id": "8", "text": "They posted the question at the entrance and online. ", "target": true}
+      ],
+      "questions": [
+        {"id": "r1", "prompt": "What special request did the caller make?", "options": ["A vegetarian meal", "A larger table", "An earlier start time"], "answer": "A vegetarian meal", "explanation": "The second sentence states the request directly."},
+        {"id": "r2", "prompt": "Why couldn't the organiser contact the caller immediately?", "options": ["The caller's name was missing", "The phone was broken", "The dinner was cancelled"], "answer": "The caller's name was missing", "explanation": "No name was written beside the phone number."},
+        {"id": "r3", "prompt": "Where did the team finally post its question?", "options": ["At the entrance and online", "Only in the kitchen", "Nowhere"], "answer": "At the entrance and online", "explanation": "The final sentence names both places."},
+        {"id": "r4", "prompt": "Why did the volunteer choose visible places for the message?", "options": ["So everybody could see it", "So nobody could answer", "To hide the phone number"], "answer": "So everybody could see it", "explanation": "The volunteer wanted the message to reach the whole group."}
+      ],
+      "extra": {
+        "title": "A Help Desk at the Street Fair",
+        "instructions": "Metni oku; kişileri, eşyaları ve yerleri gösteren ayrıntıları kullanarak cevapla.",
+        "paragraphs": [
+          "At the street fair, everybody received a map at the entrance. The map showed food stalls, games and a small help desk. Someone had placed a box of umbrellas beside the desk so visitors could borrow one if it rained.",
+          "Around noon, a child said she could not find her family anywhere. A volunteer asked whether she remembered anything near their meeting point. The child remembered a red balloon and a music stand. The volunteer announced the details, and somebody from the music area replied immediately.",
+          "The family met at the help desk a few minutes later. Nothing was lost, and everyone felt relieved. Before leaving, the child's father offered the volunteers something to drink and thanked them for looking everywhere."
+        ],
+        "questions": [
+          {"id": "er1", "prompt": "What did visitors receive at the entrance?", "options": ["A map", "A red balloon", "A drink"], "answer": "A map", "explanation": "The first sentence gives this information."},
+          {"id": "er2", "prompt": "Why did someone put umbrellas near the help desk?", "options": ["Visitors could borrow them if it rained", "They marked the music area", "The box was lost"], "answer": "Visitors could borrow them if it rained", "explanation": "The first paragraph states their practical purpose."},
+          {"id": "er3", "prompt": "Which two details helped locate the family?", "options": ["A red balloon and a music stand", "A food stall and a blue map", "An umbrella and a game"], "answer": "A red balloon and a music stand", "explanation": "The child remembered both landmarks."},
+          {"id": "er4", "prompt": "Who replied to the announcement?", "options": ["Somebody from the music area", "Nobody", "The umbrella seller"], "answer": "Somebody from the music area", "explanation": "The second paragraph identifies the responder."},
+          {"id": "er5", "prompt": "What did the father offer the volunteers?", "options": ["Something to drink", "A new map", "Nothing"], "answer": "Something to drink", "explanation": "The final sentence describes his offer."}
+        ]
+      }
+    },
+    "listening": {
+      "level": "A2",
+      "title": "Four Conversations",
+      "source": "British Council LearnEnglish",
+      "resource": "Four conversations",
+      "instructions": "Her konuşmada ana durumu bul; ikinci dinlemede nothing, everything ve anything gibi sözcüklerin hangi ayrıntıya gönderme yaptığını not et.",
+      "task": "Dört konuşmayı iş görüşmesi, müze, eski fotoğraf ve grup projesi başlıklarıyla eşleştir.",
+      "followUp": "Her konuşma için bir cümlelik sonuç yaz ve belirsiz sözcüğün neyi anlattığını belirt.",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a2/four-conversations",
+      "questions": [
+        {"id": "l1", "prompt": "In conversation A, what will happen after the interview?", "options": ["The company will call with news", "The woman starts work immediately", "Nothing else is planned"], "answer": "The company will call with news", "explanation": "The interviewer promises a call in three or four days."},
+        {"id": "l2", "prompt": "Why couldn't the visitor see the Mona Lisa clearly?", "options": ["People were taking photographs", "The museum was closed", "The painting was somewhere else"], "answer": "People were taking photographs", "explanation": "The room was crowded with visitors using cameras."},
+        {"id": "l3", "prompt": "Who took the old family photo?", "options": ["Barry", "Dad", "Mum"], "answer": "Barry", "explanation": "The speakers remember that Barry took it."},
+        {"id": "l4", "prompt": "Why must the student find another project group?", "options": ["The current group already has four people", "Nobody wants to do the project", "The teacher cancelled everything"], "answer": "The current group already has four people", "explanation": "The teacher allows four students per group."}
+      ]
+    },
+    "sort": [
+      {"text": "___ left a message for the organiser.", "type": "someone", "choices": ["someone", "anyone", "no one", "everyone"], "explanation": "Olumlu bilgide belirsiz ama var olan kişi için someone kullanılır."},
+      {"text": "Did ___ reply to the group chat?", "type": "anyone", "choices": ["someone", "anyone", "no one", "everyone"], "explanation": "Cevabı açık olan genel soruda belirsiz kişi için anyone kullanılır."},
+      {"text": "The desk was empty; ___ was there.", "type": "no one", "choices": ["someone", "anyone", "no one", "everyone"], "explanation": "Sıfır kişi anlamında no one kullanılır ve ayrıca not gerekmez."},
+      {"text": "___ received the updated schedule.", "type": "everyone", "choices": ["someone", "anyone", "no one", "everyone"], "explanation": "Grubun tamamı için everyone kullanılır."},
+      {"text": "I put the tickets ___ safe.", "type": "somewhere", "choices": ["somewhere", "anywhere", "nowhere", "everywhere"], "explanation": "Olumlu cümlede belirsiz bir yer için somewhere kullanılır."},
+      {"text": "We couldn't find a quiet table ___.", "type": "anywhere", "choices": ["somewhere", "anywhere", "nowhere", "everywhere"], "explanation": "Couldn't ile kurulan olumsuz cümlede yer için anywhere kullanılır."},
+      {"text": "The café was full; there was ___ to sit.", "type": "nowhere", "choices": ["somewhere", "anywhere", "nowhere", "everywhere"], "explanation": "Sıfır uygun yer anlamında nowhere kullanılır."},
+      {"text": "We looked ___ for the missing sign.", "type": "everywhere", "choices": ["somewhere", "anywhere", "nowhere", "everywhere"], "explanation": "Bütün yerleri kapsayan arama için everywhere kullanılır."},
+      {"text": "Would you like ___ to eat?", "type": "something", "choices": ["something", "anything", "nothing", "everything"], "explanation": "Olumlu cevap beklenen nazik teklifte something kullanılır."},
+      {"text": "I didn't hear ___ after the announcement.", "type": "anything", "choices": ["something", "anything", "nothing", "everything"], "explanation": "Didn't ile kurulan olumsuz cümlede şey için anything kullanılır."},
+      {"text": "The bag was empty; there was ___ inside.", "type": "nothing", "choices": ["something", "anything", "nothing", "everything"], "explanation": "Sıfır şey anlamında nothing kullanılır ve ayrıca not gerekmez."},
+      {"text": "___ on the checklist is complete.", "type": "everything", "choices": ["something", "anything", "nothing", "everything"], "explanation": "Listedeki tüm işler için everything kullanılır."}
+    ],
+    "order": [
+      {"parts": ["Would you like", "something", "to drink"], "answer": "Would you like something to drink", "hint": "Nazikçe bir içecek teklif et.", "explanation": "Olumlu cevap beklenen teklifte soru olsa da something kullanılır."},
+      {"parts": ["Did", "anybody", "leave", "a phone number"], "answer": "Did anybody leave a phone number", "hint": "Arayan herhangi bir kişi olup olmadığını sor.", "explanation": "Genel soruda kişi için anybody; past simple için did + leave kullanılır."},
+      {"parts": ["We couldn't find", "the missing keys", "anywhere"], "answer": "We couldn't find the missing keys anywhere", "hint": "Anahtarların hiçbir yerde bulunamadığını söyle.", "explanation": "Couldn't ile kurulan olumsuz cümlede yer için anywhere kullanılır."},
+      {"parts": ["Everyone", "is waiting", "near the entrance"], "answer": "Everyone is waiting near the entrance", "hint": "Bütün grubun konumunu bildir.", "explanation": "Everyone tekil kabul edilir; bu yüzden is kullanılır."},
+      {"parts": ["There is", "nowhere", "to park", "near the hall"], "answer": "There is nowhere to park near the hall", "hint": "Uygun park yeri olmadığını açıkla.", "explanation": "Sıfır uygun yer anlamında nowhere kullanılır."},
+      {"parts": ["Could someone", "bring", "something", "to write with"], "answer": "Could someone bring something to write with", "hint": "Gruptan kalem benzeri bir şey rica et.", "explanation": "Var olması beklenen kişi ve şey için nazik istekte someone ve something kullanılır."},
+      {"parts": ["Nothing", "on the table", "belongs", "to me"], "answer": "Nothing on the table belongs to me", "hint": "Masadaki hiçbir eşyanın sana ait olmadığını söyle.", "explanation": "Nothing tekil kabul edilir; bu yüzden belongs kullanılır."}
+    ],
+    "quizzes": {
+      "1. Some, Any, No, Every": [
+        {"id": "q1", "prompt": "The organiser has good news: ___ has offered to bring dessert.", "options": ["someone", "anyone", "no one"], "answer": "someone", "explanation": "Olumlu bilgide var olduğu bilinen belirsiz kişi için someone kullanılır."},
+        {"id": "q2", "prompt": "I checked the booking form, but I couldn't find ___ about allergies.", "options": ["anything", "nothing", "something"], "answer": "anything", "explanation": "Couldn't ile kurulan olumsuz cümlede belirsiz şey için anything kullanılır."},
+        {"id": "q3", "prompt": "The volunteers searched the whole building. They looked ___.", "options": ["everywhere", "somewhere", "nowhere"], "answer": "everywhere", "explanation": "Bütün yerleri kapsayan arama için everywhere kullanılır."},
+        {"id": "q4", "prompt": "The room is completely empty. ___ is inside.", "options": ["No one", "Anyone", "Everyone"], "answer": "No one", "explanation": "Sıfır kişi anlamında no one kullanılır ve ayrıca not eklenmez."},
+        {"id": "q5", "prompt": "The checklist is finished. ___ is ready for the event.", "options": ["Everything", "Anything", "Nothing"], "answer": "Everything", "explanation": "Tüm hazırlıkları kapsamak için everything kullanılır ve tekil is ile uyum sağlar."},
+        {"id": "q6", "prompt": "There are cars on every street. There is ___ to park nearby.", "options": ["nowhere", "anywhere", "somewhere"], "answer": "nowhere", "explanation": "Sıfır uygun yer anlamında nowhere kullanılır."},
+        {"id": "q7", "prompt": "Did ___ remember to call the vegetarian guest?", "options": ["anybody", "nobody", "somebody didn't"], "answer": "anybody", "explanation": "Cevabı bilinmeyen genel soruda kişi için anybody kullanılır."},
+        {"id": "q8", "prompt": "___ in the team received the same map.", "options": ["Everybody", "Anybody", "Nobody"], "answer": "Everybody", "explanation": "Takımın tüm üyeleri için everybody kullanılır."}
+      ],
+      "2. People and Places": [
+        {"id": "pp1", "prompt": "Mert wants to study outside the house. He needs to go ___.", "options": ["somewhere quiet", "anywhere didn't", "nowhere not"], "answer": "somewhere quiet", "explanation": "Olumlu ihtiyaçta belirsiz bir yer için somewhere kullanılır; sıfat sözcükten sonra gelir."},
+        {"id": "pp2", "prompt": "The guide asked, “Is ___ missing from the group?”", "options": ["anyone", "no one", "everyone is"], "answer": "anyone", "explanation": "Genel soruda belirsiz kişi için anyone kullanılır."},
+        {"id": "pp3", "prompt": "The map was wrong, so we didn't arrive ___.", "options": ["anywhere useful", "nowhere", "somewhere"], "answer": "anywhere useful", "explanation": "Didn't ile kurulan olumsuz cümlede yer için anywhere kullanılır."},
+        {"id": "pp4", "prompt": "The message reached the whole class. ___ read it.", "options": ["Everyone", "Anyone", "No one"], "answer": "Everyone", "explanation": "Sınıfın tamamını kapsamak için everyone kullanılır."},
+        {"id": "pp5", "prompt": "The café was closed and the park was wet. We had ___ to meet.", "options": ["nowhere", "anywhere", "somewhere"], "answer": "nowhere", "explanation": "Uygun hiçbir yer kalmadığı için nowhere kullanılır."},
+        {"id": "pp6", "prompt": "If ___ calls about the lost map, take their number.", "options": ["anybody", "nobody", "everybody is"], "answer": "anybody", "explanation": "Koşul cümlesinde kim olursa olsun anlamında anybody kullanılır."},
+        {"id": "pp7", "prompt": "The child could not see her family ___.", "options": ["anywhere", "somewhere", "everywhere"], "answer": "anywhere", "explanation": "Could not ile kurulan olumsuz cümlede yer için anywhere kullanılır."},
+        {"id": "pp8", "prompt": "___ from the music area answered the announcement.", "options": ["Somebody", "Anybody", "Nobody"], "answer": "Somebody", "explanation": "Olumlu bilgide var olan fakat kimliği belirtilmeyen kişi için somebody kullanılır."}
+      ],
+      "3. Offers and Requests": [
+        {"id": "of1", "prompt": "A guest arrives in the rain. Which offer sounds natural?", "options": ["Would you like something warm to drink?", "Would you like anything didn't drink?", "Would you like nothing warm?"], "answer": "Would you like something warm to drink?", "explanation": "Olumlu cevap beklenen nazik teklifte soru olsa da something kullanılır."},
+        {"id": "of2", "prompt": "You do not know whether the shop sells batteries. What should you ask?", "options": ["Do you have any batteries?", "Do you have no batteries?", "You have something batteries?"], "answer": "Do you have any batteries?", "explanation": "Cevabı bilinmeyen genel soruda any kullanılır."},
+        {"id": "of3", "prompt": "The organiser expects help from the team. Which request is natural?", "options": ["Could someone carry these chairs?", "Could no one carry these chairs?", "Could anyone didn't carry these chairs?"], "answer": "Could someone carry these chairs?", "explanation": "Yardım geleceği beklendiği için nazik istekte someone kullanılır."},
+        {"id": "of4", "prompt": "A waiter is ready to take an order. Which question is a genuine open choice?", "options": ["Would anyone like to order now?", "Would no one likes to order?", "Anyone would order nothing?"], "answer": "Would anyone like to order now?", "explanation": "Grubun herhangi bir üyesine açık soru yöneltildiği için anyone kullanılır."},
+        {"id": "of5", "prompt": "You are offering dessert to one guest. Which question fits?", "options": ["Would you like something sweet?", "Did you find anything yesterday?", "There is nothing sweet?"], "answer": "Would you like something sweet?", "explanation": "Sunulan bir şey ve olumlu cevap beklentisi olduğu için something kullanılır."},
+        {"id": "of6", "prompt": "You need a pen and expect the office to have one. Which request is natural?", "options": ["Can I have something to write with?", "Can I have anything nowhere?", "I can't have nothing to write?"], "answer": "Can I have something to write with?", "explanation": "Var olması beklenen belirsiz şeyi nazikçe isterken something kullanılır."},
+        {"id": "of7", "prompt": "The host wants to check dietary needs without assuming an answer. What should she ask?", "options": ["Does anyone need anything different?", "Does no one need nothing different?", "Someone needs something different."], "answer": "Does anyone need anything different?", "explanation": "Açık genel soruda kişi için anyone, şey için anything kullanılır."},
+        {"id": "of8", "prompt": "Which message avoids a double negative?", "options": ["Nobody needs anything else.", "Nobody doesn't need nothing else.", "Anybody needs nothing not."], "answer": "Nobody needs anything else.", "explanation": "Nobody zaten olumsuz anlam taşır; aynı cümlede ayrıca not kullanılmaz."}
+      ]
+    },
+    "exam": {
+      "title": "Community Event Communication",
+      "intro": "Bu prova, kişi, şey ve yer bildiren belirsiz sözcükleri gerçek mesajlarda; özellikle soru, olumsuzluk, teklif ve isteklerde kullanmayı ölçer.",
+      "formats": [
+        {
+          "id": "highlighted-vocabulary",
+          "type": "written-answer",
+          "kicker": "Event vocabulary",
+          "title": "Vurgulanan kelimeyi açıklamasıyla eşleştir",
+          "instructions": "Kısa etkinlik duyurusundaki sarı kelimelerden doğru olanı her açıklamanın yanına yaz.",
+          "passage": [{"parts": [{"text": "The community hall is "}, {"text": "available", "highlight": true}, {"text": " on Sunday, but the car park may be "}, {"text": "crowded", "highlight": true}, {"text": ". A quiet room is "}, {"text": "reserved", "highlight": true}, {"text": " for families, and a help desk is "}, {"text": "nearby", "highlight": true}, {"text": ". Please leave the entrance "}, {"text": "clear", "highlight": true}, {"text": "."}]}],
+          "items": [
+            {"id": "v1", "prompt": "ready and possible to use", "answer": "available", "explanation": "Available means the hall can be used on Sunday."},
+            {"id": "v2", "prompt": "full of many people or vehicles", "answer": "crowded", "explanation": "Crowded warns that the car park may be very full."},
+            {"id": "v3", "prompt": "kept for a particular person or purpose", "answer": "reserved", "explanation": "Reserved means the quiet room is saved for families."},
+            {"id": "v4", "prompt": "not far away", "answer": "nearby", "explanation": "Nearby shows the help desk is close."},
+            {"id": "v5", "prompt": "not blocked", "answer": "clear", "explanation": "A clear entrance is open and safe to use."}
+          ]
+        },
+        {
+          "id": "open-reading",
+          "type": "open-ended",
+          "kicker": "Messages · Open response",
+          "title": "Mesajları oku ve kanıtla cevapla",
+          "instructions": "Cevabını mesajdaki ayrıntıyla destekle. Model cevap olası doğru cevaplardan biridir.",
+          "passage": [
+            "Nora: Is anyone free to help at the welcome desk from two to three? Someone has already covered the morning shift.",
+            "Kerem: I can help, but I need somewhere quiet to join a short call at 2:30. Is there anywhere near the desk?",
+            "Nora: Yes. The small office is available. Would you like something to drink before your shift? Everything in the kitchen is free for volunteers."
+          ],
+          "items": [
+            {"id": "o1", "prompt": "What help does Nora need?", "answer": "She needs someone at the welcome desk from two to three.", "explanation": "Her first message gives the role and exact time."},
+            {"id": "o2", "prompt": "Why does Kerem need a quiet place?", "answer": "He has a short call at 2:30.", "explanation": "Kerem states the reason directly."},
+            {"id": "o3", "prompt": "Where can Kerem take the call?", "answer": "He can use the small office.", "explanation": "Nora identifies the available room."},
+            {"id": "o4", "prompt": "What does Nora offer Kerem?", "answer": "She offers him something to drink.", "explanation": "Her final message contains the offer."},
+            {"id": "o5", "prompt": "Who may use the kitchen items?", "answer": "All volunteers may use them.", "explanation": "Everything is free for volunteers, so the offer covers the whole volunteer group."}
+          ]
+        },
+        {
+          "id": "family-gaps",
+          "type": "written-answer",
+          "kicker": "People, things and places",
+          "title": "Mesajlardaki boşlukları tamamla",
+          "instructions": "Bağlama göre uygun belirsiz kişi, şey veya yer sözcüğünü yaz.",
+          "items": [
+            {"id": "g1", "prompt": "___ has already covered the morning shift.", "answer": "someone", "explanation": "Olumlu bilgide var olan belirsiz kişi için someone kullanılır."},
+            {"id": "g2", "prompt": "Is ___ free between two and three?", "answer": "anyone", "explanation": "Cevabı bilinmeyen genel soruda kişi için anyone kullanılır."},
+            {"id": "g3", "prompt": "Kerem needs ___ quiet for his call.", "answer": "somewhere", "explanation": "Olumlu ihtiyaçta belirsiz yer için somewhere kullanılır."},
+            {"id": "g4", "prompt": "He couldn't find a quiet room ___.", "answer": "anywhere", "explanation": "Couldn't ile kurulan olumsuz cümlede yer için anywhere kullanılır."},
+            {"id": "g5", "prompt": "Would you like ___ to drink?", "answer": "something", "explanation": "Olumlu cevap beklenen teklifte soru olsa da something kullanılır."},
+            {"id": "g6", "prompt": "___ in the kitchen is free for volunteers.", "answer": "everything", "explanation": "Mutfaktaki tüm şeyleri kapsamak için everything kullanılır."},
+            {"id": "g7", "prompt": "The hall was full; there was ___ to sit.", "answer": "nowhere", "explanation": "Sıfır uygun yer anlamında nowhere kullanılır."},
+            {"id": "g8", "prompt": "___ knew the missing caller's name.", "answer": "no one", "explanation": "Sıfır kişi anlamında no one kullanılır ve ayrıca not gerekmez."}
+          ]
+        },
+        {
+          "id": "matching-halves",
+          "type": "match-halves",
+          "kicker": "Natural communication",
+          "title": "Mesajların iki yarısını eşleştir",
+          "instructions": "Anlamı doğal ve tek biçimde tamamlayan ikinci yarıyı seç.",
+          "options": [
+            {"id": "m-a", "text": "something warm to drink?"},
+            {"id": "m-b", "text": "but nobody answered."},
+            {"id": "m-c", "text": "anywhere near the entrance."},
+            {"id": "m-d", "text": "everybody could see it."},
+            {"id": "m-e", "text": "everything on the checklist."},
+            {"id": "m-f", "text": "somewhere quiet for the call."}
+          ],
+          "items": [
+            {"id": "m1", "prompt": "Would you like", "answer": "m-a", "answerText": "something warm to drink?", "explanation": "Olumlu cevap beklenen teklifte something kullanılır."},
+            {"id": "m2", "prompt": "I called the help desk twice,", "answer": "m-b", "answerText": "but nobody answered.", "explanation": "Nobody sıfır kişinin cevap verdiğini anlatır ve ayrıca not istemez."},
+            {"id": "m3", "prompt": "We couldn't find a parking space", "answer": "m-c", "answerText": "anywhere near the entrance.", "explanation": "Couldn't ile olumsuz cümlede yer için anywhere kullanılır."},
+            {"id": "m4", "prompt": "They posted the notice where", "answer": "m-d", "answerText": "everybody could see it.", "explanation": "Everybody tüm kişileri kapsar ve tekil kabul edilir."},
+            {"id": "m5", "prompt": "The organiser completed", "answer": "m-e", "answerText": "everything on the checklist.", "explanation": "Everything tüm işleri kapsar ve tekil kabul edilir."},
+            {"id": "m6", "prompt": "Kerem needs", "answer": "m-f", "answerText": "somewhere quiet for the call.", "explanation": "Olumlu ihtiyaçta belirsiz yer için somewhere kullanılır."}
+          ]
+        },
+        {
+          "id": "word-list-cloze",
+          "type": "written-answer",
+          "kicker": "Volunteer update",
+          "title": "Kelime listesinden duyuruyu tamamla",
+          "instructions": "Her kelimeyi bir kez kullan. Listede bir fazla kelime var.",
+          "wordBank": ["someone", "anyone", "nobody", "something", "anything", "somewhere", "anywhere", "everyone", "tomorrow"],
+          "passage": ["Complete the volunteer coordinator's update with the words above."],
+          "items": [
+            {"id": "w1", "prompt": "___ has offered to prepare the name cards.", "answer": "someone", "explanation": "Olumlu bilgide belirsiz kişi için someone kullanılır."},
+            {"id": "w2", "prompt": "Does ___ know where the extra chairs are?", "answer": "anyone", "explanation": "Genel soruda belirsiz kişi için anyone kullanılır."},
+            {"id": "w3", "prompt": "___ remembered to write down the caller's name.", "answer": "nobody", "explanation": "Sıfır kişi anlamında nobody kullanılır ve ayrıca not eklenmez."},
+            {"id": "w4", "prompt": "We need ___ large enough for twenty people.", "answer": "somewhere", "explanation": "Olumlu ihtiyaçta belirsiz yer için somewhere kullanılır."},
+            {"id": "w5", "prompt": "We couldn't find a free room ___.", "answer": "anywhere", "explanation": "Couldn't ile kurulan olumsuz cümlede yer için anywhere kullanılır."},
+            {"id": "w6", "prompt": "Would you like ___ to eat before the event?", "answer": "something", "explanation": "Nazik teklifte olumlu cevap beklendiği için something kullanılır."},
+            {"id": "w7", "prompt": "We don't need ___ else from the shop.", "answer": "anything", "explanation": "Don't ile kurulan olumsuz cümlede şey için anything kullanılır."},
+            {"id": "w8", "prompt": "___ will meet beside the main entrance at two.", "answer": "everyone", "explanation": "Grubun tamamını kapsamak için everyone kullanılır."}
+          ]
+        },
+        {
+          "id": "correct-mistakes",
+          "type": "written-answer",
+          "kicker": "Message correction",
+          "title": "Mesajlardaki hatayı düzelt",
+          "instructions": "Her mesajda bir hata var. Günlük durumda gönderilebilecek doğru cümleyi yaz.",
+          "items": [
+            {"id": "e1", "prompt": "I didn't find the schedule nowhere.", "answer": "I didn't find the schedule anywhere", "explanation": "Standart İngilizcede çift olumsuz kullanılmaz; didn't sonrasında anywhere gelir."},
+            {"id": "e2", "prompt": "Nobody didn't answer the help desk phone.", "answer": "Nobody answered the help desk phone", "explanation": "Nobody zaten olumsuz anlam taşır; ayrıca didn't kullanılmaz."},
+            {"id": "e3", "prompt": "Everyone are waiting near the entrance.", "answer": "Everyone is waiting near the entrance", "explanation": "Everyone tekil kabul edilir; bu yüzden is kullanılır."},
+            {"id": "e4", "prompt": "Would you like anything warm? I made tea for you.", "answer": "Would you like something warm? I made tea for you", "explanation": "Hazır bir teklif ve olumlu cevap beklentisi olduğu için something kullanılır."},
+            {"id": "e5", "prompt": "There isn't nowhere to park near the hall.", "answer": "There is nowhere to park near the hall", "explanation": "Nowhere zaten olumsuz anlam taşır; ayrıca isn't kullanılmaz."},
+            {"id": "e6", "prompt": "Did no one leave a message? I don't know who called.", "answer": "Did anyone leave a message? I don't know who called", "explanation": "Cevabı bilinmeyen genel soruda kişi için anyone kullanılır."},
+            {"id": "e7", "prompt": "Everything are ready for the event.", "answer": "Everything is ready for the event", "explanation": "Everything tekil kabul edilir; bu yüzden is kullanılır."}
+          ]
+        }
+      ]
+    }
+  }
+}
