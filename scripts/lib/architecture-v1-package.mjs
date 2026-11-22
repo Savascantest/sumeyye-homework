@@ -13,7 +13,11 @@ function weekStart(dateString) {
 export function collectArchitectureV1PackageErrors(homework) {
   if (!homework?.date || homework.date < ARCHITECTURE_V1_EFFECTIVE_DATE) return [];
   const errors = [];
-  if (homework.date.slice(0, 10) !== homework.date || new Date(`${homework.date}T12:00:00Z`).getUTCDay() !== 1) errors.push('future Architecture v1 package date must be a Monday');
+  const cycleDate = homework.cycleDate || homework.date;
+  const date = new Date(`${homework.date}T12:00:00Z`);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(homework.date) || Number.isNaN(date.getTime()) || date.toISOString().slice(0, 10) !== homework.date) errors.push('date must be a valid YYYY-MM-DD date');
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(cycleDate) || Number.isNaN(new Date(`${cycleDate}T12:00:00Z`).getTime()) || new Date(`${cycleDate}T12:00:00Z`).getUTCDay() !== 1) errors.push('package cycleDate must be a Monday');
+  if (homework.cycleDate && weekStart(homework.date) !== cycleDate) errors.push('date must belong to the package Monday cycle');
   if (homework.policyVersion !== APPROVED_POLICY_VERSION) errors.push(`policyVersion must equal ${APPROVED_POLICY_VERSION}`);
   if (homework.templateContractVersion !== APPROVED_TEMPLATE_VERSION) errors.push(`templateContractVersion must equal ${APPROVED_TEMPLATE_VERSION}`);
   if (homework.assessmentPolicyVersion !== APPROVED_ASSESSMENT_POLICY_VERSION) errors.push(`assessmentPolicyVersion must equal ${APPROVED_ASSESSMENT_POLICY_VERSION}`);
@@ -21,8 +25,10 @@ export function collectArchitectureV1PackageErrors(homework) {
     const lessonDate = new Date(`${homework.lessonDate}T12:00:00Z`);
     if (!/^\d{4}-\d{2}-\d{2}$/.test(homework.lessonDate) || Number.isNaN(lessonDate.getTime()) || lessonDate.toISOString().slice(0, 10) !== homework.lessonDate) {
       errors.push('lessonDate must be a valid YYYY-MM-DD date');
-    } else if (weekStart(homework.lessonDate) !== homework.date) {
+    } else if (weekStart(homework.lessonDate) !== cycleDate) {
       errors.push('lessonDate must belong to the package Monday cycle');
+    } else if (homework.cycleDate && homework.lessonDate !== homework.date) {
+      errors.push('date must equal lessonDate when cycleDate is declared');
     }
   }
   return errors;

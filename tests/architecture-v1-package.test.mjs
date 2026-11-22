@@ -10,6 +10,9 @@ test('future package requires templateContractVersion', () => { const value = fu
 test('unknown policy version fails', () => assert.throws(() => assertArchitectureV1Package({ ...future(), policyVersion: 'other@1' }), /policyVersion/));
 test('future package requires assessment policy coherence', () => assert.throws(() => assertArchitectureV1Package({ ...future(), assessmentPolicyVersion: 'other@1' }), /assessmentPolicyVersion/));
 test('future package belongs to the Monday weekly cycle', () => assert.throws(() => assertArchitectureV1Package({ ...future(), date: '2026-09-20' }), /Monday/));
+test('an actual lesson date can declare its Monday cycle separately', () => assert.equal(assertArchitectureV1Package({ ...future(), date: '2026-11-21', lessonDate: '2026-11-21', cycleDate: '2026-11-16' }).date, '2026-11-21'));
+test('a separately declared cycleDate must be a Monday', () => assert.throws(() => assertArchitectureV1Package({ ...future(), date: '2026-11-21', lessonDate: '2026-11-21', cycleDate: '2026-11-17' }), /cycleDate must be a Monday/));
+test('date and lessonDate stay aligned when cycleDate is declared', () => assert.throws(() => assertArchitectureV1Package({ ...future(), date: '2026-11-20', lessonDate: '2026-11-21', cycleDate: '2026-11-16' }), /date must equal lessonDate/));
 test('existing six-tab package shape remains compatible with metadata', () => assert.equal(assertArchitectureV1Package({ ...future(), sections: ['learn', 'read', 'listen', 'sort', 'order', 'quiz'] }).date, '2026-09-21'));
 test('optional seventh exam tab remains compatible with metadata', () => assert.equal(assertArchitectureV1Package({ ...future(), sections: ['learn', 'read', 'listen', 'sort', 'order', 'quiz', 'exam'] }).date, '2026-09-21'));
 test('actual lessonDate may differ from the Monday cycle date within the same week', () => assert.equal(assertArchitectureV1Package({ ...future(), lessonDate: '2026-09-23' }).lessonDate, '2026-09-23'));

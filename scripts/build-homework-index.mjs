@@ -18,6 +18,7 @@ for (const entry of entries) {
   lessons.push({
     id: homework.id,
     date: homework.date,
+    ...(homework.cycleDate ? { cycleDate: homework.cycleDate } : {}),
     ...(homework.lessonDate ? { lessonDate: homework.lessonDate } : {}),
     title: homework.title,
     path: `${entry.name}/homework.json`,
